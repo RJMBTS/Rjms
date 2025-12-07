@@ -101,7 +101,7 @@ jobs:
               echo "# 🔹 Pushed and Updated by Kittujk"
               echo "# 🔸 Coded & Maintained by @RJMBTS"
               echo "# 🕒 Last updated: $timestamp"
-              echo "# 📺 $title Channels : $count"
+              echo "# 📺 Total Channels : $count"
               echo ""
               echo "#EXTM3U"
               echo ""
