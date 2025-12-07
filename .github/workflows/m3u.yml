@@ -32,7 +32,6 @@ jobs:
         run: |
           python playlist_generator.py
 
-
       - name: Commit & Push Playlist
         run: |
           git config --global user.name "playlist-bot"
