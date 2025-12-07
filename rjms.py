@@ -7,7 +7,9 @@ from datetime import datetime, timezone, timedelta
 # ✅ Read from GitHub Secrets (Environment Variables)
 JSON_URL = os.getenv("JSON_URL")
 EPG_URL = os.getenv("EPG_URL")
-OUTPUT_FILE = "rjms.m3u"
+
+# ✅ OUTPUT FILE RENAMED TO master.m3u
+OUTPUT_FILE = "master.m3u"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -80,19 +82,11 @@ def create_m3u(categories):
     ist = timezone(timedelta(hours=5, minutes=30))
     last_updated = datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
 
-    # ✅ Custom Branded Header
-    m3u = (
-        '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"\n'
-        '# Pushed and Updated by Kittujk\n'
-        '# Coded & Maintained @RJMBTS\n'
-        f'# Last updated: {last_updated}\n'
-        f'#EXTM3U x-tvg-url="{EPG_URL}"\n\n'
-    )
-
     order = ['Entertainment', 'Movies', 'Sports', 'Kids', 'News', 'Music', 'Religious', 'Others']
 
     total_written = 0
     used_links = set()
+    channel_blocks = ""
 
     for cat in order:
         if cat not in categories:
@@ -113,23 +107,32 @@ def create_m3u(categories):
                 continue
             used_links.add(link)
 
-            m3u += f'#EXTINF:-1 group-title="{cat}" tvg-logo="{logo}",{name}\n'
+            channel_blocks += f'#EXTINF:-1 group-title="{cat}" tvg-logo="{logo}",{name}\n'
 
             if drm:
-                m3u += f'#KODIPROP:inputstream.adaptive.license_type={drm}\n'
+                channel_blocks += f'#KODIPROP:inputstream.adaptive.license_type={drm}\n'
 
             if license_url:
-                m3u += f'#KODIPROP:inputstream.adaptive.license_key={license_url}\n'
+                channel_blocks += f'#KODIPROP:inputstream.adaptive.license_key={license_url}\n'
 
             if cookie:
                 cookie = cookie.replace('"', '').strip()
-                m3u += f'#EXTHTTP:{{"cookie":"{cookie}"}}\n'
+                channel_blocks += f'#EXTHTTP:{{"cookie":"{cookie}"}}\n'
 
-            m3u += f'{link}\n\n'
+            channel_blocks += f'{link}\n\n'
             total_written += 1
 
+    # ✅ Final Header with Branding + Auto Count + Updated Time
+    header = (
+        '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"\n'
+        '# Pushed and Updated by Kittujk\n'
+        '# Coded & Maintained @RJMBTS\n'
+        f'# Include channels - Total : {total_written} | Updated : {last_updated}\n'
+        f'#EXTM3U x-tvg-url="{EPG_URL}"\n\n'
+    )
+
     print("✅ Channels written:", total_written)
-    return m3u
+    return header + channel_blocks
 
 
 def main():
