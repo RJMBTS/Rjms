@@ -1,3 +1,7 @@
+#EXTM3U billed-msg="RJM Tv - RJMBTS Network"
+# Pushed and Updated by Kittujk
+# Coded & Maintained @RJMBTS
+# Last updated: 2025-12-08 01:23:35 IST
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/66/40/302084_1753189751700_l_high.jpg",Star Plus
