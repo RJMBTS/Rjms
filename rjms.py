@@ -128,6 +128,7 @@ def create_m3u(categories):
         '# Pushed and Updated by Kittujk\n'
         '# Coded & Maintained @RJMBTS\n'
         f'# Include channels - Total : {total_written} | Updated : {last_updated}\n'
+        '\n\n'
         f'#EXTM3U x-tvg-url="{EPG_URL}"\n\n'
     )
 
