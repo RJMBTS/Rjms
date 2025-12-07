@@ -12,12 +12,9 @@ def fetch_json():
         res = requests.get(JSON_URL, timeout=30)
         res.raise_for_status()
         data = res.json()
-
         if not isinstance(data, list):
             raise ValueError("Invalid JSON format")
-
         return data
-
     except Exception as e:
         print("❌ Fetch error:", e)
         return []
@@ -39,12 +36,10 @@ def categorize_channels(channels):
     for ch in channels:
         name = ch.get("name", "").lower()
         category = "Others"
-
         for cat, keys in rules.items():
             if any(k in name for k in keys):
                 category = cat
                 break
-
         categories[category].append(ch)
 
     return categories
@@ -54,22 +49,11 @@ def is_valid_url(url):
     return isinstance(url, str) and url.startswith("http")
 
 
-def is_stream_alive(url):
-    try:
-        headers = {"User-Agent": UA}
-        r = requests.head(url, headers=headers, timeout=12, allow_redirects=True)
-        return r.status_code < 400
-    except:
-        return False
-
-
 def create_m3u(categories):
     m3u = '#EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"\n\n'
-
     order = ['Entertainment', 'Movies', 'Sports', 'Kids', 'News', 'Music', 'Religious', 'Others']
 
     used_links = set()
-    dead_count = 0
     dup_count = 0
 
     for cat in order:
@@ -84,29 +68,20 @@ def create_m3u(categories):
             drm = ch.get("drmScheme", "")
             license_url = ch.get("drmLicense", "")
 
-            # Skip invalid URLs
+            # Skip invalid URL
             if not is_valid_url(link):
-                dead_count += 1
                 continue
 
-            # Remove duplicates
+            # ✅ Duplicate removal only
             if link in used_links:
                 dup_count += 1
                 continue
-
             used_links.add(link)
 
-            # Dead stream check
-            if not is_stream_alive(link):
-                print(f"❌ Dead Stream Skipped: {name}")
-                dead_count += 1
-                continue
-
-            # Write EXTINF block
             m3u += f'#EXTINF:-1 group-title="{cat}" tvg-logo="{logo}",{name}\n'
 
             if drm:
-                m3u += f'#KODIPROP:inputstream.adaptive.license_type={drm}\n'
+                m3u += f'#KODIPROP:inputstream.adaptive.license_type={drm}:\n'
 
             if license_url:
                 m3u += f'#KODIPROP:inputstream.adaptive.license_key={license_url}\n'
@@ -120,8 +95,6 @@ def create_m3u(categories):
             m3u += f'{link}\n\n'
 
     print(f"✅ Duplicates removed: {dup_count}")
-    print(f"✅ Dead streams skipped: {dead_count}")
-
     return m3u
 
 
@@ -140,17 +113,16 @@ def main():
     for k, v in categories.items():
         print(f"📂 {k}: {len(v)}")
 
-    print("📝 Validating, filtering & writing M3U...")
+    print("📝 Writing M3U...")
     playlist = create_m3u(categories)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(playlist)
 
-    print(f"✅ Final Playlist Created: {OUTPUT_FILE}")
+    print(f"✅ Playlist created: {OUTPUT_FILE}")
     print("✅ Duplicate-free")
-    print("✅ Dead links removed")
+    print("✅ All channels preserved")
     print("✅ Compatible with Kodi / TiviMate / OTT Navigator")
-    print("⚠️ DRM still requires real ClearKey decryption keys.")
 
 
 if __name__ == "__main__":
