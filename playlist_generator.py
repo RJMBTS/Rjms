@@ -1,8 +1,11 @@
 import requests
 import json
+import os
 from collections import defaultdict
 
-JSON_URL = "https://playify.pages.dev/Jiotv.json"
+# ✅ Read from GitHub Secrets (Environment Variables)
+JSON_URL = os.getenv("JSON_URL")
+EPG_URL = os.getenv("EPG_URL")
 OUTPUT_FILE = "rjmtv.m3u"
 
 HEADERS = {
@@ -13,7 +16,11 @@ HEADERS = {
 
 def fetch_json():
     try:
-        print("🔄 Fetching JSON...")
+        if not JSON_URL:
+            print("❌ JSON_URL secret is missing!")
+            return []
+
+        print("🔄 Fetching JSON from secret URL...")
         r = requests.get(JSON_URL, headers=HEADERS, timeout=30)
         print("Status:", r.status_code)
 
@@ -23,9 +30,7 @@ def fetch_json():
 
         try:
             data = r.json()
-            print("✅ JSON parsed normally")
         except:
-            print("⚠️ Normal JSON failed, trying raw parse...")
             data = json.loads(r.text)
 
         if not isinstance(data, list):
@@ -66,7 +71,11 @@ def categorize_channels(channels):
 
 
 def create_m3u(categories):
-    m3u = '#EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"\n\n'
+    if not EPG_URL:
+        print("❌ EPG_URL secret is missing!")
+        return "#EXTM3U\n"
+
+    m3u = f'#EXTM3U x-tvg-url="{EPG_URL}"\n\n'
     order = ['Entertainment','Movies','Sports','Kids','News','Music','Religious','Others']
 
     total_written = 0
@@ -116,7 +125,7 @@ def main():
     if not data:
         print("❌ JSON EMPTY — writing header only")
         with open(OUTPUT_FILE,"w",encoding="utf-8") as f:
-            f.write('#EXTM3U\n')
+            f.write("#EXTM3U\n")
         return
 
     categories = categorize_channels(data)
