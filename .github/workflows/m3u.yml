@@ -30,7 +30,7 @@ jobs:
           JSON_URL: ${{ secrets.JSON_URL }}
           EPG_URL: ${{ secrets.EPG_URL }}
         run: |
-          python playlist_generator.py
+          python rjms.py
 
       - name: Commit & Push Playlist
         run: |
