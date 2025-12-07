@@ -21,7 +21,7 @@ jobs:
       - name: 📦 Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🧩 Build Souloctn & soulocmly M3Us
+      - name: 🧩 Build Tn & Mly M3Us (Souloc Folder)
         shell: bash
         env:
           TZ: "Asia/Kolkata"
@@ -31,11 +31,13 @@ jobs:
           tmpdir=$(mktemp -d)
           trap "rm -rf $tmpdir" EXIT
 
+          mkdir -p Souloc
+
           TAMIL_SOURCE="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/channels.m3u"
           MALAYALAM_SOURCE="https://raw.githubusercontent.com/usernameplay/playlistghd.m3u/refs/heads/main/mallutv.m3u"
 
-          TAMIL_OUT="Souloctn.m3u"
-          MALAY_OUT="soulocmly.m3u"
+          TAMIL_OUT="Souloc/Tn.m3u"
+          MALAY_OUT="Souloc/Mly.m3u"
           timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
 
           echo "🔹 Fetching Tamil source..."
@@ -101,7 +103,7 @@ jobs:
               echo "# 🔹 Pushed and Updated by Kittujk"
               echo "# 🔸 Coded & Maintained by @RJMBTS"
               echo "# 🕒 Last updated: $timestamp"
-              echo "# 📺 Total Channels : $count"
+              echo "# 📺 $title Channels : $count"
               echo ""
               echo "#EXTM3U"
               echo ""
@@ -143,24 +145,24 @@ jobs:
             echo "## 🌐 Souloc Master — Two File Build"
             echo "| File | Channels |"
             echo "|------|----------:|"
-            echo "| Souloctn.m3u | $tamil_count |"
-            echo "| soulocmly.m3u | $malay_count |"
+            echo "| Souloc/Tn.m3u | $tamil_count |"
+            echo "| Souloc/Mly.m3u | $malay_count |"
             echo ""
             echo "🕒 Updated: $timestamp"
           } >> "$GITHUB_STEP_SUMMARY"
 
-          echo "✅ Souloctn.m3u & soulocmly.m3u built successfully."
+          echo "✅ Files built as Souloc/Tn.m3u & Souloc/Mly.m3u successfully."
 
       - name: 🚀 Commit & Push Both Files
         run: |
           git config user.name "RJMBTS Auto Builder"
           git config user.email "actions@github.com"
-          git add Souloctn.m3u soulocmly.m3u || true
+          git add Souloc/Tn.m3u Souloc/Mly.m3u || true
 
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "🔄 Auto-update Souloctn & soulocmly playlists"
+            git commit -m "🔄 Auto-update Souloc Tn & Mly playlists"
             git pull --rebase origin main || git rebase --abort
             git push origin main
           fi
