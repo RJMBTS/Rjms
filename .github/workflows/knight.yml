@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build Master knight.m3u (Network Split + Auto Sort + YGX Removed)
+      - name: Build knight.m3u (CLEAN GROUPING + AUTO SORT + NO DEDUPE)
         run: |
           set -e
           timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
@@ -37,7 +37,7 @@ jobs:
           grep -v '^$' base.txt > "$tmpdir/sources.txt"
           mkdir -p "$tmpdir/groups"
 
-          echo "🌐 Fetching, filtering, grouping & sorting..."
+          echo "🌐 Fetching, cleaning, grouping & sorting sources..."
 
           while read -r url; do
             [[ -z "$url" ]] && continue
@@ -57,34 +57,25 @@ jobs:
             elif echo "$rawgroup" | grep -qi 'ETV'; then
               group="ETV"
             elif echo "$rawgroup" | grep -Eqi 'VIACOM|COLORS'; then
-              group="VIACOM"
+              group="VIACOM/COLORS"
             else
               group="$rawgroup"
             fi
 
             outfile="$tmpdir/groups/$group.m3u"
 
-            # ✅ HARD BLOCK YGX WORLD (removes both EXTINF + URL)
-            curl -fs --connect-timeout 10 --max-time 20 "$url" | \
+            if curl -fs --connect-timeout 10 --max-time 20 "$url" | \
               grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' | \
-              awk '
-                BEGIN{IGNORECASE=1}
-                /#EXTINF/ {
-                  if ($0 ~ /YGX[[:space:]]*WORLD/) {
-                    getline
-                    next
-                  }
-                  print $0
-                  getline
-                  print $0
-                }
-              ' >> "$outfile" || true
-
-            echo "✅ Collected: $group"
+              grep -vi 'YGX WORLD' \
+              >> "$outfile"; then
+              echo "✅ Collected: $group"
+            else
+              echo "⚠️ Failed: $url"
+            fi
 
           done < "$tmpdir/sources.txt"
 
-          # ✅ MASTER HEADER
+          # ✅ WRITE FINAL HEADER
           {
             echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
@@ -96,7 +87,7 @@ jobs:
           TOTAL=0
           UPDATED=0
 
-          # ✅ APPEND ALL NETWORKS (SORTED A–Z) INTO ONE FILE
+          # ✅ SORT EACH GROUP A–Z & APPEND CLEANLY
           for file in "$tmpdir/groups/"*.m3u; do
             [ ! -s "$file" ] && continue
 
@@ -120,10 +111,11 @@ jobs:
           echo "✅ knight.m3u created successfully."
           echo "📊 Total: $TOTAL | Updated: $UPDATED"
 
+          # ✅ EXPORT FOR NEXT STEP
           echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "UPDATED=$UPDATED" >> $GITHUB_ENV
 
-      - name: Commit and push knight.m3u
+      - name: Commit and push updated knight.m3u
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
@@ -146,4 +138,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "✅ Single-file knight build completed at $(date)"
+        run: echo "✅ Knight clean auto-sorted build completed at $(date)"
