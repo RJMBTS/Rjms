@@ -42,15 +42,15 @@ jobs:
           # Remove any old group-title safely
           sed -E 's/group-title="[^"]*"//g' "$tmpdir/step1.m3u" > "$tmpdir/step2.m3u"
 
-          # 🔧 FIX BROKEN tvg-logo LINES (your exact problem case)
-          # Fix pattern: tvg-logo="URL group-title=" → tvg-logo="URL"
+          # 🔧 FIX BROKEN tvg-logo LINES
+          # Remove corrupted 'group-title' injected inside logo URL
           sed -E \
-            's#tvg-logo="([^"]*) group-title=#tvg-logo="\1" group-title=#g' \
+            's#tvg-logo="([^"]*) group-title="[^"]*",#tvg-logo="\1",#g' \
             "$tmpdir/step2.m3u" > "$tmpdir/step3.m3u"
 
-          # Fix common Voot resize mistakes (spaces → correct _w format)
+          # Fix Voot resizeMedium spacing problem
           sed -E \
-            's#resizeMedium ([^"]*)w_#resizeMedium_w_#g' \
+            's#resizeMedium #resizeMedium_#g' \
             "$tmpdir/step3.m3u" > "$tmpdir/step4.m3u"
 
           # Add correct group-title RJM | JC
