@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build rook.m3u (Sony → Sliv → AutoSort → Wand folder)
+      - name: Build rook.m3u (Sony → Sliv → Correct EXTINF → Sorted → Wand folder)
         run: |
           set -e
           timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
@@ -44,15 +44,21 @@ jobs:
             exit 1
           fi
 
-          # Force all channels into Sliv group
-          sed -E \
-            's/group-title="[^"]*"/group-title="Sliv"/g;
-             s/#EXTINF:/#EXTINF:-1 group-title="Sliv",/g' \
-            "$tmpdir/sony_raw.m3u" > "$tmpdir/sliv_unsorted.m3u"
+          # Convert all EXTINF lines to:
+          # #EXTINF:-1 group-title="Sliv",Channel Name
+          awk -F',' '
+            /^#EXTINF/ {
+                name=$2;
+                print "#EXTINF:-1 group-title=\"Sliv\"," name;
+                getline url;
+                print url;
+                next;
+            }
+          ' "$tmpdir/sony_raw.m3u" > "$tmpdir/sliv_unsorted.m3u"
 
           echo "🔄 Sorting channels alphabetically..."
 
-          # Extract EXTINF + URL pairs → sort → rebuild
+          # EXTINF + URL pairs sorted by channel name
           awk '
             /^#EXTINF/ { ext=$0; getline url; print ext "|" url }
           ' "$tmpdir/sliv_unsorted.m3u" \
@@ -77,8 +83,8 @@ jobs:
           echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "UPDATED=$UPDATED" >> $GITHUB_ENV
 
-          echo "📊 Sorted Sliv Channels: $TOTAL"
-          echo "✅ rook.m3u created at Wand/rook.m3u (Sliv + Sorted)"
+          echo "📊 Channels (Sliv group, sorted): $TOTAL"
+          echo "✅ rook.m3u created at Wand/rook.m3u with correct EXTINF format."
 
       - name: Commit and push updated rook.m3u
         run: |
@@ -88,7 +94,7 @@ jobs:
           git add Wand/rook.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update Wand/rook.m3u (Sliv + Sorted) | Total:${TOTAL} Updated:${UPDATED}"
+            git commit -m "Auto-update Wand/rook.m3u (Sliv + Sorted + Correct Format) | Total:${TOTAL} Updated:${UPDATED}"
             git pull --rebase origin main || true
 
             for attempt in 1 2 3; do
@@ -101,4 +107,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "✅ Rook (Sliv Group + Sorted A–Z) workflow completed at $(date)"
+        run: echo "✅ Rook (Sliv Group + Sorted + Correct EXTINF Format) workflow completed at $(date)"
