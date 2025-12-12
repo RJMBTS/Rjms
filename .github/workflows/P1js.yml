@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1js.m3u (All Groups Final)
+      - name: Build P1js.m3u (All Groups – Stable)
         id: buildfile
         run: |
           set -e
@@ -30,79 +30,82 @@ jobs:
 
           mkdir -p Bishop
           OUTPUT="Bishop/P1js.m3u"
-          JSTAR_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u"
+          SRC_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u"
 
-          curl -fsSL "$JSTAR_URL" -o "$tmpdir/raw.m3u"
+          echo "Fetching source playlist..."
+          curl -fsSL "$SRC_URL" -o "$tmpdir/raw.m3u"
 
+          echo "Cleaning headers..."
           grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram|#Generated on' \
             "$tmpdir/raw.m3u" > "$tmpdir/clean.m3u"
 
           sed -i 's/@ygxworld//g' "$tmpdir/clean.m3u"
 
+          echo "Applying grouping rules..."
           awk '
-            BEGIN { IGNORECASE=1 }
-            /^#EXTINF/ {
-              line=$0
-              getline url
-              channel=line
-              sub(/^.*,/, "", channel)
+          BEGIN { IGNORECASE=1 }
 
-              ## 🧸 KIDS → RJM | Kids
-              if (
-                channel ~ /(Disney|Hungama|Super Hungama|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kochu|Chintu|Kids|Junior)/
-                || line ~ /group-title="[^"]*Kids[^"]*"/
-              ) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
-              }
+          /^#EXTINF/ {
+            line=$0
+            getline url
+            channel=line
+            sub(/^.*,/, "", channel)
 
-              ## 📰 VIACOM18 → CNN / NEWS18 / CNBC
-              else if (channel ~ /(CNN|News18|CNBC)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Viacom18\"", line)
-              }
-
-              ## 📘 INFOTAINMENT
-              else if (channel ~ /(Nat\s*Geo|NatGeo|National Geographic|Discovery|Animal Planet|History|Sony BBC Earth|TLC)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Infotainment\"", line)
-              }
-
-              ## 📺 ETV → RJM | ETv Win
-              else if (channel ~ /(ETV|ETV HD|ETV Plus|ETV Cinema|ETV Life|ETV Abhiruchi|ETV Telangana|ETV Andhra)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | ETv Win\"", line)
-              }
-
-              ## 🌞 SUN NETWORK → RJM | SunNxt
-              else if (channel ~ /(Sun TV|Sun HD|Sun Life|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
-              }
-
-              ## ⭐ STAR
-              else if (channel ~ /(Star|Asianet|Vijay|Maa|Suvarna|Pravah|Utsav)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Star\"", line)
-              }
-
-              ## 🎨 COLORS
-              else if (channel ~ /Colors/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Colors\"", line)
-              }
-
-              print line
-              print url
-              next
+            ## 🧸 KIDS → RJM | Kids (MERGED & FORCED)
+            if (channel ~ /(Disney|Hungama|Super Hungama|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kochu|Chintu|Kids|Junior)/ || line ~ /group-title="[^"]*Kids[^"]*"/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
             }
-            { print }
+
+            ## 📰 VIACOM18 → CNN / NEWS18 / CNBC
+            else if (channel ~ /(CNN|News18|CNBC)/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Viacom18\"", line)
+            }
+
+            ## 📘 INFOTAINMENT
+            else if (channel ~ /(Nat[ ]*Geo|NatGeo|National Geographic|Discovery|Animal Planet|History|Sony BBC Earth|TLC)/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Infotainment\"", line)
+            }
+
+            ## 📺 ETV → RJM | ETv Win
+            else if (channel ~ /(ETV|ETV HD|ETV Plus|ETV Cinema|ETV Life|ETV Abhiruchi|ETV Telangana|ETV Andhra)/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | ETv Win\"", line)
+            }
+
+            ## 🌞 SUN NETWORK → RJM | SunNxt
+            else if (channel ~ /(Sun TV|Sun HD|Sun Life|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
+            }
+
+            ## ⭐ STAR NETWORK
+            else if (channel ~ /(Star|Asianet|Vijay|Maa|Suvarna|Pravah|Utsav)/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Star\"", line)
+            }
+
+            ## 🎨 COLORS NETWORK
+            else if (channel ~ /Colors/) {
+              gsub(/group-title="[^"]*"/, "", line)
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Colors\"", line)
+            }
+
+            print line
+            print url
+            next
+          }
+
+          { print }
           ' "$tmpdir/clean.m3u" > "$tmpdir/final.m3u"
 
           COUNT=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
 
           {
             echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
+            echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
             echo "# Channels : $COUNT"
             echo ""
@@ -111,98 +114,23 @@ jobs:
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
 
           echo "file-ready=true" >> $GITHUB_OUTPUT
+          echo "Playlist built successfully with $COUNT channels"
 
       - name: Commit and push
         if: steps.buildfile.outputs.file-ready == 'true'
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+
           git add Bishop/P1js.m3u
+
           if ! git diff --cached --quiet; then
             git pull --rebase origin main || true
-            git commit -m "P1js Update | Added RJM | Viacom18 group"
+            git commit -m "P1js Update | Grouping sync"
             git push origin main
+          else
+            echo "No changes to commit"
           fi
-          grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram|#Generated on' \
-            "$tmpdir/raw.m3u" > "$tmpdir/clean.m3u"
 
-          sed -i 's/@ygxworld//g' "$tmpdir/clean.m3u"
-
-          awk '
-            BEGIN { IGNORECASE=1 }
-            /^#EXTINF/ {
-              line=$0
-              getline url
-              channel=line
-              sub(/^.*,/, "", channel)
-
-              ## 🧸 KIDS → RJM | Kids (MERGED & FORCED)
-              if (
-                channel ~ /(Disney|Hungama|Super Hungama|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kochu|Chintu|Kids|Junior)/
-                || line ~ /group-title="[^"]*Kids[^"]*"/
-              ) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
-              }
-
-              ## 📘 INFOTAINMENT
-              else if (channel ~ /(Nat\s*Geo|NatGeo|National Geographic|Discovery|Animal Planet|History|Sony BBC Earth|TLC)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Infotainment\"", line)
-              }
-
-              ## 📺 ETV → RJM | ETv Win
-              else if (channel ~ /(ETV|ETV HD|ETV Plus|ETV Cinema|ETV Life|ETV Abhiruchi|ETV Telangana|ETV Andhra)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | ETv Win\"", line)
-              }
-
-              ## 🌞 SUN NETWORK → RJM | SunNxt
-              else if (channel ~ /(Sun TV|Sun HD|Sun Life|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
-              }
-
-              ## ⭐ STAR
-              else if (channel ~ /(Star|Asianet|Vijay|Maa|Suvarna|Pravah|Utsav)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Star\"", line)
-              }
-
-              ## 🎨 COLORS
-              else if (channel ~ /Colors/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Colors\"", line)
-              }
-
-              print line
-              print url
-              next
-            }
-            { print }
-          ' "$tmpdir/clean.m3u" > "$tmpdir/final.m3u"
-
-          COUNT=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
-
-          {
-            echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
-            echo "# Last updated: $timestamp"
-            echo "# Channels : $COUNT"
-            echo ""
-          } > "$OUTPUT"
-
-          cat "$tmpdir/final.m3u" >> "$OUTPUT"
-
-          echo "file-ready=true" >> $GITHUB_OUTPUT
-
-      - name: Commit and push
-        if: steps.buildfile.outputs.file-ready == 'true'
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git add Bishop/P1js.m3u
-          if ! git diff --cached --quiet; then
-            git pull --rebase origin main || true
-            git commit -m "P1js Update | Kids merged into RJM | Kids"
-            git push origin main
-          fi
+      - name: Summary
+        run: echo "✅ P1js.m3u generated successfully"
