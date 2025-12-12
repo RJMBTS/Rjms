@@ -1,40 +1,129 @@
-awk '
-  BEGIN { IGNORECASE=1 }
-  /^#EXTINF/ {
-    line=$0
-    name_line=$0
-    getline url
+name: P1js 🌐
 
-    channel=name_line
-    sub(/^.*,/, "", channel)
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
 
-    ## 🌞 SUN NETWORK (Sun NXT)
-    if (channel ~ /(Sun TV|Sun HD|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Chutti TV|Kushi TV|Gemini Life|Udaya Movies|Surya Movies)/) {
-      gsub(/group-title="[^"]*"/, "", line)
-      sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
-    }
+concurrency:
+  group: master-m3u-p1js
+  cancel-in-progress: false
 
-    ## ⭐ STAR NETWORK
-    else if (channel ~ /(Star|Asianet|Vijay|Maa|Suvarna|Pravah|Utsav)/) {
-      gsub(/group-title="[^"]*"/, "", line)
-      sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Star\"", line)
-    }
+permissions:
+  contents: write
 
-    ## 🎨 COLORS NETWORK
-    else if (channel ~ /Colors/) {
-      gsub(/group-title="[^"]*"/, "", line)
-      sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Colors\"", line)
-    }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
 
-    ## 🧸 ALL KIDS CHANNELS (Force Group)
-    else if (channel ~ /(Disney|Hungama|Super Hungama|XD|UTV|Bindass|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kids|Junior)/) {
-      gsub(/group-title="[^"]*"/, "", line)
-      sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
-    }
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    print line
-    print url
-    next
-  }
-  { print }
-' "$tmpdir/clean.m3u" > "$tmpdir/final.m3u"
+      - name: Build P1js.m3u (Star + Colors + SunNxt + Kids)
+        id: buildfile
+        run: |
+          set -e
+          timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
+          tmpdir=$(mktemp -d)
+
+          mkdir -p Bishop
+          OUTPUT="Bishop/P1js.m3u"
+          JSTAR_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u"
+
+          echo "🌐 Fetching Jstar playlist..."
+          curl -fsSL "$JSTAR_URL" -o "$tmpdir/jstar_raw.m3u"
+
+          echo "🧹 Cleaning playlist..."
+          grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram|#Generated on' \
+            "$tmpdir/jstar_raw.m3u" > "$tmpdir/clean.m3u"
+
+          sed -i 's/@ygxworld//g' "$tmpdir/clean.m3u"
+
+          echo "🧠 Applying grouping rules..."
+          awk '
+            BEGIN { IGNORECASE=1 }
+            /^#EXTINF/ {
+              line=$0
+              name_line=$0
+              getline url
+
+              channel=name_line
+              sub(/^.*,/, "", channel)
+
+              ## 🌞 SUN NETWORK → RJM | SunNxt
+              if (channel ~ /(Sun TV|Sun HD|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
+              }
+
+              ## ⭐ STAR NETWORK
+              else if (channel ~ /(Star|Asianet|Vijay|Maa|Suvarna|Pravah|Utsav)/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Star\"", line)
+              }
+
+              ## 🎨 COLORS NETWORK
+              else if (channel ~ /Colors/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Colors\"", line)
+              }
+
+              ## 🧸 ALL KIDS CHANNELS → RJM | Kids
+              else if (channel ~ /(Disney|Hungama|Super Hungama|XD|UTV|Bindass|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kids|Junior)/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
+              }
+
+              print line
+              print url
+              next
+            }
+            { print }
+          ' "$tmpdir/clean.m3u" > "$tmpdir/final.m3u"
+
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
+          TOTAL="$UPDATED"
+
+          {
+            echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
+            echo "# Pushed and Updated by Kittujk"
+            echo "# Coded & Maintained @RJMBTS"
+            echo "# Last updated: $timestamp"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo ""
+            echo "########## P1js (Star + Colors + SunNxt + Kids) ##########"
+          } > "$OUTPUT"
+
+          cat "$tmpdir/final.m3u" >> "$OUTPUT"
+
+          echo "UPDATED=$UPDATED" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+          echo "file-ready=true" >> $GITHUB_OUTPUT
+
+          echo "📁 Output generated at: $OUTPUT"
+          echo "📊 Total Channels: $TOTAL"
+
+      - name: Commit and push P1js.m3u
+        if: steps.buildfile.outputs.file-ready == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add Bishop/P1js.m3u
+
+          if ! git diff --cached --quiet; then
+            git pull --rebase origin main || true
+            git commit -m "P1js Update | Star + Colors + SunNxt + Kids | Total:${TOTAL}"
+            for n in {1..3}; do
+              git push origin main && break
+              echo "⚠️ Push failed, retrying in 10s... ($n/3)"
+              sleep 10
+            done
+          else
+            echo "No changes — skipping commit."
+          fi
+
+      - name: Summary
+        run: echo "✅ P1js.m3u build completed successfully"
