@@ -1,4 +1,4 @@
-name: RJM Rook
+name: RJM Rook 🌐
 
 on:
   schedule:
@@ -53,7 +53,7 @@ jobs:
             echo "# Pushed and Updated by Kittujk"
             echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
-            echo "# SONY Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo "# Sliv : Total - $TOTAL | Updated - $UPDATED"
             echo ""
           } > Wand/rook.m3u
 
