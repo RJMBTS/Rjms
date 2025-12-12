@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1jc.m3u (OTT Navigator Compatible — News18 + CNBC)
+      - name: Build P1jc.m3u (OTT Navigator Compatible Grouping)
         id: buildfile
         run: |
           set -e
@@ -35,81 +35,102 @@ jobs:
           echo "🌐 Fetching playlist..."
           curl -fsSL "$JC_URL" -o "$tmpdir/jc_raw.m3u"
 
-          # Remove header/meta lines and existing EXTM3U
+          # Remove meta/header lines
           grep -v -E '^#Generated on|# Join Telegram|#EXTM3U' \
             "$tmpdir/jc_raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Remove ANY existing group-title attributes
+          # Remove any old group-title attributes
           sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/tmp1.m3u"
 
-          # Normalize whitespace to single spaces (fix double/multiple spaces)
+          # Fix spacing (OTT Navigator is strict)
           sed -E 's/[[:space:]]+/ /g' "$tmpdir/tmp1.m3u" > "$tmpdir/tmp2.m3u"
 
-          # Rebuild EXTINF lines: put group-title FIRST for News18 + CNBC variants
+          # Rebuild EXTINF lines — group-title FIRST (required by OTT Navigator)
           awk '
           /^#EXTINF/ {
-              line = $0
+              original = $0
 
-              # Split on the first comma so we keep attributes and the channel name
-              split(line, parts, ",")
+              # Separate attributes from channel name
+              split(original, parts, ",")
               attrs = parts[1]
-              name = parts[2]
+              name  = parts[2]
 
-              # If channel name is empty or comma missing, fallback to printing line as-is
+              # If malformed, print original line
               if (name == "" || name == parts[1]) {
-                  print line
+                  print original
                   next
               }
 
-              # Strong match for News18 + CNBC variants (covers many naming styles)
-              if (name ~ /News18/ || name ~ /CNBC/ || name ~ /TV18/ || name ~ /Awaaz/ || name ~ /Bajar/ || name ~ /Bajaar/ || name ~ /Prime/ || name ~ /Bajar/ ) {
-                  # remove leading "#EXTINF:-1 " from attrs
-                  gsub(/^#EXTINF:-1 */, "", attrs)
+              ##################################
+              # GROUP 1: RJM | Viacom18
+              ##################################
+              if (name ~ /News18/ ||
+                  name ~ /CNBC/ ||
+                  name ~ /TV18/ ||
+                  name ~ /Awaaz/ ||
+                  name ~ /Bajar/ ||
+                  name ~ /Bajaar/ ||
+                  name ~ /Prime/) {
 
-                  # trim trailing space(s) from attrs
+                  gsub(/^#EXTINF:-1 */, "", attrs)
                   sub(/[[:space:]]*$/, "", attrs)
 
-                  # build new line with group-title FIRST (OTT Navigator expects this)
                   new_line = "#EXTINF:-1 group-title=\"RJM | Viacom18\""
-                  if (attrs != "") {
-                      new_line = new_line " " attrs "," name
-                  } else {
-                      new_line = new_line "," name
-                  }
+
+                  if (attrs != "") new_line = new_line " " attrs "," name
+                  else new_line = new_line "," name
+
                   print new_line
                   next
               }
 
-              # non-matching channel — print original line
-              print line
+              ##################################
+              # GROUP 2: RJM | Colors Group
+              ##################################
+              if (name ~ /Colors/ ||
+                  name ~ /Cineplex/ ||
+                  name ~ /MTV/ ||
+                  name ~ /Vh1/ ||
+                  name ~ /Nick/ ||
+                  name ~ /Sonic/ ||
+                  name ~ /Comedy Central/) {
+
+                  gsub(/^#EXTINF:-1 */, "", attrs)
+                  sub(/[[:space:]]*$/, "", attrs)
+
+                  new_line = "#EXTINF:-1 group-title=\"RJM | Colors Group\""
+
+                  if (attrs != "") new_line = new_line " " attrs "," name
+                  else new_line = new_line "," name
+
+                  print new_line
+                  next
+              }
+
+              ##################################
+              # Keep all other channels unchanged
+              ##################################
+              print original
               next
           }
+
           { print }
           ' "$tmpdir/tmp2.m3u" > "$tmpdir/final.m3u"
 
-          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u")
           TOTAL="$UPDATED"
 
           {
             echo '#EXTM3U'
-            echo "# Pushed and Updated by Kittujk"
-            echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
-            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
-            echo ""
-            echo "################### RJM | JC ###################"
+            echo "# Channels: Total - $TOTAL"
           } > "$OUTPUT"
 
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
 
-          echo "UPDATED=$UPDATED" >> $GITHUB_ENV
-          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "file-ready=true" >> $GITHUB_OUTPUT
 
-          echo "📁 Output generated at: $OUTPUT"
-          echo "📊 Total Channels: $TOTAL"
-
-      - name: Commit and push P1jc.m3u
+      - name: Commit and push
         if: steps.buildfile.outputs.file-ready == 'true'
         run: |
           git config user.name "GitHub Actions Bot"
@@ -118,16 +139,9 @@ jobs:
           git add Bishop/P1jc.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "P1jc Update | Total:${TOTAL} Updated:${UPDATED}"
+            git commit -m "P1jc Grouping Update (Viacom18 + Colors)"
             git pull --rebase origin main || true
-
-            n=0
-            until [ "$n" -ge 3 ]; do
-              git push origin main && break
-              n=$((n+1))
-              echo "⚠️ Push failed, retrying in 10s... ($n/3)"
-              sleep 10
-            done
+            git push origin main || git push origin main
           else
             echo "No changes — skipping commit."
           fi
