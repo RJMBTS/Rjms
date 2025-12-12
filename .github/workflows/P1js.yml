@@ -1,0 +1,93 @@
+name: P1js 🌐
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: master-m3u-p1js
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Jstar.m3u (Jstar Only → Single Group "Jstar")
+        id: buildfile
+        run: |
+          set -e
+          timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
+          tmpdir=$(mktemp -d)
+
+          mkdir -p Bishop
+          OUTPUT="Bishop/Jstar.m3u"
+          JSTAR_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u"
+
+          echo "🌐 Fetching Jstar playlist..."
+          curl -fsSL "$JSTAR_URL" -o "$tmpdir/jstar_raw.m3u"
+
+          # Remove unwanted headers
+          grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' \
+            "$tmpdir/jstar_raw.m3u" > "$tmpdir/clean.m3u"
+
+          # Strip existing group-title
+          sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/no_group.m3u"
+
+          # Inject group-title="Jstar"
+          sed -E 's~^#EXTINF([^,]*)~,#EXTINF\1 group-title="Jstar"~' \
+            "$tmpdir/no_group.m3u" > "$tmpdir/final.m3u"
+
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
+          TOTAL="$UPDATED"
+
+          {
+            echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
+            echo "# Pushed and Updated by Kittujk"
+            echo "# Coded & Maintained @RJMBTS"
+            echo "# Last updated: $timestamp"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo ""
+            echo "################### Jstar ###################"
+          } > "$OUTPUT"
+
+          cat "$tmpdir/final.m3u" >> "$OUTPUT"
+
+          echo "UPDATED=$UPDATED" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+
+          echo "file-ready=true" >> $GITHUB_OUTPUT
+          echo "📁 Output generated at: $OUTPUT"
+          echo "📊 Total Channels: $TOTAL"
+
+      - name: Commit and push Jstar.m3u
+        if: steps.buildfile.outputs.file-ready == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add Bishop/Jstar.m3u
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Jstar Update | Total:${TOTAL} Updated:${UPDATED}"
+            git pull --rebase origin main || true
+
+            for n in {1..3}; do
+              git push origin main && break
+              echo "⚠️ Push failed, retrying in 10s... ($n/3)"
+              sleep 10
+            done
+          else
+            echo "No changes — skipping commit."
+          fi
+
+      - name: Summary
+        run: echo "✅ Jstar.m3u build completed successfully at $(date)"
