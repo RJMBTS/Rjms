@@ -39,9 +39,12 @@ jobs:
           grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' \
             "$tmpdir/sony_raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Insert ONLY group-title="SLiv" into every EXTINF line
+          # 1️⃣ Remove ANY existing group-title from the source
+          sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/no_group.m3u"
+
+          # 2️⃣ Add ONLY one group-title="SLiv"
           sed -E 's|^#EXTINF[^,]*|& group-title="SLiv"|' \
-            "$tmpdir/clean.m3u" > "$tmpdir/sliv_ready.m3u"
+            "$tmpdir/no_group.m3u" > "$tmpdir/sliv_ready.m3u"
 
           UPDATED=$(grep -c '^#EXTINF' "$tmpdir/sliv_ready.m3u" || true)
           TOTAL="$UPDATED"
