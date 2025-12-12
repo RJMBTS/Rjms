@@ -29,7 +29,7 @@ jobs:
           tmpdir=$(mktemp -d)
 
           mkdir -p Bishop
-          OUTPUT="Bishop/P1jc.m3u"
+          OUTPUT="Bishop/P1j.m3u"
           SOURCE_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u"
 
           echo "Fetching J Cinema playlist..."
@@ -51,13 +51,13 @@ jobs:
 
               chan = $2
 
-              group = "RJM | JCN"
+              group = "RJM | JC"
 
               if (tvgname ~ /colors|cineplex|color/ || chan ~ /colors|cineplex|color/) {
                   group = "RJM | COLORS"
               }
               else if (tvgname ~ /news18|news 18/ || chan ~ /news18|news 18/) {
-                  group = "RJM | VIACOM"
+                  group = "RJM | VIACOM18"
               }
 
               insert = " group-title=" q group q
@@ -78,9 +78,9 @@ jobs:
             echo "# Pushed and Updated by Kittujk"
             echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
-            echo "# Include Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo ""
-            echo "################### RJM | JCN ###################"
+            echo "################### RJM | JC ###################"
           } > "$OUTPUT"
 
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
@@ -89,16 +89,16 @@ jobs:
           echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "file-ready=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push P1jc.m3u
+      - name: Commit and push P1j.m3u
         if: steps.buildfile.outputs.file-ready == "true"
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          git add Bishop/P1jc.m3u
+          git add Bishop/P1j.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "P1jc Update | Total:${TOTAL} Updated:${UPDATED}"
+            git commit -m "P1j Update | Total:${TOTAL} Updated:${UPDATED}"
             git pull --rebase origin main || true
             git push origin main
           else
@@ -106,4 +106,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "P1jc.m3u smart grouping completed at $(date)"
+        run: echo "P1j.m3u smart grouping completed at $(date)"
