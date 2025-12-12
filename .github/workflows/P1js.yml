@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1js.m3u (Star + Colors + SunNxt + Kids)
+      - name: Build P1js.m3u (Star + Colors + SunNxt + Kids + Infotainment)
         id: buildfile
         run: |
           set -e
@@ -52,8 +52,20 @@ jobs:
               channel=name_line
               sub(/^.*,/, "", channel)
 
+              ## 🧸 KIDS → RJM | Kids (FORCED)
+              if (channel ~ /(Disney|Hungama|Super Hungama|XD|UTV|Bindass|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kochu|Chintu|Kids|Junior)/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
+              }
+
+              ## 📘 INFOTAINMENT → Nat Geo
+              else if (channel ~ /(Nat\s*Geo|NatGeo|National Geographic)/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Infotainment\"", line)
+              }
+
               ## 🌞 SUN NETWORK → RJM | SunNxt
-              if (channel ~ /(Sun TV|Sun HD|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
+              else if (channel ~ /(Sun TV|Sun HD|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
                 gsub(/group-title="[^"]*"/, "", line)
                 sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
               }
@@ -68,12 +80,6 @@ jobs:
               else if (channel ~ /Colors/) {
                 gsub(/group-title="[^"]*"/, "", line)
                 sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Colors\"", line)
-              }
-
-              ## 🧸 ALL KIDS CHANNELS → RJM | Kids
-              else if (channel ~ /(Disney|Hungama|Super Hungama|XD|UTV|Bindass|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kids|Junior)/) {
-                gsub(/group-title="[^"]*"/, "", line)
-                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
               }
 
               print line
@@ -93,7 +99,7 @@ jobs:
             echo "# Last updated: $timestamp"
             echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo ""
-            echo "########## P1js (Star + Colors + SunNxt + Kids) ##########"
+            echo "########## P1js (Star + Colors + SunNxt + Kids + Infotainment) ##########"
           } > "$OUTPUT"
 
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
@@ -115,7 +121,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git pull --rebase origin main || true
-            git commit -m "P1js Update | Star + Colors + SunNxt + Kids | Total:${TOTAL}"
+            git commit -m "P1js Update | Star + Colors + SunNxt + Kids + Infotainment | Total:${TOTAL}"
             for n in {1..3}; do
               git push origin main && break
               echo "⚠️ Push failed, retrying in 10s... ($n/3)"
