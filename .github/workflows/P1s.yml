@@ -55,7 +55,7 @@ jobs:
             echo "# Pushed and Updated by Kittujk"
             echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
-            echo "# Include Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo ""
             echo "################### RJM | SLiv ###################"
           } > "$OUTPUT"
