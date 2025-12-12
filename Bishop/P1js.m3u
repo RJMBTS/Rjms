@@ -1,6 +1,5 @@
 #EXTM3U billed-msg="RJMS - An RJMBTS Network"
-# Coded & Maintained @RJMBTS
-# Last updated: 2025-12-13 01:22:48 IST
+# Last updated: 2025-12-13 01:30:21 IST
 # Channels : 748
 
 
@@ -319,7 +318,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/output/index.m
 #EXTHTTP:{"cookie":"__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_BTS/output/index.mpd?__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e&xxx=%7Ccookie=__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e
 
-#EXTINF:-1 tvg-id="143"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBC_Tv18_Prime_HD.png" group-title="RJM | Kids",CNBC Tv18 Prime HD
+#EXTINF:-1 tvg-id="143"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBC_Tv18_Prime_HD.png" group-title="RJM | Viacom18",CNBC Tv18 Prime HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=810f0869e10c537891203cc70315dd6d:b8f7d22abf86cf12444a848ed5dbec13
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -396,7 +395,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/B4U_Movies_BTS/output/index.mpd?__hdnea__
 #EXTHTTP:{"cookie":"__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/B4U_Music_BTS/output/index.mpd?__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e&xxx=%7Ccookie=__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e
 
-#EXTINF:-1 tvg-id="193"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="RJM | Kids",CNN
+#EXTINF:-1 tvg-id="193"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="RJM | Viacom18",CNN
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=056cd34f1064579190844b76aabaad5f:319e62e2cc92c257bce26205a58c484b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -753,14 +752,14 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Enterr_10_BTS/output/index.mpd?__hdnea__=
 #EXTHTTP:{"cookie":"__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Bhojpuri_Cinema_BTS/output/index.mpd?__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e&xxx=%7Ccookie=__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e
 
-#EXTINF:-1 tvg-id="489"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBC_Tv_18.png" group-title="RJM | Kids",CNBC Tv 18
+#EXTINF:-1 tvg-id="489"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBC_Tv_18.png" group-title="RJM | Viacom18",CNBC Tv 18
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=30b1b0ed57905d55b4919653c9baa8b8:a424b8007bffa3ac9df88563d79c97b3
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/CNBC_Tv_18_BTS/output/index.mpd?__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e&xxx=%7Ccookie=__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e
 
-#EXTINF:-1 tvg-id="490"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBC_Bazaar_MNO.png" group-title="RJM | Kids",CNBC Bazaar (MNO)
+#EXTINF:-1 tvg-id="490"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBC_Bazaar_MNO.png" group-title="RJM | Viacom18",CNBC Bazaar (MNO)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5353a26e5aab5f5b851db8fc4650fb2f:fe9ef7b6d6092570ba6b82e553897005
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -774,7 +773,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/CNBC_Bazaar_MNO_BTS/output/index.mpd?__hd
 #EXTHTTP:{"cookie":"__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Mirror_Now_BTS/output/index.mpd?__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e&xxx=%7Ccookie=__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e
 
-#EXTINF:-1 tvg-id="492"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN_NEWS_18.png" group-title="RJM | Kids",CNN NEWS 18
+#EXTINF:-1 tvg-id="492"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN_NEWS_18.png" group-title="RJM | Viacom18",CNN NEWS 18
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dac2dd338cbf5340bbaa63762095109c:870cb23835dc7271d128ef8b3794a7e0
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
@@ -2601,7 +2600,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Swar_Shree_BTS/output/index.mpd?__hdnea__
 #EXTHTTP:{"cookie":"__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/KTV_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e&xxx=%7Ccookie=__hdnea__=st=1765537809~exp=1765624209~acl=/*~hmac=9a6a81ae62d28aca85118f96ccbd94fea749826530933eb26817319e47cddf6e
 
-#EXTINF:-1 tvg-id="895"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png" group-title="RJM | SunNxt",Sun Music HD
+#EXTINF:-1 tvg-id="895" group-title="Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",Sun Music HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fa0c0f2dd6ce50208b77e16976e38d90:7f83a8e5178b6562d81968886fc3fe8a
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
