@@ -1,4 +1,4 @@
-name: "P1jc 🌐"
+name: "P1jc"
 
 on:
   schedule:
@@ -32,10 +32,10 @@ jobs:
           OUTPUT="Bishop/P1jc.m3u"
           SOURCE_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u"
 
-          echo "🌐 Fetching J Cinema playlist..."
+          echo "Fetching J Cinema playlist..."
           curl -fs "$SOURCE_URL" > "$tmpdir/raw.m3u"
 
-          # Remove unwanted header lines (YAML-safe quoting)
+          # Remove unwanted header lines
           grep -v -E "^#EXTM3U|# Pushed and updated by|# Join Telegram" \
             "$tmpdir/raw.m3u" > "$tmpdir/clean.m3u"
 
@@ -49,27 +49,21 @@ jobs:
           /^#EXTINF/ {
               line = $0
 
-              # Extract tvg-name
               match(line, /tvg-name="([^"]*)"/, arr)
               tvgname = arr[1]
 
-              # Extract channel name after comma
               chan = $2
 
-              group = "RJM | JCN"   # default group
+              group = "RJM | JCN"
 
-              # COLORS group rules
               if (tvgname ~ /colors|cineplex|color/ || chan ~ /colors|cineplex|color/) {
                   group = "RJM | COLORS"
               }
-              # VIACOM group rules (News18)
               else if (tvgname ~ /news18|news 18/ || chan ~ /news18|news 18/) {
                   group = "RJM | VIACOM"
               }
 
-              # Insert group-title
               sub(/^#EXTINF[^,]*/, "& group-title=\"" group "\"", line)
-
               print line
               next
           }
@@ -80,7 +74,6 @@ jobs:
           UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
           TOTAL="$UPDATED"
 
-          # Build final output file
           {
             echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
