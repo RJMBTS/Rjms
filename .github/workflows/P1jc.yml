@@ -35,25 +35,18 @@ jobs:
           echo "Fetching J Cinema playlist..."
           curl -fs "$SOURCE_URL" > "$tmpdir/raw.m3u"
 
-          # Remove unwanted header lines
           grep -v -E "^#EXTM3U|# Pushed and updated by|# Join Telegram" \
             "$tmpdir/raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Remove existing group-title
           sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/no_group.m3u"
 
-          # Smart grouping using AWK
           awk -F',' '
           BEGIN { IGNORECASE=1 }
-
           /^#EXTINF/ {
               line = $0
-
               match(line, /tvg-name="([^"]*)"/, arr)
               tvgname = arr[1]
-
               chan = $2
-
               group = "RJM | JCN"
 
               if (tvgname ~ /colors|cineplex|color/ || chan ~ /colors|cineplex|color/) {
@@ -62,12 +55,10 @@ jobs:
               else if (tvgname ~ /news18|news 18/ || chan ~ /news18|news 18/) {
                   group = "RJM | VIACOM"
               }
-
               sub(/^#EXTINF[^,]*/, "& group-title=\"" group "\"", line)
               print line
               next
           }
-
           { print }
           ' "$tmpdir/no_group.m3u" > "$tmpdir/final.m3u"
 
@@ -107,4 +98,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "✅ P1jc.m3u smart grouping completed at $(date)"
+        run: echo "P1jc.m3u smart grouping completed at $(date)"
