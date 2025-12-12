@@ -1,0 +1,91 @@
+name: P1.yml
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: master-m3u
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build SLiv.m3u (Sony → Single Group "SLiv")
+        id: buildfile
+        run: |
+          set -e
+          timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
+          tmpdir=$(mktemp -d)
+
+          mkdir -p Bishop
+          OUTPUT="Bishop/SLiv.m3u"
+          SONY_URL="https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u"
+
+          echo "🌐 Fetching Sony playlist..."
+          curl -fs "$SONY_URL" > "$tmpdir/sony_raw.m3u"
+
+          # Remove unwanted header lines
+          grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' "$tmpdir/sony_raw.m3u" > "$tmpdir/clean.m3u"
+
+          # Insert correct group-title="SLiv"
+          sed -E 's#(#EXTINF:[^,]*)(.*)#\1 group-title="SLiv"\2#' "$tmpdir/clean.m3u" > "$tmpdir/sliv_ready.m3u"
+
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/sliv_ready.m3u" || true)
+          TOTAL="$UPDATED"
+
+          # Build final output file
+          {
+            echo '#EXTM3U billed-msg="SLiv - RJMBTS Network"'
+            echo "# Pushed and Updated by Kittujk"
+            echo "# Coded & Maintained @RJMBTS"
+            echo "# Last updated: $timestamp"
+            echo "# Include Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo ""
+            echo "################### SLiv ###################"
+          } > "$OUTPUT"
+
+          cat "$tmpdir/sliv_ready.m3u" >> "$OUTPUT"
+
+          echo "UPDATED=$UPDATED" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+          echo "file-ready=true" >> $GITHUB_OUTPUT
+
+          echo "📁 Output generated at: $OUTPUT"
+          echo "📊 Total Channels: $TOTAL"
+
+      - name: Commit and push SLiv.m3u
+        if: steps.buildfile.outputs.file-ready == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add Bishop/SLiv.m3u
+
+          if ! git diff --cached --quiet; then
+            git commit -m "SLiv Update | Total:${TOTAL} Updated:${UPDATED}"
+            git pull --rebase origin main || true
+
+            n=0
+            until [ "$n" -ge 3 ]; do
+              git push origin main && break
+              n=$((n+1))
+              echo "⚠️ Push failed, retrying in 10s... ($n/3)"
+              sleep 10
+            done
+          else
+            echo "No changes — skipping commit."
+          fi
+
+      - name: Summary
+        run: echo "✅ SLiv.m3u (group-title='SLiv') build completed at $(date)"
