@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1jc.m3u (JCinema Source → group-title "RJM | JC")
+      - name: Build & Repair P1jc.m3u
         id: buildfile
         run: |
           set -e
@@ -32,28 +32,33 @@ jobs:
           JC_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u"
 
           echo "🎬 Fetching JCinema playlist..."
-          curl -fs "$JC_URL" > "$tmpdir/jc_raw.m3u"
+          curl -fs "$JC_URL" > "$tmpdir/raw.m3u"
 
           # Remove unwanted header lines
           grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' \
-            "$tmpdir/jc_raw.m3u" > "$tmpdir/clean.m3u"
+            "$tmpdir/raw.m3u" > "$tmpdir/step1.m3u"
 
-          # REMOVE broken group-title entries
-          sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/step1.m3u"
+          # Remove any old or broken group-title
+          sed -E 's/group-title="[^"]*"//g' "$tmpdir/step1.m3u" > "$tmpdir/step2.m3u"
 
-          # 🔧 FIX malformed tvg-logo URLs (your example issue)
+          # 🔧 FIX BROKEN tvg-logo LINES (your exact issue)
           sed -E \
-            's/tvg-logo="([^"]*) group-title=/tvg-logo="\1" group-title=/g' \
-            "$tmpdir/step1.m3u" > "$tmpdir/step2.m3u"
+            's#tvg-logo="([^"]*) group-title=#tvg-logo="\1" group-title=#g' \
+            "$tmpdir/step2.m3u" > "$tmpdir/step3.m3u"
 
-          # ADD group-title="RJM | JC"
+          # Fix misplaced w,h parameters inside the URL
+          sed -E \
+            's#resizeMedium ([^"]*)w_#resizeMedium_w_#g' \
+            "$tmpdir/step3.m3u" > "$tmpdir/step4.m3u"
+
+          # Add correct group-title
           sed -E 's~^#EXTINF[^,]*~& group-title="RJM | JC"~' \
-            "$tmpdir/step2.m3u" > "$tmpdir/final.m3u"
+            "$tmpdir/step4.m3u" > "$tmpdir/final.m3u"
 
           UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
           TOTAL="$UPDATED"
 
-          # Build final playlist — no timestamp
+          # Write final output
           {
             echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
@@ -65,9 +70,9 @@ jobs:
 
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
 
+          echo "file-ready=true" >> $GITHUB_OUTPUT
           echo "UPDATED=$UPDATED" >> $GITHUB_ENV
           echo "TOTAL=$TOTAL" >> $GITHUB_ENV
-          echo "file-ready=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push P1jc.m3u
         if: steps.buildfile.outputs.file-ready == 'true'
@@ -78,14 +83,14 @@ jobs:
           git add Bishop/P1jc.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "P1jc Update | Total:${TOTAL} Updated:${UPDATED}"
+            git commit -m "P1jc Auto-Repair Update | Total:${TOTAL} Updated:${UPDATED}"
             git pull --rebase origin main || true
 
             n=0
             until [ "$n" -ge 3 ]; do
               git push origin main && break
               n=$((n+1))
-              echo "⚠️ Push failed, retrying in 10s... ($n/3)"
+              echo "⚠️ Push failed, retrying... ($n/3)"
               sleep 10
             done
           else
@@ -93,4 +98,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "✅ P1jc.m3u build completed successfully"
+        run: echo "✅ P1jc.m3u auto-repair completed successfully"
