@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated: 2025-12-12 23:17:04 IST
+# Last updated: 2025-12-13 00:10:30 IST
 # Include Channels : Total - 877 | Updated - 877
 
 
@@ -5246,7 +5246,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea
 
 
 ################### JCINEMA ###################
-#Generated on 1765543662
+#Generated on 1765564435
 
 #EXTINF:-1 tvg-id="144" group-title="Entertainment" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg",Colors HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
