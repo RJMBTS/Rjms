@@ -34,6 +34,7 @@ jobs:
 
           echo "🔹 Build started at $timestamp"
 
+
           # -------------------------------------------------------------
           # SLIV (SONY) — ORIGINAL LOGIC (unchanged) + EXTINF FIX
           # -------------------------------------------------------------
@@ -42,7 +43,7 @@ jobs:
             | grep -v -E '^#EXTM3U|# Join|# Pushed' \
             > "$tmpdir/sony_raw.m3u"
 
-          echo "🛠 Applying Sliv EXTINF format fix..."
+          echo "🛠 Applying Sliv EXTINF fix..."
           sed -E \
             's/group-title="[^"]*"/group-title="Sliv"/g;
              s/#EXTINF:[^,]*/#EXTINF:-1 group-title="Sliv"/g' \
@@ -59,7 +60,7 @@ jobs:
             | grep -v -E '^#EXTM3U|# Join|# Pushed' \
             > "$tmpdir/z5_raw.m3u"
 
-          echo "🛠 Processing Z5 channels (URL fix)..."
+          echo "🛠 Processing Z5 (URL fix)..."
           awk '
             /^#EXTINF/ {
                 match($0, /,(.*)$/, m)
@@ -75,26 +76,28 @@ jobs:
 
 
           # -------------------------------------------------------------
-          # JCINEMA — SMART GROUPING (Viacom18 or Jcinema)
+          # JCINEMA — FIXED CHANNEL NAME EXTRACTION + SMART GROUPING
           # -------------------------------------------------------------
           echo "🌐 Fetching Jcinema playlist..."
           curl -fsSL "$JCINEMA_URL" \
             | grep -v -E '^#EXTM3U|# Join|# Pushed' \
             > "$tmpdir/jcinema_raw.m3u"
 
-          echo "🛠 Processing Jcinema channels → Viacom18 OR Jcinema..."
+          echo "🛠 Processing Jcinema (name fix + Viacom18 logic)..."
           awk '
             /^#EXTINF/ {
-                match($0, /,(.*)$/, m)
-                name=m[1]
-                lname=tolower(name)
+                # Extract correct channel name (after LAST comma)
+                cname = substr($0, match($0, /,[^,]*$/) + 1)
+                lname = tolower(cname)
 
+                # Colors / Viacom = Viacom18
                 if (lname ~ /colors/ || lname ~ /viacom/) {
-                    print "#EXTINF:-1 group-title=\"Viacom18\"," name
+                    print "#EXTINF:-1 group-title=\"Viacom18\"," cname
                 } else {
-                    print "#EXTINF:-1 group-title=\"Jcinema\"," name
+                    print "#EXTINF:-1 group-title=\"Jcinema\"," cname
                 }
 
+                # Safe URL scan
                 while (getline url) {
                     if (url ~ /^https?:\/\//) { print url; break }
                 }
@@ -106,9 +109,9 @@ jobs:
 
 
           # -------------------------------------------------------------
-          # MERGE + SORT EVERYTHING
+          # MERGE + SORT
           # -------------------------------------------------------------
-          echo "🔄 Sorting channels alphabetically..."
+          echo "🔄 Sorting channels A–Z..."
 
           cat "$tmpdir/sliv_clean.m3u" \
               "$tmpdir/z5_clean.m3u" \
@@ -127,12 +130,11 @@ jobs:
 
 
           # -------------------------------------------------------------
-          # WRITE FINAL FILE
+          # BUILD FINAL OUTPUT FILE
           # -------------------------------------------------------------
           {
             echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
-            echo "# Pushed and Updated by Kittujk"
-            echo "# Coded & Maintained @RJMBTS"
+            echo "# Updated by RJMBTS"
             echo "# Last updated: $timestamp"
             echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo "# Sliv - $SLIV_COUNT | Z5 - $Z5_COUNT | Viacom18 - $VIACOM18_COUNT | Jcinema - $JCINEMA_COUNT"
@@ -149,7 +151,7 @@ jobs:
 
           git add Wand/rook.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update rook.m3u (Sliv + Z5 + Viacom18 + Jcinema merged) | Total:${TOTAL}"
+            git commit -m "Auto-update rook.m3u (Sliv + Z5 + Viacom18 + Jcinema) | Total:${TOTAL}"
             git pull --rebase origin main || true
             git push origin main || true
           else
@@ -157,4 +159,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "✅ Rook playlist updated successfully — Sliv + Z5 + Viacom18 + Jcinema merged at $(date)"
+        run: echo "✅ Rook playlist updated — Sliv + Z5 + Viacom18 + Jcinema merged at $(date)"
