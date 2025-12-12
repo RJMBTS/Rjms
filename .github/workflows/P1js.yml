@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1js.m3u (Star + Colors + SunNxt + Kids + Infotainment)
+      - name: Build P1js.m3u (Star + Colors + SunNxt + Kids + Infotainment + ETv)
         id: buildfile
         run: |
           set -e
@@ -52,20 +52,26 @@ jobs:
               channel=name_line
               sub(/^.*,/, "", channel)
 
-              ## 🧸 KIDS → RJM | Kids (FORCED)
+              ## 🧸 KIDS → RJM | Kids
               if (channel ~ /(Disney|Hungama|Super Hungama|XD|UTV|Bindass|Nick|Nickelodeon|Sonic|Pogo|Cartoon Network|CN|Discovery Kids|Sony Yay|Chutti|Kushi|Kochu|Chintu|Kids|Junior)/) {
                 gsub(/group-title="[^"]*"/, "", line)
                 sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Kids\"", line)
               }
 
-              ## 📘 INFOTAINMENT → Nat Geo
-              else if (channel ~ /(Nat\s*Geo|NatGeo|National Geographic)/) {
+              ## 📘 INFOTAINMENT → RJM | Infotainment
+              else if (channel ~ /(Nat\s*Geo|NatGeo|National Geographic|Discovery|Animal Planet|History|Sony BBC Earth|TLC)/) {
                 gsub(/group-title="[^"]*"/, "", line)
                 sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Infotainment\"", line)
               }
 
-              ## 🌞 SUN NETWORK → RJM | SunNxt (Sun Life INCLUDED)
-              else if (channel ~ /(Sun TV|Sun HD|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies|Sun Life)/) {
+              ## 📺 ETV NETWORK → RJM | ETv Win
+              else if (channel ~ /(ETV|ETV HD|ETV Plus|ETV Cinema|ETV Life|ETV Abhiruchi|ETV Telangana|ETV Andhra)/) {
+                gsub(/group-title="[^"]*"/, "", line)
+                sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | ETv Win\"", line)
+              }
+
+              ## 🌞 SUN NETWORK → RJM | SunNxt
+              else if (channel ~ /(Sun TV|Sun HD|Sun Life|KTV|Gemini|Udaya|Surya|Sun Music|Gemini Music|Udaya Music|Surya Music|Gemini Life|Udaya Movies|Surya Movies)/) {
                 gsub(/group-title="[^"]*"/, "", line)
                 sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | SunNxt\"", line)
               }
@@ -99,7 +105,7 @@ jobs:
             echo "# Last updated: $timestamp"
             echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo ""
-            echo "########## P1js (Star + Colors + SunNxt + Kids + Infotainment) ##########"
+            echo "########## P1js (Star + Colors + SunNxt + Kids + Infotainment + ETv) ##########"
           } > "$OUTPUT"
 
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
@@ -121,7 +127,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git pull --rebase origin main || true
-            git commit -m "P1js Update | Star + Colors + SunNxt + Kids + Infotainment | Total:${TOTAL}"
+            git commit -m "P1js Update | Kids + Infotainment + ETv + SunNxt + Star + Colors | Total:${TOTAL}"
             for n in {1..3}; do
               git push origin main && break
               echo "⚠️ Push failed, retrying in 10s... ($n/3)"
