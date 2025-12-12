@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1jc.m3u (OTT Navigator Compatible + CNBC Added)
+      - name: Build P1jc.m3u (OTT Navigator Compatible — News18 + CNBC)
         id: buildfile
         run: |
           set -e
@@ -32,57 +32,84 @@ jobs:
           OUTPUT="Bishop/P1jc.m3u"
           JC_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u"
 
-          echo "Fetching playlist..."
+          echo "🌐 Fetching playlist..."
           curl -fsSL "$JC_URL" -o "$tmpdir/jc_raw.m3u"
 
-          # Remove useless metadata
-          grep -v -E '^#EXTM3U|#Generated on|# Join Telegram' "$tmpdir/jc_raw.m3u" > "$tmpdir/clean.m3u"
+          # Remove header/meta lines and existing EXTM3U
+          grep -v -E '^#Generated on|# Join Telegram|#EXTM3U' \
+            "$tmpdir/jc_raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Remove any old group-title attributes
+          # Remove ANY existing group-title attributes
           sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/tmp1.m3u"
 
-          # Normalize spacing to avoid OTT Navigator parsing failures
+          # Normalize whitespace to single spaces (fix double/multiple spaces)
           sed -E 's/[[:space:]]+/ /g' "$tmpdir/tmp1.m3u" > "$tmpdir/tmp2.m3u"
 
-          # OTT Navigator fix — group-title must be FIRST attribute
+          # Rebuild EXTINF lines: put group-title FIRST for News18 + CNBC variants
           awk '
           /^#EXTINF/ {
-              line=$0
+              line = $0
 
-              # Split EXTINF attributes from channel name
+              # Split on the first comma so we keep attributes and the channel name
               split(line, parts, ",")
               attrs = parts[1]
-              name  = parts[2]
+              name = parts[2]
 
-              # Apply grouping to: News18 + CNBC channels
-              if (name ~ /News18/ || name ~ /CNBC/) {
+              # If channel name is empty or comma missing, fallback to printing line as-is
+              if (name == "" || name == parts[1]) {
+                  print line
+                  next
+              }
 
-                  # Remove "#EXTINF:-1 " from attributes
+              # Strong match for News18 + CNBC variants (covers many naming styles)
+              if (name ~ /News18/ || name ~ /CNBC/ || name ~ /TV18/ || name ~ /Awaaz/ || name ~ /Bajar/ || name ~ /Bajaar/ || name ~ /Prime/ || name ~ /Bajar/ ) {
+                  # remove leading "#EXTINF:-1 " from attrs
                   gsub(/^#EXTINF:-1 */, "", attrs)
 
-                  # Build new EXTINF line with group-title FIRST
-                  new_line = "#EXTINF:-1 group-title=\"RJM | Viacom18\" " attrs "," name
+                  # trim trailing space(s) from attrs
+                  sub(/[[:space:]]*$/, "", attrs)
 
+                  # build new line with group-title FIRST (OTT Navigator expects this)
+                  new_line = "#EXTINF:-1 group-title=\"RJM | Viacom18\""
+                  if (attrs != "") {
+                      new_line = new_line " " attrs "," name
+                  } else {
+                      new_line = new_line "," name
+                  }
                   print new_line
                   next
               }
 
+              # non-matching channel — print original line
               print line
               next
           }
           { print }
           ' "$tmpdir/tmp2.m3u" > "$tmpdir/final.m3u"
 
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
+          TOTAL="$UPDATED"
+
           {
-            echo "#EXTM3U"
+            echo '#EXTM3U'
+            echo "# Pushed and Updated by Kittujk"
+            echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo ""
+            echo "################### RJM | JC ###################"
           } > "$OUTPUT"
 
           cat "$tmpdir/final.m3u" >> "$OUTPUT"
 
+          echo "UPDATED=$UPDATED" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "file-ready=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push
+          echo "📁 Output generated at: $OUTPUT"
+          echo "📊 Total Channels: $TOTAL"
+
+      - name: Commit and push P1jc.m3u
         if: steps.buildfile.outputs.file-ready == 'true'
         run: |
           git config user.name "GitHub Actions Bot"
@@ -91,9 +118,19 @@ jobs:
           git add Bishop/P1jc.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "P1jc OTT Navigator Group Fix (News18 + CNBC)"
+            git commit -m "P1jc Update | Total:${TOTAL} Updated:${UPDATED}"
             git pull --rebase origin main || true
-            git push origin main || git push origin main
+
+            n=0
+            until [ "$n" -ge 3 ]; do
+              git push origin main && break
+              n=$((n+1))
+              echo "⚠️ Push failed, retrying in 10s... ($n/3)"
+              sleep 10
+            done
           else
-            echo "No changes"
+            echo "No changes — skipping commit."
           fi
+
+      - name: Summary
+        run: echo "✅ P1jc.m3u build completed successfully"
