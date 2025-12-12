@@ -38,17 +38,22 @@ jobs:
           grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' \
             "$tmpdir/jc_raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Remove existing group-title (if any)
-          sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/no_group.m3u"
+          # REMOVE broken group-title entries
+          sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/step1.m3u"
 
-          # Add group-title="RJM | JC"
+          # 🔧 FIX malformed tvg-logo URLs (your example issue)
+          sed -E \
+            's/tvg-logo="([^"]*) group-title=/tvg-logo="\1" group-title=/g' \
+            "$tmpdir/step1.m3u" > "$tmpdir/step2.m3u"
+
+          # ADD group-title="RJM | JC"
           sed -E 's~^#EXTINF[^,]*~& group-title="RJM | JC"~' \
-            "$tmpdir/no_group.m3u" > "$tmpdir/final.m3u"
+            "$tmpdir/step2.m3u" > "$tmpdir/final.m3u"
 
           UPDATED=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || true)
           TOTAL="$UPDATED"
 
-          # Build final playlist — timestamp removed
+          # Build final playlist — no timestamp
           {
             echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
@@ -63,9 +68,6 @@ jobs:
           echo "UPDATED=$UPDATED" >> $GITHUB_ENV
           echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "file-ready=true" >> $GITHUB_OUTPUT
-
-          echo "📁 Output generated at: $OUTPUT"
-          echo "📊 Total Channels: $TOTAL"
 
       - name: Commit and push P1jc.m3u
         if: steps.buildfile.outputs.file-ready == 'true'
