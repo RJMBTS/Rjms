@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build P1jc.m3u (OTT Navigator Compatible)
+      - name: Build P1jc.m3u (OTT Navigator Compatible + CNBC Added)
         id: buildfile
         run: |
           set -e
@@ -35,32 +35,32 @@ jobs:
           echo "Fetching playlist..."
           curl -fsSL "$JC_URL" -o "$tmpdir/jc_raw.m3u"
 
-          # Remove metadata
+          # Remove useless metadata
           grep -v -E '^#EXTM3U|#Generated on|# Join Telegram' "$tmpdir/jc_raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Remove old group-title
+          # Remove any old group-title attributes
           sed -E 's/group-title="[^"]*"//g' "$tmpdir/clean.m3u" > "$tmpdir/tmp1.m3u"
 
-          # Fix multiple spaces
+          # Normalize spacing to avoid OTT Navigator parsing failures
           sed -E 's/[[:space:]]+/ /g' "$tmpdir/tmp1.m3u" > "$tmpdir/tmp2.m3u"
 
-          # OTT NAVIGATOR FIX → group-title FIRST
+          # OTT Navigator fix — group-title must be FIRST attribute
           awk '
           /^#EXTINF/ {
               line=$0
 
-              # Split attributes from name
+              # Split EXTINF attributes from channel name
               split(line, parts, ",")
-              attrs=parts[1]
-              name=parts[2]
+              attrs = parts[1]
+              name  = parts[2]
 
-              # Only apply to News18
-              if (name ~ /News18/) {
+              # Apply grouping to: News18 + CNBC channels
+              if (name ~ /News18/ || name ~ /CNBC/) {
 
-                  # Remove "#EXTINF:-1 "
+                  # Remove "#EXTINF:-1 " from attributes
                   gsub(/^#EXTINF:-1 */, "", attrs)
 
-                  # Build correct format with group-title FIRST
+                  # Build new EXTINF line with group-title FIRST
                   new_line = "#EXTINF:-1 group-title=\"RJM | Viacom18\" " attrs "," name
 
                   print new_line
@@ -87,9 +87,11 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+
           git add Bishop/P1jc.m3u
+
           if ! git diff --cached --quiet; then
-            git commit -m "P1jc OTT Navigator Group Fix"
+            git commit -m "P1jc OTT Navigator Group Fix (News18 + CNBC)"
             git pull --rebase origin main || true
             git push origin main || git push origin main
           else
