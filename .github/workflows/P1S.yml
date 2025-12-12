@@ -1,4 +1,4 @@
-name: P1
+name: P1S
 
 on:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build SLiv.m3u (Sony → Single Group "SLiv")
+      - name: Build SLiv.m3u (Sony Only → Single Group "SLiv")
         id: buildfile
         run: |
           set -e
@@ -36,15 +36,17 @@ jobs:
           curl -fs "$SONY_URL" > "$tmpdir/sony_raw.m3u"
 
           # Remove unwanted header lines
-          grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' "$tmpdir/sony_raw.m3u" > "$tmpdir/clean.m3u"
+          grep -v -E '^#EXTM3U|# Pushed and updated by|# Join Telegram' \
+            "$tmpdir/sony_raw.m3u" > "$tmpdir/clean.m3u"
 
-          # Insert correct group-title="SLiv"
-          sed -E 's#(#EXTINF:[^,]*)(.*)#\1 group-title="SLiv"\2#' "$tmpdir/clean.m3u" > "$tmpdir/sliv_ready.m3u"
+          # Insert group-title="SLiv" safely into every EXTINF line
+          sed -E 's|^#EXTINF[^,]*|& group-title="SLiv"|' \
+            "$tmpdir/clean.m3u" > "$tmpdir/sliv_ready.m3u"
 
           UPDATED=$(grep -c '^#EXTINF' "$tmpdir/sliv_ready.m3u" || true)
           TOTAL="$UPDATED"
 
-          # Build final output file
+          # Build final SLiv.m3u file
           {
             echo '#EXTM3U billed-msg="SLiv - RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
@@ -88,4 +90,4 @@ jobs:
           fi
 
       - name: Summary
-        run: echo "✅ SLiv.m3u (group-title='SLiv') build completed at $(date)"
+        run: echo "✅ SLiv.m3u build completed successfully at $(date)"
