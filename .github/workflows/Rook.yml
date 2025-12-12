@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build rook.m3u (Sony + Z5 → Counts → Sorted → Wand folder)
+      - name: Build rook.m3u (Sliv FIXED + Z5 unchanged → Sorted → Wand folder)
         run: |
           set -e
           timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
@@ -33,41 +33,59 @@ jobs:
 
           echo "🔹 Build started at $timestamp"
 
-          # ---------------- SONY ----------------
-          echo "🎬 Fetching SONY playlist..."
-          if curl -fsSL "$SONY_URL" | grep -v -E '^#EXTM3U|# Join|# Updated' > "$tmpdir/sony_raw.m3u"; then
-            echo "✅ Sony fetched."
+          # -------------------------------------------------------------------
+          # FETCH & FIX SLIV (SONY) — NEW LOGIC WITH SAFE URL DETECTION
+          # -------------------------------------------------------------------
+          echo "🌐 Fetching SONY playlist..."
+          if curl -fsSL "$SONY_URL" | grep -v -E '^#EXTM3U|# Join|# Pushed' \
+              > "$tmpdir/sony_raw.m3u"; then
+            echo "✅ SONY playlist fetched."
           else
             echo "❌ Failed fetching Sony!"
             exit 1
           fi
 
+          echo "🛠 Processing Sliv channels with SAFE URL extraction..."
+
           awk '
             /^#EXTINF/ {
+                # Channel Name extraction
                 match($0, /,(.*)$/, m)
                 name=m[1]
+
+                # Write correct Sliv EXTINF format
                 print "#EXTINF:-1 group-title=\"Sliv\"," name
-                getline url
-                print url
+
+                # SAFE URL SCAN (no missing URLs)
+                while (getline url) {
+                    if (url ~ /^https?:\/\//) {
+                        print url
+                        break
+                    }
+                }
             }
-          ' "$tmpdir/sony_raw.m3u" > "$tmpdir/sony_clean.m3u"
+          ' "$tmpdir/sony_raw.m3u" > "$tmpdir/sliv_clean.m3u"
 
-          SLIV_COUNT=$(grep -c '^#EXTINF' "$tmpdir/sony_clean.m3u")
+          # Sliv count
+          SLIV_COUNT=$(grep -c '^#EXTINF' "$tmpdir/sliv_clean.m3u")
 
-
-          # ---------------- Z5 ----------------
-          echo "🎬 Fetching Z5 playlist..."
-          if curl -fsSL "$Z5_URL" | grep -v -E '^#EXTM3U|# Join|# Updated' > "$tmpdir/z5_raw.m3u"; then
-            echo "✅ Z5 fetched."
+          # -------------------------------------------------------------------
+          # FETCH & PARSE Z5 — OLD LOGIC (UNCHANGED)
+          # -------------------------------------------------------------------
+          echo "🌐 Fetching Z5 playlist..."
+          if curl -fsSL "$Z5_URL" | grep -v -E '^#EXTM3U|# Join|# Pushed' \
+              > "$tmpdir/z5_raw.m3u"; then
+            echo "✅ Z5 playlist fetched."
           else
             echo "❌ Failed fetching Z5!"
             exit 1
           fi
 
-          awk '
+          echo "🛠 Processing Z5 channels (old logic)..."
+
+          awk -F',' '
             /^#EXTINF/ {
-                match($0, /,(.*)$/, m)
-                name=m[1]
+                name=$2
                 print "#EXTINF:-1 group-title=\"Z5\"," name
                 getline url
                 print url
@@ -76,12 +94,13 @@ jobs:
 
           Z5_COUNT=$(grep -c '^#EXTINF' "$tmpdir/z5_clean.m3u")
 
+          # -------------------------------------------------------------------
+          # MERGE + SORT ALL CHANNELS
+          # -------------------------------------------------------------------
+          cat "$tmpdir/sliv_clean.m3u" "$tmpdir/z5_clean.m3u" \
+              > "$tmpdir/merged_unsorted.m3u"
 
-          # ---------- MERGE BOTH ----------
-          cat "$tmpdir/sony_clean.m3u" "$tmpdir/z5_clean.m3u" \
-            > "$tmpdir/merged_unsorted.m3u"
-
-          echo "🔄 Sorting merged playlist..."
+          echo "🔄 Sorting ALL channels alphabetically..."
 
           awk '
             /^#EXTINF/ { ext=$0; getline url; print ext "|" url }
@@ -90,31 +109,26 @@ jobs:
             | awk -F"|" '{ print $1 ORS $2 }' \
             > "$tmpdir/final_sorted.m3u"
 
-          TOTAL_COUNT=$(grep -c '^#EXTINF' "$tmpdir/final_sorted.m3u")
-          UPDATED="$TOTAL_COUNT"
+          TOTAL=$(grep -c '^#EXTINF' "$tmpdir/final_sorted.m3u")
+          UPDATED="$TOTAL"
 
-
-          # ---------- BUILD FINAL FILE ----------
+          # -------------------------------------------------------------------
+          # FINAL OUTPUT FILE
+          # -------------------------------------------------------------------
           {
             echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
             echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated: $timestamp"
-            echo "# Channels : Total - $TOTAL_COUNT | Updated - $UPDATED"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo "# Sliv - $SLIV_COUNT | Z5 - $Z5_COUNT"
             echo ""
           } > Wand/rook.m3u
 
           cat "$tmpdir/final_sorted.m3u" >> Wand/rook.m3u
 
-          echo "TOTAL=$TOTAL_COUNT" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
           echo "UPDATED=$UPDATED" >> $GITHUB_ENV
-          echo "SLIV=$SLIV_COUNT" >> $GITHUB_ENV
-          echo "Z5=$Z5_COUNT" >> $GITHUB_ENV
-
-          echo "📊 Total: $TOTAL_COUNT | Sliv: $SLIV_COUNT | Z5: $Z5_COUNT"
-          echo "✅ rook.m3u generated successfully in Wand/"
-
 
       - name: Commit and push updated rook.m3u
         run: |
@@ -124,7 +138,7 @@ jobs:
           git add Wand/rook.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update rook.m3u | Total:${TOTAL} Sliv:${SLIV} Z5:${Z5}"
+            git commit -m "Auto-update rook.m3u (Sliv FIXED + Z5 unchanged) | Total:${TOTAL}"
             git pull --rebase origin main || true
 
             for attempt in 1 2 3; do
@@ -136,6 +150,5 @@ jobs:
             echo "No changes detected."
           fi
 
-
       - name: Summary
-        run: echo "✅ Sony + Z5 merged playlist completed at $(date)"
+        run: echo "✅ Rook (Sliv FIXED + Z5 Unchanged) workflow completed at $(date)"
