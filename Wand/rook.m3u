@@ -1,9 +1,9 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated: 2025-12-12 09:02:47 IST
-# Channels : Total - 88 | Updated - 88
-# Sliv - 20 | Z5 - 68
+# Last updated: 2025-12-12 09:10:36 IST
+# Channels : Total - 129 | Updated - 129
+# Sliv - 20 | Z5 - 68 | Viacom18 - 13 | Jcinema - 28
 
 #EXTINF:-1 group-title="Z5",&Pictures HD
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105174/ANDPicturesHDELE/index-connected.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
@@ -33,12 +33,44 @@ https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8?hdnt
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
 #EXTINF:-1 group-title="Z5",Big Magic
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105176/BigMagicELE/master.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
+#EXTINF:-1 group-title="Jcinema",CNN News18
+https://jcevents.hotstar.com/bpk-tv/CNN_News18_voot_MOB/Fallback/CNN_News18_voot_MOB.m3u8
 #EXTINF:-1 group-title="Z5",Dharm Sandesh
 https://aasthaott.akamaized.net/110923/smil:arihant.smil/playlist.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
 #EXTINF:-1 group-title="Z5",Good News Today
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105499/GOODNEWSTODAYHDNEWSELE/index-connected.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
 #EXTINF:-1 group-title="Z5",India Today
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105501/INDIATODAYHDNEWSELE/index-connected.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
+#EXTINF:-1 group-title="Jcinema",News18 Assam North East
+https://jcevents.hotstar.com/bpk-tv/News18_Assam_North_East_voot_MOB/Fallback/News18_Assam_North_East_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Bangla
+https://jcevents.hotstar.com/bpk-tv/News18_Bangla_voot_MOB/Fallback/News18_Bangla_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Bihar Jharkhand
+https://jcevents.hotstar.com/bpk-tv/News18_Bihar_Jharkhand_voot_MOB/Fallback/News18_Bihar_Jharkhand_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Gujarati
+https://jcevents.hotstar.com/bpk-tv/News18_Gujarati_voot_MOB/Fallback/News18_Gujarati_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 India
+https://jcevents.hotstar.com/bpk-tv/News18_India_voot_MOB/Fallback/News18_India_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 JKLH
+https://jcevents.hotstar.com/bpk-tv/News18_Urdu_voot_MOB/Fallback/News18_Urdu_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Kannada
+https://jcevents.hotstar.com/bpk-tv/News18_Kannada_voot_MOB/Fallback/News18_Kannada_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Kerala
+https://jcevents.hotstar.com/bpk-tv/News18_Kerala_voot_MOB/Fallback/News18_Kerala_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Lokmat
+https://jcevents.hotstar.com/bpk-tv/News18_Lokmat_voot_MOB/Fallback/News18_Lokmat_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 MP Chhattisgarh
+https://jcevents.hotstar.com/bpk-tv/News18_MP_Chhattisgarh_voot_MOB/Fallback/News18_MP_Chhattisgarh_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Odia
+https://jcevents.hotstar.com/bpk-tv/News18_Odia_voot_MOB/Fallback/News18_Odia_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Punjab Haryana
+https://jcevents.hotstar.com/bpk-tv/News18_Punjab_Haryana_HP_voot_MOB/Fallback/News18_Punjab_Haryana_HP_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Rajasthan
+https://jcevents.hotstar.com/bpk-tv/News18_Rajasthan_voot_MOB/Fallback/News18_Rajasthan_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 Tamil Nadu
+https://jcevents.hotstar.com/bpk-tv/News18_Tamil_Nadu_voot_MOB/Fallback/News18_Tamil_Nadu_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",News18 UP Uttarakhand
+https://jcevents.hotstar.com/bpk-tv/News18_UP_Uttarakhand_voot_MOB/Fallback/News18_UP_Uttarakhand_voot_MOB.m3u8
 #EXTINF:-1 group-title="Sliv",SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1765551189~acl=/*~id=83419128701137173581269379107501~hmac=626208069c3ca4397d8c927a968ddc540ea14c11cb6bf09945a78059388565bb
 #EXTINF:-1 group-title="Z5",Sanskar TV
@@ -81,6 +113,14 @@ https://dishmt.slivcdn.com/hls/live/2020594-b/SONYSIXSD/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1765551189~acl=/*~id=83419128701137173581269379107501~hmac=626208069c3ca4397d8c927a968ddc540ea14c11cb6bf09945a78059388565bb
 #EXTINF:-1 group-title="Sliv",Sony Yay
 https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1765551189~acl=/*~id=83419128701137173581269379107501~hmac=626208069c3ca4397d8c927a968ddc540ea14c11cb6bf09945a78059388565bb
+#EXTINF:-1 group-title="Jcinema",Star Sports 2 Hindi HD
+https://jcevents.hotstar.com/bpk-tv/f0e3e64ae415771d8e460317ce97aa5e/Fallback/f0e3e64ae415771d8e460317ce97aa5e.m3u8
+#EXTINF:-1 group-title="Jcinema",Star Sports 2 Hindi
+https://jcevents.hotstar.com/bpk-tv/2c7182c8e6a22cfa6ebc02bbc9ed6dd0/Fallback/2c7182c8e6a22cfa6ebc02bbc9ed6dd0.m3u8
+#EXTINF:-1 group-title="Jcinema",Star Sports 2 Tamil
+https://jcevents.hotstar.com/bpk-tv/4db6f833701e78ae4443cb268020f03b/Fallback/4db6f833701e78ae4443cb268020f03b.m3u8
+#EXTINF:-1 group-title="Jcinema",Star Sports 2 Telugu
+https://jcevents.hotstar.com/bpk-tv/034d1fb94cae87294a06f4dc266084b9/Fallback/034d1fb94cae87294a06f4dc266084b9.m3u8
 #EXTINF:-1 group-title="Z5",WION
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105506/WIONNEWSELE/master.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
 #EXTINF:-1 group-title="Z5",Zee 24 Ghanta
@@ -181,3 +221,45 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105513/ZeeZestHDELE/index-connected.m3
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105532/ZingELE/master.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
 #EXTINF:-1 group-title="Z5",h_987,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/list_clean/1170x658b1a857ea78b747b4a6256dd13b3828fd.png",Zee Anmol Cinema 2
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105171/ZeeGangaELE/master.m3u8?hdntl=exp=1765590111~acl=%2f*~id=320aede7-a8eb-49c1-9fe1-33f1a402c63e~data=hdntl~hmac=76be5156d886f2d33b82c956c3bd21685eae433a5562aa8a5691f93a55ece0af
+#EXTINF:-1 group-title="Jcinema",w_1090,h_613/v3Storage/assets/cnbc-awaaz-16x9-1702387934761.jpg",CNBC Awaaz
+https://jcevents.hotstar.com/bpk-tv/CNBC_Awaaz_voot_MOB/Fallback/CNBC_Awaaz_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",w_1090,h_613/v3Storage/assets/cnbc18-shereen-bhan-16x9-2-1693479472079.jpg",CNBC TV18
+https://jcevents.hotstar.com/bpk-tv/CNBC_TV18_voot_MOB/Fallback/CNBC_TV18_voot_MOB.m3u8
+#EXTINF:-1 group-title="Viacom18",w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg",Colors HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsHD/JCHLS/JC_ColorsHD.m3u8
+#EXTINF:-1 group-title="Jcinema",w_1090,h_613/v3Storage/assets/nick-hd-plus-live-channels-16x9-4-1642585145139.jpg",Nick HD+
+https://jcevents.hotstar.com/bpk-tv/JC_NickHD/JCHLS/JC_NickHD.m3u8
+#EXTINF:-1 group-title="Jcinema",w_1090,h_613/v3Storage/assets/whatsapp16x9-1693491956187.jpg",CNBC Bazaar
+https://jcevents.hotstar.com/bpk-tv/CNBC_Bazaar_voot_MOB/Fallback/CNBC_Bazaar_voot_MOB.m3u8
+#EXTINF:-1 group-title="Jcinema",w_450,h_253/v3Storage/assets//16x9-1719554242246.jpg",Nick
+https://jcevents.hotstar.com/bpk-tv/JC_NickSD/JCHLS/JC_NickSD.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/Live-Tv-Channels-colors-cineplex-1607514413063.jpg",Colors Cineplex HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/JC_ColorsCineplexHD.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/cineplex-1713963820848.jpeg",Colors Cineplex Bollywood
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexBollywood/JCHLS/JC_ColorsCineplexBollywood.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/collors-rishtey-live-channels-16x9-3-1642676080416-1674198105431-1697532377978.jpg",Colors Rishtey
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsRishtey/JCHLS/JC_ColorsRishtey.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-bangla-new-16x9-4-1649659533344.jpg",Colors Bangla HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsBanglaHD/JCHLS/JC_ColorsBanglaHD.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-gujarati-16x9-1713269620328.jpg",Colors Gujarati
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsGujarati/JCHLS/JC_ColorsGujarati.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-infinity-live-channels-16x9-1642496946057.jpg",Colors Infinity HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsInfinityHD/JCHLS/JC_ColorsInfinityHD.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-kannada-16x9-1677754085834.jpg",Colors Kannada HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsKannadaHD/JCHLS/JC_ColorsKannadaHD.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-kannada-cinema-16x9-1713963481807.jpg",Colors Kannada Cinema
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsKannadaCinema/JCHLS/JC_ColorsKannadaCinema.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Colors Marathi HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/JC_ColorsMarathiHD.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/colors-super-live-channels-16x9-4-1642744939924.jpg",Colors Super
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsSuperKannada/JCHLS/JC_ColorsSuperKannada.m3u8
+#EXTINF:-1 group-title="Viacom18",w_450,h_253/v3Storage/assets/ct-1644165913136.jpg",Colors Tamil HD
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsTamilHD/JCHLS/JC_ColorsTamilHD.m3u8
+#EXTINF:-1 group-title="Jcinema",w_450,h_253/v3Storage/assets/mtv-16x9-1714316345624.jpg",MTV HD
+https://jcevents.hotstar.com/bpk-tv/JC_MTVHD/JCHLS/JC_MTVHD.m3u8
+#EXTINF:-1 group-title="Jcinema",w_450,h_253/v3Storage/assets/nick-jr-16x9-2-1626708077243.jpg",Nick Jr
+https://jcevents.hotstar.com/bpk-tv/JC_NickJr/JCHLS/JC_NickJr.m3u8
+#EXTINF:-1 group-title="Jcinema",w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg",Sonic
+https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8
+#EXTINF:-1 group-title="Viacom18",w_960,h_540/v3Storage/assets/colors-cineplex-superhit%2016x9-1648793655358.jpg",Colors Cineplex Superhits
+https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexSuperhit/JCHLS/JC_ColorsCineplexSuperhit.m3u8
