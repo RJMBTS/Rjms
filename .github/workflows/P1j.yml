@@ -34,17 +34,13 @@ jobs:
 
           curl -fsSL "$SRC_URL" -o "$tmpdir/raw.m3u"
 
-          # Build EXTINF + URL blocks safely
+          # Build EXTINF + URL blocks safely (URL may not start with http)
           awk '
-            BEGIN { block="" }
             /^#EXTINF/ {
-              block=$0
-              next
-            }
-            /^http/ {
-              block=block "\n" $0
-              print block
-              block=""
+              meta=$0
+              getline
+              while ($0 ~ /^#/ || $0 == "") getline
+              print meta "\n" $0
             }
           ' "$tmpdir/raw.m3u" > "$tmpdir/blocks.m3u"
 
