@@ -1,4 +1,4 @@
-name: Stnl 🌐
+name: STL Master 🌐
 
 on:
   workflow_dispatch:
@@ -81,11 +81,7 @@ jobs:
               info=$0
               gsub(/group-title="[^"]*"/, "", info)
               gsub(/tvg-category="[^"]*"/, "", info)
-              sub(
-                /^#EXTINF[^,]*/,
-                "& group-title=\"RJM | Local\" tvg-category=\"Tamil\"",
-                info
-              )
+              sub(/^#EXTINF[^,]*/, "& group-title=\"RJM | Local\" tvg-category=\"Tamil\"", info)
               getline url
               gsub(/^[ \t\r\n]+|[ \t\r\n]+$/, "", url)
               if (url=="") next
