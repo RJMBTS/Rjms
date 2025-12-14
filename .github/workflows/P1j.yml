@@ -34,28 +34,22 @@ jobs:
 
           curl -fsSL "$SRC_URL" -o "$tmpdir/raw.m3u"
 
-          # Convert M3U into NULL-separated channel records
-          awk '
-            /^#EXTINF/ {
-              record = $0
-              getline
-              while ($0 ~ /^#/ || $0 == "") getline
-              record = record "\n" $0
-              printf "%s\0", record
-            }
-          ' "$tmpdir/raw.m3u" > "$tmpdir/records.bin"
+          # ✅ Count channels (NO dedupe → Total = Updated)
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/raw.m3u" || true)
+          TOTAL="$UPDATED"
 
-          COUNT=$(grep -c '#EXTINF' "$tmpdir/raw.m3u" || true)
-
+          # ✅ Write FINAL HEADER with COUNTS
           {
-            echo '#EXTM3U billed-msg="RJMS - An RJMBTS Network"'
-            echo "# Last updated: $timestamp"
-            echo "# Channels : $COUNT"
+            echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
+            echo "# Pushed and Updated by Kittujk"
+            echo "# Coded & Maintained @RJMBTS"
+            echo "# Last updated on : $timestamp"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo ""
-
-            # Sort records safely and restore formatting
-            sort -z -f "$tmpdir/records.bin" | tr '\0' '\n'
           } > "$OUTPUT"
+
+          # ✅ Append playlist (no deduplication)
+          grep -v '^#Generated on ' "$tmpdir/raw.m3u" >> "$OUTPUT"
 
       - name: Commit and push changes
         run: |
