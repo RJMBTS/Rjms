@@ -1,6 +1,9 @@
-#EXTM3U
-# Last updated: 2025-12-14 13:55:48 IST
-# Channels: Total - 41
+#EXTM3U billed-msg="RJM Tv - RJMBTS Network"
+# Pushed and Updated by Kittujk
+# Coded & Maintained @RJMBTS
+# Last updated on : 2025-12-14 14:17:33 IST
+# Channels : Total - 41 | Updated - 41
+
 
 #EXTINF:-1 tvg-id="144"  tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg",Colors HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
