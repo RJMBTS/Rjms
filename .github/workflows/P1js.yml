@@ -50,7 +50,7 @@ jobs:
           } > "$OUTPUT"
 
           # ✅ Append playlist (no deduplication)
-          cat "$tmpdir/raw.m3u" >> "$OUTPUT"
+          grep -v '^#Generated on ' "$tmpdir/raw.m3u" >> "$OUTPUT"
 
           echo "✅ P1js.m3u created successfully."
           echo "📊 Total: $TOTAL | Updated: $UPDATED"
