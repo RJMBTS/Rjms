@@ -7,7 +7,7 @@ on:
     - cron: "30 0 * * *"
 
 concurrency:
-  group: sml-m3u
+  group: smly-m3u
   cancel-in-progress: false
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🧩 Build Sml.m3u (RJM | Local → Malayalam | No Movies 24x7)
+      - name: 🧩 Build Smly.m3u (Local | Malayalam | No Movies 24x7)
         shell: bash
         env:
           TZ: "Asia/Kolkata"
@@ -37,7 +37,7 @@ jobs:
           timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
 
           mkdir -p Bishop
-          out_file="Bishop/Sml.m3u"
+          out_file="Bishop/Smly.m3u"
 
           SRC_URL="https://raw.githubusercontent.com/usernameplay/playlistghd.m3u/refs/heads/main/mallutv.m3u"
 
@@ -72,17 +72,16 @@ jobs:
 
           total=$(grep -c '^#EXTINF' "$tmpdir/all.m3u" || echo 0)
 
-          # ===== FORCE GROUPING + REMOVE ONLY MOVIES 24x7 =====
-          echo "📂 Grouping → RJM | Local → Malayalam (Movies 24x7 removed)"
+          # ===== GROUPING + REMOVE ONLY MOVIES 24x7 =====
+          echo "📂 Grouping → Local | Malayalam (Movies 24x7 removed)"
 
           awk '
             /^#EXTINF/ {
               split($0, a, ",")
               name=a[2]
-
               lname=tolower(name)
 
-              # ❌ Skip ONLY Movies 24x7 channels
+              # ❌ Remove ONLY Movies 24x7
               if (lname ~ /movies/ && lname ~ /24x7/) next
 
               info="#EXTINF:-1 group-title=\"Local | Malayalam\" tvg-category=\"Local\"," name
@@ -111,22 +110,22 @@ jobs:
           # ===== MERGE =====
           cat "$tmpdir/grouped.m3u" >> "$out_file"
 
-          echo "✅ Bishop/Sml.m3u generated successfully"
+          echo "✅ Bishop/Smly.m3u generated successfully"
           echo "📺 Total fetched: $total | After filter: $updated"
 
-      - name: 🚀 Commit & Push Sml.m3u
+      - name: 🚀 Commit & Push Smly.m3u
         shell: bash
         run: |
           set -euxo pipefail
           git config user.name "RJMBTS Auto Builder"
           git config user.email "actions@github.com"
 
-          git add Bishop/Sml.m3u || true
+          git add Bishop/Smly.m3u || true
 
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "🔄 Auto-update Bishop/Sml.m3u (Malayalam | No Movies 24x7)"
+            git commit -m "🔄 Auto-update Bishop/Smly.m3u (Local | Malayalam)"
             git pull --rebase origin main || git rebase --abort
             git push origin main || echo "⚠️ Push failed"
           fi
