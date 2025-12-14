@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🧩 Build Smly.m3u (Local | Malayalam | No Movies 24x7)
+      - name: 🧩 Build Smly.m3u (Local | Malayalam | Filters Applied)
         shell: bash
         env:
           TZ: "Asia/Kolkata"
@@ -72,8 +72,8 @@ jobs:
 
           total=$(grep -c '^#EXTINF' "$tmpdir/all.m3u" || echo 0)
 
-          # ===== GROUPING + REMOVE ONLY MOVIES 24x7 =====
-          echo "📂 Grouping → Local | Malayalam (Movies 24x7 removed)"
+          # ===== GROUPING + FILTERS =====
+          echo "📂 Grouping → Local | Malayalam (Filtered)"
 
           awk '
             /^#EXTINF/ {
@@ -83,6 +83,11 @@ jobs:
 
               # ❌ Remove ONLY Movies 24x7
               if (lname ~ /movies/ && lname ~ /24x7/) next
+
+              # ❌ Remove Surya Music / Movies / Comedy
+              if (lname ~ /^surya[[:space:]]*music/) next
+              if (lname ~ /^surya[[:space:]]*movies/) next
+              if (lname ~ /^surya[[:space:]]*comedy/) next
 
               info="#EXTINF:-1 group-title=\"Local | Malayalam\" tvg-category=\"Local\"," name
 
@@ -125,7 +130,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "🔄 Auto-update Bishop/Smly.m3u (Local | Malayalam)"
+            git commit -m "🔄 Auto-update Bishop/Smly.m3u (Filtered Surya Channels)"
             git pull --rebase origin main || git rebase --abort
             git push origin main || echo "⚠️ Push failed"
           fi
