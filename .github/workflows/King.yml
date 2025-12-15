@@ -2,7 +2,7 @@ name: King 👑
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # Every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -23,20 +23,18 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Merge, Rename & Clean M3U → King.m3u
+      - name: Merge & Clean M3U → King.m3u
         run: |
           set -e
 
           timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
           tmpdir=$(mktemp -d)
 
-          echo "🔹 Build started at $timestamp"
-
           {
             echo '#EXTM3U billed-msg="RJMS OTT - RJMBTS Network"'
-            echo "# Pushed & Updated by Kittujk"
-            echo "# Scripted & Maintained @RJMBTS"
-            echo "# Last updated: $timestamp"
+            echo "Pushed & Updated by Kittujk"
+            echo "# Scripted & Maintained by @RJMBTS"
+            echo "# Last updated on : $timestamp"
           } > King.m3u
 
           SOURCES=(
@@ -48,28 +46,32 @@ jobs:
           for url in "${SOURCES[@]}"; do
             i=$((i+1))
             curl -fs "$url" | grep -v '^#EXTM3U' > "$tmpdir/src_$i.m3u"
-            echo "✅ Added: $url"
           done
 
           awk '
           BEGIN { skip=0 }
 
-          # 🔁 Rename Movies → RJM | 24x7
+          # 🔁 Rename Movies → RJM | 24x7 (only branded ones survive)
           /group-title="Movies"/ {
             gsub(/group-title="Movies"/, "group-title=\"RJM | 24x7\"")
           }
 
-          # ❌ Remove TV Series group completely
-          /group-title="TV Series"/ {
-            skip=1; next
-          }
-
-          # ❌ Remove unwanted movie channels
+          # ❌ Remove Star & Gemini movie channels
           /Star Maa Movies HD|Star Maa Movie|Gemini Movies HD|Gemini Movie/ {
             skip=1; next
           }
 
-          # Skip stream URL line after EXTINF
+          # ❌ Remove TV Series group
+          /group-title="TV Series"/ {
+            skip=1; next
+          }
+
+          # ❌ Remove ONLY Local | Telugu Movies group
+          /Telugu Movies/ && /group-title="RJM \| 24x7"/ {
+            skip=1; next
+          }
+
+          # Skip stream URL after EXTINF
           skip==1 && /^[^#]/ {
             skip=0; next
           }
@@ -79,10 +81,8 @@ jobs:
 
           rm -rf "$tmpdir"
 
-          echo "✅ Movies renamed → RJM | 24x7"
-          echo "❌ TV Series removed"
-          echo "❌ Star Maa & Gemini Movies removed"
-          echo "🎉 King.m3u ready"
+          echo "✅ Only Movies removed from Local | Telugu"
+          echo "✅ RJM | 24x7 kept intact"
 
       - name: Commit and push King.m3u
         run: |
@@ -91,9 +91,9 @@ jobs:
           git add King.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update King.m3u (24x7 rename, TV Series removed)"
+            git commit -m "Remove Movies from Local | Telugu only"
             git pull --rebase origin main || true
             git push origin main
           else
-            echo "ℹ️ No changes detected"
+            echo "No changes detected"
           fi
