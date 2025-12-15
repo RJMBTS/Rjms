@@ -1,0 +1,85 @@
+name: Rook ♟️
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: rook-m3u
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build rook.m3u
+        run: |
+          set -e
+
+          timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
+          OUTPUT="rook.m3u"
+          TMP="$OUTPUT.body"
+
+          > "$TMP"
+
+          # 🔗 Merge Bishop sources (exclude P1j & P1jc)
+          for file in Bishop/*.m3u; do
+            fname=$(basename "$file")
+            if [[ "$fname" == "P1j.m3u" || "$fname" == "P1jc.m3u" ]]; then
+              continue
+            fi
+            grep -v '^#EXTM3U' "$file" >> "$TMP"
+            echo "" >> "$TMP"
+          done
+
+          # 📊 COUNTS
+          TOTAL=$(grep -c '^#EXTINF' "$TMP" || true)
+          UPDATED="$TOTAL"
+
+          SUNNXT=$(grep -ci 'group-title="RJM \| SunNxt"' "$TMP" || true)
+          STAR=$(grep -ci 'group-title="RJM \| Star"' "$TMP" || true)
+          ETV=$(grep -ci 'group-title="RJM \| ETv"' "$TMP" || true)
+          SLIV=$(grep -ci 'group-title="RJM \| SLiv"' "$TMP" || true)
+          Z5=$(grep -ci 'group-title="RJM \| Z5"' "$TMP" || true)
+
+          TELUGU=$(grep -ci 'group-title="RJM \| Telugu"' "$TMP" || true)
+          TAMIL=$(grep -ci 'group-title="RJM \| Tamil"' "$TMP" || true)
+          MALAYALAM=$(grep -ci 'group-title="RJM \| Malayalam"' "$TMP" || true)
+
+          # 🧾 FINAL OUTPUT
+          {
+            echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
+            echo "# Pushed & Updated by Kittujk"
+            echo "# Scripted & Maintained by @RJMBTS"
+            echo "# Last updated on : $timestamp"
+            echo "# ---------------------------------"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo "# SunNxt - $SUNNXT | Star - $STAR | ETv - $ETV | SLiv - $SLIV | Z5 - $Z5"
+            echo "# Local : Telugu - $TELUGU | Tamil - $TAMIL | Malayalam - $MALAYALAM"
+            echo "# ---------------------------------"
+            cat "$TMP"
+          } > "$OUTPUT"
+
+          rm -f "$TMP"
+
+          echo "✅ rook.m3u generated"
+          echo "📊 Total Channels: $TOTAL"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add rook.m3u
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Auto update rook.m3u (counts + header)"
+          git push
