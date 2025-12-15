@@ -45,7 +45,7 @@ jobs:
             echo "# Scripted & Maintained by @RJMBTS"
             echo "# Last updated on : $TIMESTAMP"
             echo "# Channels : Total - $TOTAL_CHANNELS | Updated - $UPDATED_CHANNELS"
-            echo "# Made with ❤ on Telugu"
+            echo "# 💝 Made with 💝 On Telugu 💝 For Telugu 💝"
             echo ""
           } > "$OUTPUT"
 
