@@ -45,7 +45,6 @@ jobs:
           Bishop/P1z.m3u
           Bishop/Stnl.m3u
           Bishop/Stgl.m3u
-          Bishop/Smly.m3u
           EOF
 
           i=0
