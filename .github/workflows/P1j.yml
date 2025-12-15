@@ -22,6 +22,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build P1j.m3u
+        env:
+          SRC_URL: ${{ secrets.JTV_URL }}
         run: |
           set -e
 
@@ -30,8 +32,8 @@ jobs:
 
           mkdir -p Bishop
           OUTPUT="Bishop/P1j.m3u"
-          SRC_URL="https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jtv.m3u"
 
+          echo "🌐 Fetching JTV playlist from secret..."
           curl -fsSL "$SRC_URL" -o "$tmpdir/raw.m3u"
 
           # ✅ Count channels (NO dedupe → Total = Updated)
@@ -48,7 +50,7 @@ jobs:
             echo ""
           } > "$OUTPUT"
 
-          # ✅ Append playlist (no deduplication)
+          # ✅ Append playlist (strip only unwanted metadata)
           grep -v '^#Generated on ' "$tmpdir/raw.m3u" >> "$OUTPUT"
 
       - name: Commit and push changes
