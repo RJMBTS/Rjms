@@ -85,7 +85,7 @@ jobs:
               if (name_uc ~ /(^|[^A-Z0-9])ETV([^A-Z0-9]|$)/) {
                 group="RJM | ETv Win"
               } else {
-                group="Telugu | Local"
+                group="Local | Telugu"
               }
 
               info="#EXTINF:-1 group-title=\"" group "\" tvg-category=\"" group "\"," name
