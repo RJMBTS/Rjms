@@ -38,6 +38,7 @@ jobs:
           UPDATED=$(grep -c '^#EXTINF' "$tmpdir/raw.m3u" || true)
           TOTAL="$UPDATED"
 
+          echo "🧱 Writing header..."
           {
             echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Pushed and Updated by Kittujk"
@@ -46,10 +47,8 @@ jobs:
             echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
             echo ""
           } > "$OUTPUT"
-          
-          # ✅ Append playlist (no deduplication)
-          grep -v '^#Generated on ' "$tmpdir/raw.m3u" >> "$OUTPUT"
 
+          echo "🧩 Processing & grouping channels..."
           awk '
           BEGIN { IGNORECASE=1 }
 
