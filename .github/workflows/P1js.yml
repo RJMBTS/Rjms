@@ -59,13 +59,13 @@ jobs:
           /^#EXTINF/ {
             line=$0
 
-            # ☀️ FORCE SunNxt (name OR old group)
+            # ☀️ FORCE SunNxt
             if (line ~ /group-title="SunNxt"|sun tv|sun network|sun music|sun movies|sun life|k tv|ktv|chutti tv|adithya|sirippoli|gemini|udaya|surya|sunnxt/) {
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | SunNxt\"", line)
             }
 
-            # ⭐ FORCE Star (name OR old group)
-            else if (line ~ /group-title="Star"|\bstar\b|hotstar|maa|asianet/) {
+            # ⭐ FORCE Star + Jiostar → RJM | Star
+            else if (line ~ /group-title="Star"|group-title="Jiostar"|\bstar\b|jiostar|hotstar|maa|asianet/) {
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | Star\"", line)
             }
 
@@ -109,5 +109,5 @@ jobs:
 
           git add Bishop/P1js.m3u
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Auto update P1js.m3u (forced RJM grouping)"
+          git commit -m "Auto update P1js.m3u (Jiostar merged into Star)"
           git push
