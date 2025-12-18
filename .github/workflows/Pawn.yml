@@ -1,0 +1,77 @@
+name: Pawn 📻
+
+on:
+  schedule:
+    # Everyday at 12:00 AM IST (18:30 UTC)
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: pawn-m3u
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Pawn.m3u
+        run: |
+          set -e
+
+          SRC_URL="https://rjmbts.github.io/Rjms/Pawn/Stglr.m3u"
+
+          timestamp=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %H:%M:%S %Z")
+          tmpdir=$(mktemp -d)
+
+          OUTPUT="Pawn.m3u"
+
+          echo "♟️ Fetching Pawn source playlist..."
+          curl -fsSL "$SRC_URL" -o "$tmpdir/raw.m3u"
+
+          # Validate M3U
+          if ! grep -q '^#EXTM3U' "$tmpdir/raw.m3u"; then
+            echo "❌ Invalid M3U source"
+            exit 1
+          fi
+
+          # Normalize line endings
+          sed -i 's/\r$//' "$tmpdir/raw.m3u"
+
+          # Count channels
+          UPDATED=$(grep -c '^#EXTINF' "$tmpdir/raw.m3u" || true)
+          TOTAL="$UPDATED"
+
+          # Write header
+          {
+            echo '#EXTM3U name="Pawn" playlist-name="RJM Tv – Pawn" billed-msg="RJM Tv - RJMBTS Network"'
+            echo "# Coded & Maintained @RJMBTS"
+            echo "# Last updated on : $timestamp"
+            echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
+            echo ""
+          } > "$OUTPUT"
+
+          # Append playlist
+          grep -v '^#Generated on ' "$tmpdir/raw.m3u" >> "$OUTPUT"
+
+          # Safety check
+          [ -s "$OUTPUT" ] || { echo "❌ Output file empty"; exit 1; }
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add Pawn.m3u
+            git commit -m "Auto update Pawn.m3u"
+            git push
+          else
+            echo "No changes to commit"
+          fi
