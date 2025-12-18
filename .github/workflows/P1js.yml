@@ -52,34 +52,34 @@ jobs:
             echo ""
           } > "$OUTPUT"
 
-          echo "🧩 Processing & grouping channels..."
+          echo "🧩 Processing & FORCE-MERGING groups..."
           awk '
           BEGIN { IGNORECASE=1 }
 
           /^#EXTINF/ {
             line=$0
 
-            # ☀️ SUN NETWORK / SunNxt → RJM | SunNxt
-            if (line ~ /sun tv|sun network|sun music|sun movies|sun life|k tv|ktv|chutti tv|adithya|sirippoli|gemini|udaya|surya|sunnxt/) {
+            # ☀️ FORCE SunNxt (name OR old group)
+            if (line ~ /group-title="SunNxt"|sun tv|sun network|sun music|sun movies|sun life|k tv|ktv|chutti tv|adithya|sirippoli|gemini|udaya|surya|sunnxt/) {
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | SunNxt\"", line)
             }
 
-            # ⭐ STAR CHANNELS → RJM | Star
-            else if (line ~ /\bstar\b|hotstar|maa|asianet/) {
+            # ⭐ FORCE Star (name OR old group)
+            else if (line ~ /group-title="Star"|\bstar\b|hotstar|maa|asianet/) {
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | Star\"", line)
             }
 
-            # 🎬 TAMIL CHANNELS → RJM | Entertainment
-            else if (line ~ /tamil|vijay|zee tamil|colors tamil|raj tv|polimer/) {
+            # 🎬 FORCE Tamil → RJM | Entertainment
+            else if (line ~ /group-title="Tamil"|tamil|vijay|zee tamil|colors tamil|raj tv|polimer/) {
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | Entertainment\"", line)
             }
 
-            # 📰 EXTRA + BENGALI → RJM | News
-            else if (line ~ /extra|bengali|bangla|abp ananda|zee 24 ghanta|news18 bangla/) {
+            # 📰 FORCE Extra + Bengali → RJM | News
+            else if (line ~ /group-title="Extra"|group-title="Bengali"|extra|bengali|bangla|abp ananda|zee 24 ghanta|news18 bangla/) {
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | News\"", line)
             }
 
-            # 🌐 OTHER EXISTING GROUPS → RJM | <Original>
+            # 🌐 ALL OTHER GROUPS → RJM | <Original>
             else if (line ~ /group-title="/) {
               match(line, /group-title="([^"]*)"/, arr)
               gsub(/group-title="[^"]*"/, "group-title=\"RJM | " arr[1] "\"", line)
@@ -109,5 +109,5 @@ jobs:
 
           git add Bishop/P1js.m3u
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Auto update P1js.m3u (RJM grouping)"
+          git commit -m "Auto update P1js.m3u (forced RJM grouping)"
           git push
