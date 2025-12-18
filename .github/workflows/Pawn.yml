@@ -51,7 +51,7 @@ jobs:
 
           # Write header
           {
-            echo '#EXTM3U name="Pawn" playlist-name="RJM Tv – Pawn" billed-msg="RJM Tv - RJMBTS Network"'
+            echo '#EXTM3U name="RJMS" playlist-name="RJM – Radios" billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Coded & Maintained @RJMBTS"
             echo "# Last updated on : $timestamp"
             echo "# Channels : Total - $TOTAL | Updated - $UPDATED"
