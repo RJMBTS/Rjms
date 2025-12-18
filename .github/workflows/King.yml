@@ -23,7 +23,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Merge Master (Live) + Queen (Media Library)
+      - name: Merge Live + Radio (Pawn) + VOD (Queen)
         run: |
           set -e
 
@@ -35,20 +35,31 @@ jobs:
             echo "# Last updated: $timestamp"
           } > King.m3u
 
+          echo "" >> King.m3u
+
           # ==========================
-          # LIVE TV → MASTER.M3U
+          # LIVE TV
           # ==========================
-          echo "🔴 Adding Live TV (master.m3u)"
+          echo "# ===== LIVE TV =====" >> King.m3u
           curl -fs "https://raw.githubusercontent.com/RJMBTS/Rjms/refs/heads/main/master.m3u" \
             | sed '1{/^#EXTM3U/d}' >> King.m3u
 
           echo "" >> King.m3u
 
           # ==========================
-          # MEDIA LIBRARY → QUEEN.M3U
+          # RADIO → PAWN.M3U
+          # (CONTENT UNTOUCHED)
           # ==========================
-          echo "🎬 Adding Media Library (Queen.m3u)"
+          echo "# ===== RADIO =====" >> King.m3u
+          curl -fs "https://rjmbts.github.io/Rjms/Pawn.m3u" \
+            | sed '1{/^#EXTM3U/d}' >> King.m3u
 
+          echo "" >> King.m3u
+
+          # ==========================
+          # MEDIA LIBRARY (VOD)
+          # ==========================
+          echo "# ===== MEDIA LIBRARY (VOD) =====" >> King.m3u
           curl -fs "https://raw.githubusercontent.com/RJMBTS/Xfpl/refs/heads/main/Queen.m3u" \
             | sed '1{/^#EXTM3U/d}' \
             | awk '
@@ -60,7 +71,7 @@ jobs:
               { print }
             ' >> King.m3u
 
-          echo "✅ Merge completed (Live + Media Library separated)"
+          echo "✅ Merge completed (Pawn = Radio list)"
 
       - name: Commit and push King.m3u
         run: |
@@ -69,7 +80,7 @@ jobs:
           git add King.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "Separate Queen as Media Library (VOD only)"
+            git commit -m "Classify Pawn as Radio list"
             git pull --rebase origin main || true
             git push origin main
           else
