@@ -1,4 +1,9 @@
+#EXTM3U billed-msg="RJM Radios - An RJMBTS Network"
+# Pushed and Updated by Kittujk
+# Scripted & Maintained by @RJMBTS
+
 #EXTM3U
+
 #EXTINF:1 tvg-type="radio" radio="true" group-title="Telugu | Devotional" tvg-logo="https://i.ibb.co/DfcZwPMk/RJM-Radio-s-Logo.png", SVBC Radio (TTD)
 https://radio.mslivecdn.com:6278/stream
 #EXTINF:1 tvg-type="radio" radio="true" group-title="Telugu | Devotional" tvg-logo="https://i.ibb.co/DfcZwPMk/RJM-Radio-s-Logo.png", Radio Sai
