@@ -1,13 +1,12 @@
-name: Soukn 📡
+name: Souknl 📡
 
 on:
-  workflow_dispatch:
   schedule:
     # Runs once every 24 hours (00:30 UTC = 06:00 IST)
     - cron: "30 0 * * *"
 
 concurrency:
-  group: stglr-radio
+  group: souknl-m3u
   cancel-in-progress: false
 
 permissions:
@@ -24,74 +23,60 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🎧 Build StglR.m3u (AUDIO ONLY)
+      - name: 🧩 Build Souknl.m3u (Force Local | Kannada)
         shell: bash
         env:
           TZ: "Asia/Kolkata"
         run: |
           set -euxo pipefail
 
-          tmpdir=$(mktemp -d)
-          trap 'rm -rf "$tmpdir"' EXIT
-
-          timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
           mkdir -p Bishop
-          out_file="Bishop/StglR.m3u"
+          out_file="Bishop/Souknl.m3u"
 
-          SRC_URL="https://raw.githubusercontent.com/RJMBTS/Rjms/main/SoutlR.m3u"
+          SRC_URL="https://Rjmbts.github.io/Rjms/Souknl.m3u"
+          timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
 
-          echo "🌐 Fetching RADIO source:"
+          tmpfile=$(mktemp)
+          trap 'rm -f "$tmpfile"' EXIT
+
+          echo "🌐 Fetching source:"
           echo "$SRC_URL"
 
-          # ===== FETCH =====
-          if ! curl -fsSL --max-time 60 "$SRC_URL" > "$tmpdir/raw.m3u"; then
-            echo "❌ Failed to fetch source"
-            exit 1
-          fi
-
-          # ===== AUDIO ONLY + DEDUP =====
-          echo "🎧 Filtering AUDIO ONLY & de-duplicating..."
-
-          awk '
-            BEGIN { FS="\n"; RS="#EXTINF" }
-            NR>1 {
-              block="#EXTINF" $0
-
-              if (block !~ /radio="true"/) next
-
-              split(block, lines, "\n")
-              info=lines[1]
-              url=lines[2]
-
-              gsub(/^[ \t\r\n]+|[ \t\r\n]+$/, "", url)
-              if (url=="" || url !~ /^https?:\/\//) next
-
-              if (!(url in seen)) {
-                seen[url]=1
-                print info
-                print url
+          # ===== FETCH + FORCE GROUP =====
+          curl -fsSL --max-time 60 "$SRC_URL" | awk '
+            /^#EXTINF/ {
+              info=$0
+              if (info ~ /group-title="/) {
+                sub(/group-title="[^"]*"/, "group-title=\"Local | Kannada\"", info)
+              } else {
+                sub(/^#EXTINF:-1 */, "#EXTINF:-1 group-title=\"Local | Kannada\" ", info)
               }
+              print info
+              next
             }
-          ' "$tmpdir/raw.m3u" > "$tmpdir/radio_unique.m3u"
+            { print }
+          ' > "$tmpfile"
 
-          total=$(grep -c '^#EXTINF' "$tmpdir/radio_unique.m3u" || echo 0)
+          # ===== COUNT CHANNELS =====
+          total=$(grep -c "^#EXTINF" "$tmpfile" || echo 0)
 
-          # ===== FINAL HEADER =====
+          # ===== HEADER =====
           {
-            echo '#EXTM3U billed-msg="RJM Radio - RJMBTS Network"'
-            echo "# Pushed & Updated by — Kittujk"
-            echo "# Coded & Maintained by @RJMBTS"
+            echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
+            echo '# Pushed and Updated by Kittujk'
+            echo '# Coded & Maintained @RJMBTS'
             echo "# Last updated on : $timestamp"
-            echo "# Radio Streams : $total"
-            echo ""
+            echo "# Channels : Total - $total | Updated - $total"
+            echo
           } > "$out_file"
 
-          cat "$tmpdir/radio_unique.m3u" >> "$out_file"
+          # ===== MERGE =====
+          cat "$tmpfile" >> "$out_file"
 
-          echo "✅ Bishop/StglR.m3u generated successfully"
-          echo "🎧 Total unique radio streams: $total"
+          echo "✅ Bishop/Souknl.m3u generated successfully"
+          echo "📺 Total channels: $total"
 
-      - name: 🚀 Commit & Push StglR.m3u
+      - name: 🚀 Commit & Push Souknl.m3u
         shell: bash
         run: |
           set -euxo pipefail
@@ -99,12 +84,12 @@ jobs:
           git config user.name "RJMBTS Auto Builder"
           git config user.email "actions@github.com"
 
-          git add Bishop/StglR.m3u || true
+          git add Bishop/Souknl.m3u || true
 
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "🎧 Auto-update Bishop/StglR.m3u (Audio Only)"
+            git commit -m "🔄 Auto-update Bishop/Souknl.m3u (Local | Kannada)"
             git pull --rebase origin main || git rebase --abort
             git push origin main || echo "⚠️ Push failed"
           fi
