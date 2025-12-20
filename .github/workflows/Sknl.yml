@@ -7,7 +7,7 @@ on:
     - cron: "30 0 * * *"
 
 concurrency:
-  group: souknl-m3u
+  group: Sknl-m3u
   cancel-in-progress: false
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🧩 Build Souknl.m3u (Force Local | Kannada)
+      - name: 🧩 Build Sknl.m3u (Force Local | Kannada)
         shell: bash
         env:
           TZ: "Asia/Kolkata"
@@ -32,9 +32,9 @@ jobs:
           set -euxo pipefail
 
           mkdir -p Bishop
-          out_file="Bishop/Souknl.m3u"
+          out_file="Bishop/Sknl.m3u"
 
-          SRC_URL="https://Rjmbts.github.io/Rjms/Souknl.m3u"
+          SRC_URL="https://rjmbts.github.io/Rjms/Souknl.m3u"
           timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
 
           tmpfile=$(mktemp)
@@ -74,10 +74,10 @@ jobs:
           # ===== MERGE =====
           cat "$tmpfile" >> "$out_file"
 
-          echo "✅ Bishop/Souknl.m3u generated successfully"
+          echo "✅ Bishop/Sknl.m3u generated successfully"
           echo "📺 Total channels: $total"
 
-      - name: 🚀 Commit & Push Souknl.m3u
+      - name: 🚀 Commit & Push Sknl.m3u
         shell: bash
         run: |
           set -euxo pipefail
@@ -85,12 +85,12 @@ jobs:
           git config user.name "RJMBTS Auto Builder"
           git config user.email "actions@github.com"
 
-          git add Bishop/Souknl.m3u || true
+          git add Bishop/Sknl.m3u || true
 
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "🔄 Auto-update Bishop/Souknl.m3u (Local | Kannada)"
+            git commit -m "🔄 Auto-update Bishop/Sknl.m3u (Local | Kannada)"
             git pull --rebase origin main || git rebase --abort
             git push origin main || echo "⚠️ Push failed"
           fi
