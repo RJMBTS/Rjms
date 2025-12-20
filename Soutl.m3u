@@ -126,7 +126,7 @@ https://mumbai-edge.smartplaytv.in/victoriaMedia/index.m3u8
 https://mumbai-edge.smartplaytv.in/vcn/index.m3u8
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Siri Digital 4K
 https://mumbai-edge.smartplaytv.in/Siri4K/index.m3u8
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Tirumala HD
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="https://i.ibb.co/k2nt0933/Tirumal.jpg", Tirumala HD
 https://mumbai-edge.smartplaytv.in/TirumalaHD/index.m3u8
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", SRK Entertainments
 https://mumbai-edge.smartplaytv.in/SRKNews/index.m3u8
