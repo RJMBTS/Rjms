@@ -16,7 +16,7 @@ https://amigofx.com:1936/yuvatv/yuvatv/playlist.m3u8
 https://amigofx.com:1936/wpndigital/wpndigital/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://tataprime.files.wordpress.com/2024/04/20240406_0945173890061863052394982.png" group-title="Telugu Local Channel",Siti Channel
 https://amigofx.com:1936/sitichannel/sitichannel/playlist.m3u8
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Jkc city
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", JKC City
 https://amigofx.com:1936/jkccity/jkccity/playlist.m3u8
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Y Channel
 https://amigofx.com:1936/ychannel/ychannel/playlist.m3u8
@@ -75,9 +75,9 @@ https://www.schannels.in/rkmovies/video.m3u8?token=nokshitha
 https://www.schannels.in/rkhollywood/video.m3u8?token=nokshitha
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", RK Gold
 https://www.schannels.in/rkgold/video.m3u8?token=nokshitha
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", GS Grameeena
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="https://i.ibb.co/6RQ0nWmc/1000147261.webp", GS Grameeena
 https://www.schannels.in/gsgrameena/video.m3u8?token=nokshitha
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Santhosham Tv
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="https://i.ibb.co/gbxVQD3r/1000153273.png", Santhosham Tv
 https://www.schannels.in/santhoshamtv/video.m3u8?token=nokshitha
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Folk Tv
 https://www.schannels.in/folk/video.m3u8?token=nokshitha
@@ -85,9 +85,9 @@ https://www.schannels.in/folk/video.m3u8?token=nokshitha
 https://www.schannels.in/hollywood/video.m3u8?token=nokshitha
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Starway Janapadalu
 https://www.schannels.in/starwayjanapadalu/video.m3u8?token=nokshitha
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", HR Tv9
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="https://i.ibb.co/99y0wVTj/1000149126.png", HR Tv9
 https://www.schannels.in/hrtv9/video.m3u8?token=nokshitha
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Devi Cable
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="https://i.ibb.co/MxCYfKVm/1000149123.png", Devi Cable
 https://www.schannels.in/devicable/video.m3u8?token=nokshitha
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Veduka tv
 https://www.schannels.in/veduka/video.m3u8?token=nokshitha
@@ -95,7 +95,7 @@ https://www.schannels.in/veduka/video.m3u8?token=nokshitha
 https://www.schannels.in/harikasitymovies/video.m3u8?token=nokshitha
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Harika Palle
 https://www.schannels.in/harikapallepatalu/video.m3u8?token=nokshitha
-#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Colorbar Music
+#EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="https://i.ibb.co/JWX06LTW/1000150106.png", Colorbar Music
 https://www.schannels.in/colorbarmusic/video.m3u8?token=nokshitha
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", Namitha Tv
 https://www.schannels.in/namitha/video.m3u8?token=nokshitha
