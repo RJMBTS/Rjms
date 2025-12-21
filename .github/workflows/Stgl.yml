@@ -22,9 +22,9 @@ jobs:
       - name: 📦 Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
-      - name: 🧩 Build Stgl.m3u (STRICT ETV ONLY)
+      - name: 🧩 Build Stgl.m3u
         shell: bash
         env:
           TZ: "Asia/Kolkata"
@@ -35,10 +35,11 @@ jobs:
           trap 'rm -rf "$tmpdir"' EXIT
 
           timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
-          mkdir -p Bishop
+
+          mkdir -p Pawn
           out_file="Bishop/Stgl.m3u"
 
-          SRC_URL="https://raw.githubusercontent.com/RJMBTS/Rjms/main/Soutl.m3u"
+          SRC_URL="https://rjmbts.github.io/Rjms/Stgl.m3u"
 
           echo "🌐 Fetching source:"
           echo "$SRC_URL"
@@ -51,7 +52,7 @@ jobs:
             exit 1
           fi
 
-          # ===== DEDUPLICATION =====
+          # ===== DEDUPLICATION (EXTINF + URL) =====
           echo "🧹 Removing duplicates..."
           awk '
             /^#EXTINF/ {
@@ -71,44 +72,48 @@ jobs:
 
           total=$(grep -c '^#EXTINF' "$tmpdir/all_unique.m3u" || echo 0)
 
-          # ===== STRICT GROUPING =====
-          echo "📂 Grouping → EXACT 'ETV' only"
+          # ===== UNIFORM GROUPING (PRESERVE ALL ATTRIBUTES) =====
+          echo "📂 Grouping → Local | Telugu"
 
           awk '
             /^#EXTINF/ {
-              split($0, a, ",")
-              name=a[2]
+              line=$0
+              group="Local | Telugu"
 
-              name_uc = toupper(name)
+              # Remove existing group-title & tvg-category
+              gsub(/group-title="[^"]*"/, "", line)
+              gsub(/tvg-category="[^"]*"/, "", line)
 
-              # EXACT standalone ETV ONLY
-              if (name_uc ~ /(^|[^A-Z0-9])ETV([^A-Z0-9]|$)/) {
-                group="RJM | ETv Win"
-              } else {
-                group="Local | Telugu"
-              }
+              # Normalize spacing
+              gsub(/[[:space:]]+/, " ", line)
 
-              info="#EXTINF:-1 group-title=\"" group "\" tvg-category=\"" group "\"," name
+              # Inject new group fields
+              sub(/^#EXTINF:-1[ ]*/, "#EXTINF:-1 group-title=\"" group "\" tvg-category=\"" group "\" ", line)
 
               getline url
               gsub(/^[ \t\r\n]+|[ \t\r\n]+$/, "", url)
 
               if (url=="" || url !~ /^https?:\/\//) next
 
-              print info
+              print line
               print url
             }
           ' "$tmpdir/all_unique.m3u" > "$tmpdir/grouped.m3u"
 
           updated=$(grep -c '^#EXTINF' "$tmpdir/grouped.m3u" || echo 0)
 
+          if [ "$updated" -eq 0 ]; then
+            echo "❌ No channels processed — aborting"
+            exit 1
+          fi
+
           # ===== FINAL HEADER =====
           {
-            echo '#EXTM3U billed-msg="RJM Tv - RJMBTS Network"'
+            echo '#EXTM3U name="Stgl" playlist-name="Stgl | Local Telugu" billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Pushed & Updated by — Kittujk"
             echo "# Coded & Maintained by @RJMBTS"
             echo "# Last updated on : $timestamp"
-            echo "# Channels : Total unique - $total | Processed - $updated"
+            echo "# Channels : Total - $total | Upadted - $updated"
             echo ""
           } > "$out_file"
 
@@ -131,7 +136,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "🔄 Auto-update Bishop/Stgl.m3u (Exact ETV Only)"
+            git commit -m "🔄 Auto-update Bishop/Stgl.m3u"
             git pull --rebase origin main || git rebase --abort
             git push origin main || echo "⚠️ Push failed"
           fi
