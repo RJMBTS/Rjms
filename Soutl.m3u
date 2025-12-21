@@ -405,7 +405,7 @@ https://server.streamwell.in/hls/7hills.m3u8
 
 #EXTINF:-1 group-title="Telugu Local Channel" tvg-logo="", RMK TV
 https://account23.livebox.co.in/RMKTVhls/live.m3u8
-#EXTINF: -1 tvg-logo="https://tataprime.files.wordpress.com/2024/04/20240407_1054541641738231362096089.png" group-title="Telugu Local Channel", Zilla Vani Tv
+#EXTINF:-1 tvg-logo="https://tataprime.files.wordpress.com/2024/04/20240407_1054541641738231362096089.png" group-title="Telugu Local Channel", Zilla Vani Tv
 https://streaming.livebox.co.in/vedhikahls/live.m3u8
 
    -streambridge.cloud-
