@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-05 08:28:26 IST
-# Channels : Total - 357 | Updated - 357
+# Last updated on : 2026-01-06 08:02:28 IST
+# Channels : Total - 358 | Updated - 358
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC TV 
 https://rtmp.bmlive.net/bms/kctv/stream.m3u8
@@ -718,3 +718,5 @@ https://view.rcserver.in/tmp_hls13/udhayamhd/index.m3u8
 https://view.rcserver.in/tmp_hls25/azhagitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Polimer Channel 
 http://media.7starcloud.com:1935/polimer/live/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Heartbeat TV 
+https://rtmp.bmlive.net/bms/heartbeattv/stream.m3u8
