@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-12 08:09:28 IST
-# Channels : Total - 359 | Updated - 359
+# Last updated on : 2026-01-13 08:00:58 IST
+# Channels : Total - 360 | Updated - 360
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC TV 
 https://rtmp.bmlive.net/bms/kctv/stream.m3u8
@@ -382,6 +382,8 @@ https://cloudstream4k.com/velantv/bsk/index.m3u8
 https://live.singamcloud.in/shalinitv/shalinitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JRP TV 
 https://ipcloud.live/jrptv/jrphd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bala TV 
+https://ipcloud.live/jrptv/bala/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Adhiyamaan TV 
 https://hd.singamcloud.in/adhiyamamtv/adhiyamamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",City TV 
