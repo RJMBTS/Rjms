@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-18 08:12:26 IST
-# Channels : Total - 395 | Updated - 395
+# Last updated on : 2026-01-19 08:09:54 IST
+# Channels : Total - 418 | Updated - 418
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -209,6 +209,8 @@ https://stream.rojatv.cloud/nammagobi/tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RJ Tamil [Not 24/7] 
 https://ipcloud.live/rjtamiltv/rjtamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan TV 
+https://ipcloud.live/aadhavantv/aadhavan/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan TV HD 
 https://ipcloud.live/aadhavantv/aadhavanhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Maruthi TV 
 https://stream.onecloudlive.in/maruthitv/maruthitvhd/index.m3u8
@@ -558,14 +560,8 @@ https://view.apserver.in/tmp_hls9/liketv/index.m3u8
 https://view.apserver.in/tmp_hls11/everesttv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Leaf TV 
 https://view.apserver.in/tmp_hls15/leaftv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sky TV (TCCL) 
-https://uiptv.iptv.pics/hls/skytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Max TV 
 http://play.applelive.in/smaxtv/smaxtv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Panjami TV 
-https://uiptv.iptv.pics/hls/tcclamman/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thentamil TV 
-https://gem.inet.moe/hls/thentamill.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Taital TV 
 https://stream.onecloudlive.in/taitaltv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharumai Adeenam TV 
@@ -794,3 +790,53 @@ http://srnet.bmlive.net:1935/srmusic/myStream/playlist.m3u8
 https://live.maxtn.in/srikanchi/kanchi/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Salaam TV 
 https://stream.onecloudlive.in/salamtv/salamtvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Athithoothar TV 
+https://server.sscloud7.in/live/athithoothartv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mahimai Music 
+https://stream.sscloud7.com/live/mahimaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Blood Of Jesus TV 
+http://alk.sscloud7.in/live/yovantv/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Matha TV 
+https://live.mathatv.in/mathatv/mathatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CRS TV 
+https://play.applelive.in/crstv/crstv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Joy Goodnews TV 
+https://play.applelive.in/joygoodnewstv/joygoodnewstv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nanjil Natham TV 
+https://play.applelive.in/hls/nanjilnathamtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",VAC TV 
+https://play.applelive.in/shammahtv/shammahtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Joy Goodnews TV 
+https://play.applelive.in/mariyamathatv/mariyamathatv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Deva TV 
+https://play.applelive.in/devatv/devatv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jesus TV 
+https://play.applelive.in/jesustv/jesustv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Praise TV 
+https://play.applelive.in/praisetv/praisetv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sharon TV 
+https://sscloud7.com/live/sharontv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vinmeen Music 
+https://vinmeentv.livebox.co.in/vinmeentvhls/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeeva Oli TV 
+https://jaeppiyar.livebox.co.in/jeevaolitvhls/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",J King TV 
+https://live.brightmeltech.in/jkingtv/jkingtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nithya Velicham TV 
+https://play.applelive.in/nithyavelichamtv/nithyavelichamtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JC TV 
+https://ipcloud.live/novamani/jctv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",King Of Glory TV 
+https://ipcloud.live/novamani/kingofglorytv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Love Joy TV 
+https://ipcloud.live/novamani/lovejoytv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Divine Music 
+https://ipcloud.live/novamani/divinetv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JTK TV 
+http://jtktv.indiamatrix.in/jtktvkay/jtktvkay.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Win Vision TV 
+http://applelive.in/winvisiontv/winvisiontv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shekinah TV 
+https://iptvhls.inet.moe/hls/newchannel.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Cross TV 
+https://ytv.iptv.pics/hls/cross.m3u8
