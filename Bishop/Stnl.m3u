@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-20 08:05:09 IST
+# Last updated on : 2026-01-21 08:05:58 IST
 # Channels : Total - 420 | Updated - 420
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -710,7 +710,7 @@ http://media.7starcloud.com:1935/polimer/live/playlist.m3u8
 https://rtmp.bmlive.net/bms/heartbeattv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hansitha TV 
 https://hd.rojatv.cloud/hansitha/tv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eleven Television 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rowthiram TV 
 https://live3.onecloudlive.in/eleventv/eleventv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTV Trichy 
 https://stream.iplive.xyz/mtv/mtvhd/index.m3u8
