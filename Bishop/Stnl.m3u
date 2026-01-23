@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-22 08:08:47 IST
-# Channels : Total - 420 | Updated - 420
+# Last updated on : 2026-01-23 08:04:39 IST
+# Channels : Total - 421 | Updated - 421
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -844,3 +844,5 @@ https://ytv.iptv.pics/hls/cross.m3u8
 https://play.applelive.in/gcv/gcv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyam Television 
 https://jeyamtv.livebox.co.in/JeyamTelevisionhls/JeyamTelevision.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PCN Channel 
+https://pcntv.wmsdigital.in/hls/gtv/stream.m3u8
