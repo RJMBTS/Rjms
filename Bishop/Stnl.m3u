@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-23 08:04:39 IST
+# Last updated on : 2026-01-24 07:59:53 IST
 # Channels : Total - 421 | Updated - 421
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -347,7 +347,7 @@ https://app.ashokadigital.net/aalayamagimaitv/aalayamagimaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dheiveegam TV 
 https://stream.singamcloud.in/Dheiveegamtv/Dheiveegamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nisha TV 
-https://app.ashokadigital.net/app/7825e06b/index.m3u8
+https://app.ashokadigital.net/app/6bce3140/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amman TV 
 https://app.ashokadigital.net/app/78b1bc36/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amman Plus 
@@ -435,7 +435,7 @@ https://mumt03.tangotv.in/UTVANANDAM/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayaam TV 
 https://app.ashokadigital.net/app/67a779e9/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ragam TV 
-https://app.ashokadigital.net/app/408a1120/index.m3u8
+https://account26.livebox.co.in/RAGAMMTPhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CSK TV 
 http://csktv.7starcloud.com:1935/csktv/csktvdpi/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hari TV 
