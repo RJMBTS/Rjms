@@ -7,7 +7,7 @@ on:
     - cron: "30 0 * * *"
 
 concurrency:
-  group: Amzp-m3u
+  group: amzp-m3u
   cancel-in-progress: false
 
 permissions:
@@ -46,7 +46,7 @@ jobs:
             | grep -v -E '^#EXTM3U|#Generated on' \
             > "$tmpdir/all.m3u"
 
-          # ===== DEDUP =====
+          # ===== DEDUP (EXTINF + URL) =====
           awk '
             /^#EXTINF/ {
               info=$0
@@ -65,7 +65,7 @@ jobs:
 
           total=$(grep -c '^#EXTINF' "$tmpdir/unique.m3u" || echo 0)
 
-          # ===== FORCE AMZP GROUP =====
+          # ===== FORCE GROUP → AMZP | Movies =====
           awk '
             /^#EXTINF/ {
               line=$0
@@ -101,7 +101,7 @@ jobs:
 
           cat "$tmpdir/final.m3u" >> "$out_file"
 
-          echo "✅ Bishop/amzp.m3u generated"
+          echo "✅ Bishop/Amzp.m3u generated"
 
       - name: 🚀 Commit & Push
         shell: bash
@@ -111,10 +111,10 @@ jobs:
           git config user.name "RJMBTS Auto Builder"
           git config user.email "actions@github.com"
 
-          # ✅ Sync first (prevents rebase error)
+          # ✅ Sync first to avoid rebase errors
           git pull --rebase origin main || exit 0
 
-          git add Bishop/amzp.m3u || true
+          git add Bishop/Amzp.m3u || true
 
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
