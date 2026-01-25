@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-24 07:59:53 IST
-# Channels : Total - 421 | Updated - 421
+# Last updated on : 2026-01-25 08:30:33 IST
+# Channels : Total - 418 | Updated - 418
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -100,8 +100,6 @@ https://stream.onecloudlive.in/successtv/successtvhd/index.m3u8
 https://app.ashokadigital.net/app/cc860669/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",No 1 TV 
 https://live.skystream.in/live/no1tv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PR TV 
-https://play.applelive.in/prtv/prtv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thalapathy TV 
 https://play.applelive.in/thalapathytv/thalapathytv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Riya TV 
@@ -322,8 +320,6 @@ https://notvstream.in/utv/utv.m3u8
 https://notvstream.in/thirumalaitv/thirumalaitv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subi TV 
 https://notvstream.in/subitv/subitv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Krishna TV 
-https://notvstream.in/krishnatv/krishnatv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV 
 https://notvstream.in/anandamtv/anandamtv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hitech TV 
@@ -369,7 +365,7 @@ https://stream.onecloudlive.in/jeyantv/jeyantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vidiyal TV 
 https://account11.livebox.co.in/vidyaltvhls/live.m3u8?psk=stream
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R TV 
-http://stream.ashokadigital.net/rtv/rtv/index.m3u8
+https://stream.ashokadigital.net/rtv/rtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pothigai Thendral 
 https://ipcloud.live/pothigai/thendral/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV 
@@ -400,8 +396,6 @@ https://app.ashokadigital.net/app/ed8bd4a7/index.m3u8
 https://app.ashokadigital.net/app/9346e98d/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Star TV 
 http://acv.7starcloud.com:1935/tamilstar/tv/playlist.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SV TV 
-http://shreeparams.7starcloud.com:1935/live/params/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi TV 
 https://rasinetworks.in/live/rasitvhd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Tamil 
@@ -439,7 +433,7 @@ https://account26.livebox.co.in/RAGAMMTPhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CSK TV 
 http://csktv.7starcloud.com:1935/csktv/csktvdpi/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hari TV 
-http://haritv.stream.ashokadigital.net/haritv/haritvhd/index.m3u8
+https://stream.ashokadigital.net/haritv/haritvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV 
 http://krishnatv.7starcloud.com:1935/erodekrishnatv/livestream/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV Tiruchengode 
@@ -464,7 +458,7 @@ http://yours.7starcloud.com:1935/live/nmtv/playlist.m3u8
 http://yours.7starcloud.com:1935/live/yourstv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Visaka TV 
 http://visaka.7starcloud.com:1935/live/visakatv/playlist.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Channel [Not 24/7] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Channel 
 https://live.brightmeltech.in/kchannel/kchannel.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",IWorld TV [Not 24/7] 
 https://view.apserver.in/tmp_hls10/iworldtv/index.m3u8
