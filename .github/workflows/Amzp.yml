@@ -1,0 +1,123 @@
+name: AMZP 🎥
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 06:00 IST
+    - cron: "30 0 * * *"
+
+concurrency:
+  group: amzp-m3u
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📦 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🎥 Build amzp.m3u
+        shell: bash
+        env:
+          TZ: "Asia/Kolkata"
+        run: |
+          set -euxo pipefail
+
+          tmpdir=$(mktemp -d)
+          trap 'rm -rf "$tmpdir"' EXIT
+
+          timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
+
+          mkdir -p Bishop
+          out_file="Bishop/amzp.m3u"
+
+          SRC_URL="https://movie-playlist-byxfireflix.pages.dev/movie-playlist.m3u"
+
+          echo "🎯 Fetching source"
+          curl -fsSL --max-time 60 "$SRC_URL" \
+            | grep -v -E '^#EXTM3U|#Generated on' \
+            > "$tmpdir/all.m3u"
+
+          # ===== DEDUP =====
+          awk '
+            /^#EXTINF/ {
+              info=$0
+              gsub(/[[:space:]]+/, " ", info)
+              getline url
+              gsub(/[[:space:]]+/, "", url)
+              if (url=="") next
+              key = info "|" url
+              if (!(key in seen)) {
+                seen[key]=1
+                print info
+                print url
+              }
+            }
+          ' "$tmpdir/all.m3u" > "$tmpdir/unique.m3u"
+
+          total=$(grep -c '^#EXTINF' "$tmpdir/unique.m3u" || echo 0)
+
+          # ===== FORCE AMZP GROUP =====
+          awk '
+            /^#EXTINF/ {
+              line=$0
+              group="AMZP | Movies"
+
+              gsub(/group-title="[^"]*"/, "", line)
+              gsub(/tvg-category="[^"]*"/, "", line)
+              gsub(/[[:space:]]+/, " ", line)
+
+              sub(/^#EXTINF:[^ ]+[ ]*/, "#EXTINF:-1 group-title=\"" group "\" tvg-category=\"" group "\" ", line)
+
+              getline url
+              gsub(/^[ \t\r\n]+|[ \t\r\n]+$/, "", url)
+              if (url !~ /^https?:\/\//) next
+
+              print line
+              print url
+            }
+          ' "$tmpdir/unique.m3u" > "$tmpdir/final.m3u"
+
+          updated=$(grep -c '^#EXTINF' "$tmpdir/final.m3u" || echo 0)
+          [ "$updated" -gt 0 ]
+
+          # ===== HEADER =====
+          {
+            echo '#EXTM3U name="amzp" playlist-name="AMZP | Movies" billed-msg="RJM Tv - RJMBTS Network"'
+            echo "# Auto Generated"
+            echo "# Maintained by @RJMBTS"
+            echo "# Last Updated : $timestamp"
+            echo "# Movies : Source - $total | Final - $updated"
+            echo ""
+          } > "$out_file"
+
+          cat "$tmpdir/final.m3u" >> "$out_file"
+
+          echo "✅ Bishop/amzp.m3u generated"
+
+      - name: 🚀 Commit & Push
+        shell: bash
+        run: |
+          set -euxo pipefail
+
+          git config user.name "RJMBTS Auto Builder"
+          git config user.email "actions@github.com"
+
+          git add Bishop/amzp.m3u || true
+
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
+            exit 0
+          fi
+
+          git pull --rebase origin main
+          git commit -m "🎬 Auto-update amzp.m3u"
+          git push origin main
