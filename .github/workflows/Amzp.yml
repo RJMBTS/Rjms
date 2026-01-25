@@ -102,22 +102,24 @@ jobs:
           cat "$tmpdir/final.m3u" >> "$out_file"
 
           echo "✅ Bishop/amzp.m3u generated"
+          
+          - name: 🚀 Commit & Push
+            shell: bash
+            run: |
+    set -euxo pipefail
 
-      - name: 🚀 Commit & Push
-        shell: bash
-        run: |
-          set -euxo pipefail
+    git config user.name "RJMBTS Auto Builder"
+    git config user.email "actions@github.com"
 
-          git config user.name "RJMBTS Auto Builder"
-          git config user.email "actions@github.com"
+    # ✅ Always sync first
+    git pull --rebase origin main || exit 0
 
-          git add Bishop/amzp.m3u || true
+    git add Bishop/amzp.m3u || true
 
-          if git diff --cached --quiet; then
-            echo "No changes — skipping commit."
-            exit 0
-          fi
+    if git diff --cached --quiet; then
+      echo "No changes — skipping commit."
+      exit 0
+    fi
 
-          git pull --rebase origin main
-          git commit -m "🎬 Auto-update amzp.m3u"
-          git push origin main
+    git commit -m "🎬 Auto-update amzp.m3u"
+    git push origin main
