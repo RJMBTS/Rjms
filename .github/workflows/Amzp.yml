@@ -91,8 +91,7 @@ jobs:
 
           # ===== HEADER =====
           {
-            echo '#EXTM3U name="amzp" playlist-name="AMZP | Movies" billed-msg="RJM Tv - RJMBTS Network"'
-            echo "# Auto Generated"
+            echo '#EXTM3U name="Amzp" playlist-name="AMZP | Movies" billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Maintained by @RJMBTS"
             echo "# Last Updated : $timestamp"
             echo "# Movies : Source - $total | Final - $updated"
