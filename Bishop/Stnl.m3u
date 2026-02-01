@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-01-31 08:36:32 IST
-# Channels : Total - 458 | Updated - 458
+# Last updated on : 2026-02-01 09:08:18 IST
+# Channels : Total - 459 | Updated - 459
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -807,9 +807,9 @@ http://jtktv.indiamatrix.in/jtktvkay/jtktvkay.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Win Vision TV 
 https://play.applelive.in/winvisiontv/winvisiontv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shekinah TV 
-https://iptvhls.inet.moe/hls/newchannel.m3u8
+https://iptvhls.inet.moe/hls/newchannel_src/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Cross TV 
-https://ytv.iptv.pics/hls/cross.m3u8
+https://ytv.iptv.pics/hls/cross_src/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",G Max 
 https://play.applelive.in/gcv/gcv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyam Television 
@@ -920,3 +920,5 @@ http://alk.sscloud7.in/live/arputhamtv/index.m3u8
 https://stream.sscloud7.in/live/selvatamiltv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV Dindigul [RTMP] 
 rtmp://122.165.249.163/live/supertv
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ark TV 
+https://ark.inet.moe/ark/index.m3u8
