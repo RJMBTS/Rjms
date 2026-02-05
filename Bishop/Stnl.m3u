@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-04 08:45:58 IST
-# Channels : Total - 461 | Updated - 461
+# Last updated on : 2026-02-05 08:47:19 IST
+# Channels : Total - 482 | Updated - 482
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -38,6 +38,8 @@ https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC TV 
 https://rtmp.bmlive.net/bms/kctv/stream.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC Music 
+https://rtmp.bmlive.net/bms/kcmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raga TV 
 https://live.onecloudlive.in/ragatv/ragatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om Sakthi TV 
@@ -922,7 +924,47 @@ https://stream.sscloud7.in/live/selvatamiltv/index.mpd
 rtmp://122.165.249.163/live/supertv
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ark TV 
 https://ark.inet.moe/ark/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mani TV 
-https://view.rcserver.in/tmp_hls27/manitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vel TV 
+https://view.rcserver.in/tmp_hls26/veltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kaalai TV 
 https://view.rcserver.in/tmp_hls28/kaalaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK TV 
+https://view.rcserver.in/tmp_hls29/sktv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Auro TV 
+http://ptu.ridsys.in/riptv/live/AURO_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ridsys TV 
+http://ptu.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Tv 
+http://ptu.ridsys.in/riptv/live/AJK_TV/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Movie 
+http://ptu.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Media 
+http://ptu.ridsys.in/riptv/live/S_MEDIA/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
+http://ptu.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
+https://rtmp.bmlive.net/bms/bms/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
+https://rtmp.bmlive.net/bms/ahatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACN TV 
+https://play.applelive.in/acntv/acntv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anjai TV 
+https://web.applelive.in/stream/anjaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anisa TV 
+https://web.applelive.in/anisatv/anisatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ruhasha TV 
+https://live.applelive.in/ruhashatv/ruhashatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Max TV 
+https://rtmp.applelive.in/kumariplus/kumariplus/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ezhil TV 
+https://stream.onecloudlive.in/ezhiltv/ezhilhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Koodal TV 
+https://web.applelive.in/koodaltv/koodaltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Crayonz TV 
+https://rtmp.bmlive.net/stream/crayonz/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK Media 
+https://rtmp.bmlive.net/stream/skmedia/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirumalai TV 
+https://stream.onecloudlive.in/mullaitvhd/thirumalai/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sahara TV 
+https://ipcloud.live/saharatv/saharatv/index.m3u8
