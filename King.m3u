@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-02-05 07:34:34 IST
+# Last updated: 2026-02-05 09:52:51 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-02-05 07:24:35 IST
-# Channels : Total - 1575 | Updated - 1575
+# Last updated on : 2026-02-05 09:43:09 IST
+# Channels : Total - 1596 | Updated - 1596
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5318,7 +5318,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768242601~acl=/*~id=374a19cab600f041c94afa74d071075a-1768199400189~hmac=a0b42abbb5e705d960e145ae491d6faf2016e147d03f620dbab9e4794dce199a
 
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-02-05 05:28:00 IST
+# Last updated: 2026-02-05 07:13:02 IST
 
 ################### RJM | Z5 ###################
 #Generated on 1770170603
@@ -5529,7 +5529,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1770257003~acl=%2f*~id=ac7bfc98-2bc1-4ab2-979f-9591f078947e~data=hdntl~hmac=38267bbf5d9aa7d46f9cd5dbb5ab310188a5af69adde2928338538d1bb851dc0
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-04 08:45:58 IST
+# Last updated on : 2026-02-05 08:47:19 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -5565,6 +5565,8 @@ https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC TV 
 https://rtmp.bmlive.net/bms/kctv/stream.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC Music 
+https://rtmp.bmlive.net/bms/kcmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raga TV 
 https://live.onecloudlive.in/ragatv/ragatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om Sakthi TV 
@@ -6449,14 +6451,54 @@ https://stream.sscloud7.in/live/selvatamiltv/index.mpd
 rtmp://122.165.249.163/live/supertv
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ark TV 
 https://ark.inet.moe/ark/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mani TV 
-https://view.rcserver.in/tmp_hls27/manitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vel TV 
+https://view.rcserver.in/tmp_hls26/veltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kaalai TV 
 https://view.rcserver.in/tmp_hls28/kaalaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK TV 
+https://view.rcserver.in/tmp_hls29/sktv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Auro TV 
+http://ptu.ridsys.in/riptv/live/AURO_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ridsys TV 
+http://ptu.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Tv 
+http://ptu.ridsys.in/riptv/live/AJK_TV/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Movie 
+http://ptu.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Media 
+http://ptu.ridsys.in/riptv/live/S_MEDIA/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
+http://ptu.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
+https://rtmp.bmlive.net/bms/bms/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
+https://rtmp.bmlive.net/bms/ahatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACN TV 
+https://play.applelive.in/acntv/acntv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anjai TV 
+https://web.applelive.in/stream/anjaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anisa TV 
+https://web.applelive.in/anisatv/anisatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ruhasha TV 
+https://live.applelive.in/ruhashatv/ruhashatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Max TV 
+https://rtmp.applelive.in/kumariplus/kumariplus/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ezhil TV 
+https://stream.onecloudlive.in/ezhiltv/ezhilhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Koodal TV 
+https://web.applelive.in/koodaltv/koodaltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Crayonz TV 
+https://rtmp.bmlive.net/stream/crayonz/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK Media 
+https://rtmp.bmlive.net/stream/skmedia/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirumalai TV 
+https://stream.onecloudlive.in/mullaitvhd/thirumalai/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sahara TV 
+https://ipcloud.live/saharatv/saharatv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-02-04 08:43:15 IST
+# Last updated on : 2026-02-05 08:44:41 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -6978,7 +7020,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-04 08:43:57 IST
+# Last updated on : 2026-02-05 08:45:35 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
