@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-06 08:46:36 IST
-# Channels : Total - 484 | Updated - 484
+# Last updated on : 2026-02-07 08:40:25 IST
+# Channels : Total - 489 | Updated - 489
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -972,3 +972,13 @@ https://ipcloud.live/saharatv/saharatv/index.m3u8
 https://view.apserver.in/tmp_hls11/everesttv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Oli TV 
 https://view.apserver.in/tmp_hls14/tamilolitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Pirai TV 
+https://kayal.inet.moe/kayal/kayaltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Islamic Channel 
+https://play.applelive.in/islamicchannel/islamicchannel.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Deepam TV 
+https://play.applelive.in/deebamtv/deebamtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sharon TV 
+https://rtmp.bmlive.net/bms/sharontv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arputhar Yesu TV 
+https://arputharyesutv.arputharyesutv.com/live/md/index.m3u8
