@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-09 08:57:40 IST
-# Channels : Total - 492 | Updated - 492
+# Last updated on : 2026-02-10 09:09:55 IST
+# Channels : Total - 496 | Updated - 496
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -574,8 +574,6 @@ https://account31.livebox.co.in/IRATTAIPAATHAITVhls/live.m3u8
 http://madhantv.phoenixcreations.online/madhantv/madhantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velan TV 
 http://velantv.phoenixcreations.online/velantv/velantv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kovai TV 
-https://account31.livebox.co.in/Kovaitvhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Emperor TV 
 https://rtmp.bmlive.net/bms/emperortv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV 
@@ -658,7 +656,7 @@ https://app.ashokadigital.net/app/7fff5003/index.m3u8
 https://stream.onecloudlive.in/karnan/bharathitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",National TV 
 https://stream.onecloudlive.in/karnan/Nationaltv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GTV 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",G TV 
 https://stream.onecloudlive.in/karnan/gtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vanavil TV 
 https://stream.onecloudlive.in/karnan/vanaviltv/index.m3u8
@@ -944,6 +942,8 @@ http://ptu.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
 http://ptu.ridsys.in/riptv/live/S_MEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
 http://ptu.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JVR Media Live News 
+http://ptu.ridsys.in/riptv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
@@ -972,8 +972,6 @@ https://stream.onecloudlive.in/mullaitvhd/thirumalai/index.m3u8
 https://ipcloud.live/saharatv/saharatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Everest TV 
 https://view.apserver.in/tmp_hls11/everesttv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Oli TV 
-https://view.apserver.in/tmp_hls14/tamilolitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Pirai TV 
 https://kayal.inet.moe/kayal/kayaltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Islamic Channel 
@@ -988,3 +986,13 @@ https://arputharyesutv.arputharyesutv.com/live/md/index.m3u8
 https://stream.onecloudlive.in/foxtv/foxtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bakthi Tamil 
 https://rtmp.bmlive.net/stream/bakthitamil/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Arjun TV 
+https://stream.onecloudlive.in/sriarjuntv/sriarjun/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nila TV 
+https://stream.onecloudlive.in/nilaatv/nilahd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bass TV 
+http://xstream.onecloudlive.in:8080/bass/basstv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om TV 
+http://omtv.7starcloud.com:1935/omtv/live/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local", Rock TV 
+https://apis.avmediawork.in/tvhls/rocktv.m3u8
