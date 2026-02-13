@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-02-13 08:00:55 IST
+# Last updated: 2026-02-13 10:03:54 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-02-13 07:33:33 IST
-# Channels : Total - 1610 | Updated - 1610
+# Last updated on : 2026-02-13 10:02:12 IST
+# Channels : Total - 1609 | Updated - 1609
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5529,7 +5529,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1770728975~acl=%2f*~id=88f68b9a-ea56-49df-ba1c-017d949d5eec~data=hdntl~hmac=8210cc198ca4d3f316d2e4a0205f46370d26222b9f4c3f4d89ee65f971e8f187
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-12 08:57:52 IST
+# Last updated on : 2026-02-13 08:59:15 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -5538,10 +5538,8 @@ https://galaxyott.live/hls/sanaplus.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTC TV 
 https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ultimate TV 
-https://stream.galaxyott.live/live/utv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV (GalaxyOTT/Jio/TP) 
-https://stream.galaxyott.live/live/anandhamtv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV (Cloud7) 
+#EXTVLCOPT:http-referrer=https://m3uplay.com
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV 
 https://server.sscloud7.in/live/anandhamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
 https://galaxyott.live/hls/suryatv.m3u8
@@ -5551,18 +5549,20 @@ https://stream.galaxyott.live/live/subintv/index.m3u8
 http://subintv.phoenixcreations.online/subintv/subintv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharsan TV 
 https://galaxyott.live/hls/dharshantv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriyan TV (GalaxyOTT/Jio/TP) 
-https://stream.galaxyott.live/live/suriyantv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriyan TV (Cloud7) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local", Rock TV 
+https://apis.avmediawork.in/tvhls/rocktv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriyan TV 
 https://stream.sscloud7.com/live/suriyantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV (Jio) 
-http://103.140.254.2:3500/live/3395.m3u8
+#EXTVLCOPT:http-referrer=https://m3uplay.com
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV (Cloud7) 
 https://live.sscloud7.in/live/aaryaatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
 https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja Movies 
 https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bhagyam TV 
+#EXTVLCOPT:http-referrer=https://m3uplay.com
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC TV 
 https://rtmp.bmlive.net/bms/kctv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC Music 
@@ -6521,12 +6521,10 @@ https://stream.onecloudlive.in/nilaatv/nilahd/index.m3u8
 http://xstream.onecloudlive.in:8080/bass/basstv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om TV 
 http://omtv.7starcloud.com:1935/omtv/live/live.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local", Rock TV 
-https://apis.avmediawork.in/tvhls/rocktv.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-02-12 08:55:30 IST
+# Last updated on : 2026-02-13 08:55:48 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7048,7 +7046,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-12 08:56:25 IST
+# Last updated on : 2026-02-13 08:56:38 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
