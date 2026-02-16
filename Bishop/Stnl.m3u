@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-15 08:57:48 IST
-# Channels : Total - 498 | Updated - 498
+# Last updated on : 2026-02-16 08:56:21 IST
+# Channels : Total - 499 | Updated - 499
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -24,8 +24,6 @@ http://subintv.phoenixcreations.online/subintv/subintv/playlist.m3u8
 https://galaxyott.live/hls/dharshantv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rock TV 
 https://apis.avmediawork.in/tvhls/rocktv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rock TV (Jio) 
-https://m3uplay.com/leo/live.m3u8?id=3357&format=.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriyan TV 
 https://stream.sscloud7.com/live/suriyantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV (Jio) 
@@ -994,9 +992,13 @@ https://stream.onecloudlive.in/sriarjuntv/sriarjun/index.m3u8
 https://stream.onecloudlive.in/nilaatv/nilahd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bass TV 
 http://xstream.onecloudlive.in:8080/bass/basstv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velur TV 
+https://stream.onecloudlive.in/bass/velurtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om TV 
 http://omtv.7starcloud.com:1935/omtv/live/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arasu TV 
 https://ipcloud.live/ctn/arasu/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Magalir TV 
 https://ipcloud.live/ctn/magalir/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dina Tharani 
+https://stream.sscloud7.in/live/ddtv/index.m3u8
