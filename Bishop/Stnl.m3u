@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-16 08:56:21 IST
-# Channels : Total - 499 | Updated - 499
+# Last updated on : 2026-02-17 08:50:45 IST
+# Channels : Total - 503 | Updated - 503
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -189,7 +189,7 @@ https://stream.onecloudlive.in/sachintv/strawberrytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JP Music TV 
 https://stream.onecloudlive.in/sachintv/jpmusichd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Minnal TV 
-https://ipcloud.live/minnaltv/minnalhd/index.m3u8
+https://ipcloud.live/app/minnaltv/minnalhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akilam TV 
 https://stream.onecloudlive.in/akilamtv/akilamtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Queens 143 
@@ -567,7 +567,7 @@ https://rtmp.bmlive.net/ctn/ctntn/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Velavan TV 
 https://rtmp.applelive.in/srivelavantvultrahd/srivelavantvultrahd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Cuddalore Voice TV 
-https://app.ashokadigital.net/app/85b741d1/index.m3u8
+https://stream.ashokadigital.net/voicetv/voicetvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Irattaipaathai TV 
 https://account31.livebox.co.in/IRATTAIPAATHAITVhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MS Mathan TV 
@@ -594,8 +594,8 @@ https://rtmp.applelive.in/anbudantv/anbudantv/index.m3u8
 https://server.sscloud7.in/live/malligai/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",BSC Old 
 https://stream.onecloudlive.in/bschd/live/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalini TV Kanchipuram 
-https://app.ashokadigital.net/app/9f53ea36/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalini TV Kanchipuram [RTMP] 
+rtmp://103.78.164.62/static/SHALINITVHD
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV [RTMP] 
 rtmp://103.78.164.62/static/MMTVHD
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM Classic [RTMP] 
@@ -1002,3 +1002,11 @@ https://ipcloud.live/ctn/arasu/index.m3u8
 https://ipcloud.live/ctn/magalir/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dina Tharani 
 https://stream.sscloud7.in/live/ddtv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TCBN 
+https://ktismaservers.in:3382/live/tcbntvlive.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Christian TV 
+https://server1.thewebworld.in:3797/stream/play.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil TV 
+https://ktismaservers.in:3220/hybrid/play.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Family Channel 
+https://2-fss-2.streamhoster.com/pl_118/203324-1410936-1/chunklist.m3u8
