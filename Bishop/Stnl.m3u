@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-18 08:54:11 IST
-# Channels : Total - 502 | Updated - 502
+# Last updated on : 2026-02-19 08:53:02 IST
+# Channels : Total - 503 | Updated - 503
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -165,7 +165,7 @@ https://live.sscloud7.in/live/suryatv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Isai TV 
 https://server.sscloud7.in/isaihd/isaihd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Oli TV 
-https://view.apserver.in/tmp_hls7/tamilolitv/index.m3u8
+https://view.rcserver.in/tmp_hls7/tamilolitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV 
 https://ipcloud.live/udhayamtv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Deiveega Oli TV 
@@ -195,7 +195,7 @@ https://stream.onecloudlive.in/akilamtv/akilamtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Queens 143 
 https://notvstream.in/queens/queens/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thulir TV 
-https://view.apserver.in/tmp_hls6/thulirtv/index.m3u8
+https://view.apserver.in/tmp_hls3/thulirtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Madurai 
 https://ipcloud.live/thendralmdu/madurai/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Namma Gobi TV 
@@ -507,7 +507,7 @@ https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
 https://view.rcserver.in/tmp_hls14/tntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Senthamil TV 
-https://view.rcserver.in/tmp_hls24/senthamiltv/index.m3u8
+https://view.rcserver.in/tmp_hls16/senthamiltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Karur TV 
 https://view.rcserver.in/tmp_hls16/karurtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Karur City 
@@ -519,7 +519,7 @@ https://view.rcserver.in/tmp_hls19/ammavision/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV 
 https://view.rcserver.in/tmp_hls20/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",QMax Plus 
-https://view.rcserver.in/tmp_hls23/qmaxtv/index.m3u8
+https://view.rcserver.in/tmp_hls22/qmaxtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirai TV 
 https://view.apserver.in/tmp_hls2/thiraitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirai TV Music 
@@ -673,7 +673,7 @@ https://app.ashokadigital.net/vmusic/vmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV 
 https://view.rcserver.in/tmp_hls13/udhayamhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Azhagi TV 
-https://view.rcserver.in/tmp_hls22/azhagitv/index.m3u8
+https://view.rcserver.in/tmp_hls17/azhagitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Polimer Channel 
 http://media.7starcloud.com:1935/polimer/live/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Heartbeat TV 
@@ -1008,3 +1008,5 @@ https://server1.thewebworld.in:3797/stream/play.m3u8
 https://ktismaservers.in:3220/hybrid/play.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Family Channel 
 https://2-fss-2.streamhoster.com/pl_118/203324-1410936-1/chunklist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Drisya TV 
+https://view.apserver.in/tmp_hls7/tamilolitv/index.m3u8
