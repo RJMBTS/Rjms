@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-20 08:47:47 IST
-# Channels : Total - 515 | Updated - 515
+# Last updated on : 2026-02-21 08:38:53 IST
+# Channels : Total - 516 | Updated - 516
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -11,7 +11,7 @@ https://galaxyott.live/hls/sanaplus.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTC TV 
 https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ultimate TV 
-#EXTVLCOPT:http-referrer=https://m3uplay.com
+https://cable92tataplay.akamaized.net/live/utv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV 
 https://server.sscloud7.in/live/anandhamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
@@ -43,7 +43,7 @@ https://rtmp.bmlive.net/bms/kcmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raga TV 
 https://live.onecloudlive.in/ragatv/ragatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om Sakthi TV 
-https://live1.sscloud7.com/live/omsakthitv/index.m3u8
+https://live1.sscloud7.com/live/omsakthitv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Oli TV 
 https://live.olidigital.in/olitv/olitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Time TV 
@@ -84,6 +84,8 @@ https://account33.livebox.co.in/7GREEN4Khls/live.m3u8
 https://streaming.livebox.co.in/tharunmovieshls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MN TV 
 https://mntv.livebox.co.in/mntvhls/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MN Music 
+https://mntv.livebox.co.in/musichls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Boobsh TV 
 https://rtmp.applelive.in/boobsh/boobsh/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GEM TV 
@@ -224,8 +226,8 @@ https://ipcloud.live/msntv/msntv/index.m3u8
 https://ipcloud.live/msntv/saamitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeevan TV 
 https://stream.singamcloud.in/Jeevantv/Jeevantv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rio TV [RTMP] 
-rtmp://riotv.ipcloud.live:1935/riotv/riotvhd
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rio TV 
+http://ipcloud.live/riotv/riotvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Veerali TV 
 https://ipcloud.live/veerali/veeralitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",King TV 
