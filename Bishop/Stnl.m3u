@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-22 08:52:13 IST
-# Channels : Total - 516 | Updated - 516
+# Last updated on : 2026-02-23 08:56:10 IST
+# Channels : Total - 515 | Updated - 515
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -616,7 +616,7 @@ http://103.78.164.62:8090/SSSHD/index.m3u8
 http://103.78.164.62:8090/QTVHD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RC Music 
 https://view.rcserver.in/tmp_hls2/stream/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mei Alai 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mei Alai TV 
 https://view.rcserver.in/tmp_hls21/meialai/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jai TV 
 https://play.applelive.in/jaitv/jaitv.m3u8
@@ -937,9 +937,9 @@ https://ark.inet.moe/ark/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vel TV 
 https://view.rcserver.in/tmp_hls26/veltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kaalai TV 
-https://view.rcserver.in/tmp_hls28/kaalaitv/index.m3u8
+https://view.rcserver.in/tmp_hls23/kaalaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK TV 
-https://view.rcserver.in/tmp_hls29/sktv/index.m3u8
+https://view.rcserver.in/tmp_hls24/sktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Auro TV 
 http://ptu.ridsys.in/riptv/live/AURO_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ridsys TV 
@@ -952,8 +952,6 @@ http://ptu.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
 http://ptu.ridsys.in/riptv/live/S_MEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
 http://ptu.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JVR Media Live News 
-http://ptu.ridsys.in/riptv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
