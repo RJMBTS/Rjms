@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-23 08:56:10 IST
-# Channels : Total - 515 | Updated - 515
+# Last updated on : 2026-02-24 08:51:21 IST
+# Channels : Total - 516 | Updated - 516
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -721,7 +721,7 @@ https://rtmp.bmlive.net/bms/pcn/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bama TV 
 http://indiamatrix.in/bamahd/bamahd.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Smart Sri TV 
-http://hdserver.7starcloud.com:1935/smart/tv/playlist.m3u8
+https://mumbai-edge.smartplaytv.in/smartsri/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Manju TV 
 https://stream.onecloudlive.in/manjutv/manjutv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",J Jeyam 
@@ -1032,5 +1032,7 @@ https://nijamtv.indiamatrix.in/nijamtv/nijamtv.m3u8
 http://198.144.149.206:8080/NOTV/NEWS80/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",C TV 
 http://ctv.phoenixcreations.online:1935/ctv/ctv/playlist.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thentamil TV [RTMP] 
-rtmp://thentv.stream.onecloudlive.in:1935/thentv/thentvhd
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thentamil TV 
+http://thentv.stream.onecloudlive.in:8080/thentv/thentvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anbu TV 
+https://rtmp.bmlive.net/bms/anbutvhd/index.m3u8
