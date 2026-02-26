@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-25 08:52:18 IST
-# Channels : Total - 521 | Updated - 521
+# Last updated on : 2026-02-26 08:48:08 IST
+# Channels : Total - 522 | Updated - 522
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -145,8 +145,8 @@ https://ipcloud.live/yogaatv/yogaatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
 http://rojatv.phoenixcreations.online/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",APS TV 
-https://apstv-a1.tamilstream.in/apstv/apstv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",APS Gold TV 
+https://apstv-a1.tamilstream.in/apstv/apstv/index.mpd
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",APS TV Gold 
 https://apsgold-a1.tamilstream.in/apsgold/apsgold/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sasi TV 
 http://sasitv.phoenixcreations.online/sasitv/sasitv/index.m3u8
@@ -177,7 +177,7 @@ https://stream.onecloudlive.in/sailamtv/sailamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sha TV 
 https://play.applelive.in/shatv/shatv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mullai TV 
-https://view.apserver.in/tmp_hls6/bakthimanam/index.m3u8
+https://ipcloud.live/mullaitv/mullaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sachin TV 
 https://ipcloud.live/sachintv/sachintvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sachin TV [RTMP] 
@@ -271,7 +271,7 @@ https://stream.onecloudlive.in/nellaitv/nellaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SJ Surya TV 
 https://ipcloud.live/nellaitv/suriyatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Params TV 
-https://app.ashokadigital.net/app/a3e0b02f/index.m3u8
+http://stream.ashokadigital.net/ashokaslm/paramstv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",King 24x7 
 https://notvstream.in/kingtv/kingtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Smiley TV 
@@ -513,6 +513,8 @@ https://view.rcserver.in/tmp_hls8/udhayamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Karur 
 https://view.rcserver.in/tmp_hls10/jayamtvkarur/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV 
+https://view.rcserver.in/tmp_hls11/jeyasubbutv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV HD 
 https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
 https://view.rcserver.in/tmp_hls14/tntv/index.m3u8
