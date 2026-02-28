@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-27 08:45:23 IST
-# Channels : Total - 522 | Updated - 522
+# Last updated on : 2026-02-28 08:28:24 IST
+# Channels : Total - 521 | Updated - 521
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -277,9 +277,9 @@ https://notvstream.in/kingtv/kingtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Smiley TV 
 https://live1.sscloud7.com/live/smileytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vishil TV 
-https://stream.sscloud7.in/live/vishiltv1/index.m3u8
+https://stream.sscloud7.in/live/vishiltv1/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vishil Max 
-https://stream.sscloud7.in/live/vishiltv2/index.m3u8
+https://stream.sscloud7.in/live/vishiltv2/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai TV 
 https://ipcloud.live/duraitv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai Melodies 
@@ -740,8 +740,6 @@ https://stream.onecloudlive.in/rstv/rstvhd/index.m3u8
 https://stream.onecloudlive.in/raagamtv/raagamtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV 
 https://stream.onecloudlive.in/superstartv/superstarhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ME24 Tamil [RTMP] 
-rtmp://orange.stream.onecloudlive.in:1935/orange/ME24TAMIL
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KRN TV 
 https://stream.onecloudlive.in/krntv/krntvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aramm TV 
@@ -1043,7 +1041,7 @@ http://rktv.phoenixcreations.online/rktv/rktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mangalam TV 
 http://mangalamtv.phoenixcreations.online/mangalamtv/mangalam/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SS TV 
-http://mangalamtv.phoenixcreations.online/sstv/sstv/playlist.m3u8
+http://rajatv.phoenixcreations.online/sstv/sstv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raja TV Valliyur 
 http://rajatv.phoenixcreations.online/rajatv/raja/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV Valliyur 
