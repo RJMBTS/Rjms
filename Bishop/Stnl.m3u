@@ -1,22 +1,24 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-02-28 08:28:24 IST
-# Channels : Total - 521 | Updated - 521
+# Last updated on : 2026-03-01 08:58:48 IST
+# Channels : Total - 522 | Updated - 522
 
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
 https://galaxyott.live/hls/sanatv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (Distro) 
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/6af32fbc-ad75-40ca-8d8e-8f26abc1f1d5/0.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana Plus 
-https://galaxyott.live/hls/sanaplus.m3u8
+https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTC TV 
 https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ultimate TV 
-https://cable92tataplay.akamaized.net/live/utv/index.mpd
+https://mumbai-edge.smartplaytv.in/utv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV 
 https://server.sscloud7.in/live/anandhamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
 https://galaxyott.live/hls/suryatv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (GalaxyOTT/Jio/TP) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (GalaxyOTT/Jio/Tata Play) 
 https://stream.galaxyott.live/live/subintv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (Phoenix) 
 http://subintv.phoenixcreations.online/subintv/subintv/playlist.m3u8
@@ -533,9 +535,9 @@ https://view.rcserver.in/tmp_hls20/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",QMax Plus 
 https://view.rcserver.in/tmp_hls22/qmaxtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirai TV 
-https://view.apserver.in/tmp_hls2/thiraitv/index.m3u8
+https://live.apcloud.in/thiraitv/thiraitvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirai TV Music 
-https://view.apserver.in/tmp_hls1/thiraitvplus/index.m3u8
+https://live.apcloud.in/thiraimusic/thiraimusichd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",BK TV 
 https://view.apserver.in/tmp_hls3/bktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dhejes TV 
