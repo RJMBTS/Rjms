@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-03-02 08:46:42 IST
+# Last updated on : 2026-03-03 08:50:17 IST
 # Channels : Total - 524 | Updated - 524
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
@@ -18,7 +18,7 @@ https://mumbai-edge.smartplaytv.in/utv/index.m3u8
 https://server.sscloud7.in/live/anandhamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
 https://galaxyott.live/hls/suryatv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (GalaxyOTT/Jio/Tata Play) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (GalaxyOTT) 
 https://stream.galaxyott.live/live/subintv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (Phoenix) 
 http://subintv.phoenixcreations.online/subintv/subintv/playlist.m3u8
