@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-03-05 08:44:55 IST
-# Channels : Total - 524 | Updated - 524
+# Last updated on : 2026-03-06 08:43:51 IST
+# Channels : Total - 525 | Updated - 525
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -1052,3 +1052,5 @@ http://mmtv.phoenixcreations.online/mmtv/mm/index.mpd
 https://rtmp.bmlive.net/webaduga/webaduga/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Manasu TV 
 https://stream6.livebox.co.in/manasutvhls/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Abi TV [RTMP] 
+rtmp://103.136.136.77:1935/abihd/abihd?psk=123456
