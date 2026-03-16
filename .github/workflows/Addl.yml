@@ -3,11 +3,11 @@ name: Addl 🌐
 on:
   workflow_dispatch:
   schedule:
-    # Runs once every 24 hours (00:30 UTC = 06:00 IST)
+    # Runs once every 12 hours (00:30 UTC = 06:00 IST)
     - cron: "30 0 * * *"
 
 concurrency:
-  group: stgl-m3u
+  group: addl-m3u
   cancel-in-progress: false
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: 🧩 Build Stgl.m3u
+      - name: 🧩 Build Addl.m3u
         shell: bash
         env:
           TZ: "Asia/Kolkata"
@@ -37,10 +37,9 @@ jobs:
           timestamp=$(date +"%Y-%m-%d %H:%M:%S %Z")
 
           mkdir -p Pawn
-          out_file="Bishop/Stgl.m3u"
+          out_file="Bishop/Addl.m3u"
 
-          SRC_URL="https://rjmbts.github.io/Rjms/Soutl.m3u"
-
+          SRC_URL="https://raw.github.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u"
           echo "🌐 Fetching source:"
           echo "$SRC_URL"
 
@@ -73,12 +72,12 @@ jobs:
           total=$(grep -c '^#EXTINF' "$tmpdir/all_unique.m3u" || echo 0)
 
           # ===== UNIFORM GROUPING (PRESERVE ALL ATTRIBUTES) =====
-          echo "📂 Grouping → Local | Telugu"
+          echo "📂 Grouping → RJM | Addl."
 
           awk '
             /^#EXTINF/ {
               line=$0
-              group="Local | Telugu"
+              group="RJM | Addl."
 
               # Remove existing group-title & tvg-category
               gsub(/group-title="[^"]*"/, "", line)
@@ -109,7 +108,7 @@ jobs:
 
           # ===== FINAL HEADER =====
           {
-            echo '#EXTM3U name="Stgl" playlist-name="Stgl | Local Telugu" billed-msg="RJM Tv - RJMBTS Network"'
+            echo '#EXTM3U name="Addl" playlist-name="RJM| Addl." billed-msg="RJM Tv - RJMBTS Network"'
             echo "# Pushed & Updated by — Kittujk"
             echo "# Coded & Maintained by @RJMBTS"
             echo "# Last updated on : $timestamp"
@@ -120,10 +119,10 @@ jobs:
           # ===== MERGE =====
           cat "$tmpdir/grouped.m3u" >> "$out_file"
 
-          echo "✅ Bishop/Stgl.m3u generated successfully"
+          echo "✅ Bishop/Addl.m3u generated successfully"
           echo "📺 Total: $total | ♻️ Updated: $updated"
 
-      - name: 🚀 Commit & Push Stgl.m3u
+      - name: 🚀 Commit & Push Addl.m3u
         shell: bash
         run: |
           set -euxo pipefail
@@ -131,12 +130,12 @@ jobs:
           git config user.name "RJMBTS Auto Builder"
           git config user.email "actions@github.com"
 
-          git add Bishop/Stgl.m3u || true
+          git add Bishop/Addl.m3u || true
 
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "🔄 Auto-update Bishop/Stgl.m3u"
+            git commit -m "🔄 Auto-update Bishop/Addl.m3u"
             git pull --rebase origin main || git rebase --abort
             git push origin main || echo "⚠️ Push failed"
           fi
