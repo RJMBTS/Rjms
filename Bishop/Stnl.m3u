@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-03-20 08:46:20 IST
+# Last updated on : 2026-03-21 08:37:46 IST
 # Channels : Total - 529 | Updated - 529
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
@@ -850,7 +850,7 @@ https://annainew.livebox.co.in/ammatvhls/live.m3u8
 https://annai.inet.moe/sabaritv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Sai TV 
 https://annainew.livebox.co.in/srisaihls/live.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Isai Saaral 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Isai Saral 
 http://srnet.bmlive.net:1935/isaisaral/mystream/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arul TV 
 http://arulstream.in:1935/ArulTv/live/playlist.m3u8
@@ -912,8 +912,6 @@ http://jostv.phoenixcreations.online/jostv/jostv/index.m3u8
 http://kannatv.phoenixcreations.online/kannatv/kanna/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Joshua TV 
 http://joshuatv.phoenixcreations.online/joshuatv/joshuatv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV 
-http://mmtv.phoenixcreations.online/mmtv/mm/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kirubai Goodnews TV 
 http://kirubaitv.phoenixcreations.online/kirubaitv/kirubaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Alangulam 
@@ -922,6 +920,8 @@ https://app.ashokadigital.net/app/db285ebc/index.m3u8
 https://stream.sscloud7.in/live/paasamalartv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Karthick TV 
 https://ipcloud.live/karthick/karthicktvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vimal TV 
+https://stream.onecloudlive.in/karthick/vimaltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jenifer TV 
 https://live1.sscloud7.in/live/jenifertv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mariye Vazhga TV 
@@ -1060,5 +1060,5 @@ http://ipcloud.live/dsrchannel/dsrhd/index.m3u8
 https://ipcloud.live/nilatvsvg/nilatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madura TV 
 https://stream.onecloudlive.in/mm/maduratv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JPR Tamil 
-http://iptvcasomsapi.jprdigital.in/x-media/C0182/master.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Star Media 
+https://rtmp.notvstream.in/starmedia/starmedia/index.m3u8
