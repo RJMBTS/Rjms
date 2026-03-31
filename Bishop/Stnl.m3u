@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-03-30 09:18:29 IST
-# Channels : Total - 540 | Updated - 540
+# Last updated on : 2026-03-31 09:09:13 IST
+# Channels : Total - 543 | Updated - 543
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -103,7 +103,7 @@ http://103.87.105.51:8080/acpisaioli/acpisaioli.m3u8?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Succes TV Tamil 
 https://stream.onecloudlive.in/successtv/successtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Asoka TV 
-https://app.ashokadigital.net/app/cc860669/index.m3u8
+http://ipcloud.live/asokatv/asokahd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",No 1 TV 
 https://live.skystream.in/live/no1tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PR TV 
@@ -1084,3 +1084,9 @@ rtmp://103.136.136.77:1935/cs4k/cs4k?psk=123456
 rtmp://103.136.136.77:1935/kanitv/kanitv?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hello Tamil TV 
 https://view.rcserver.in/tmp_hls26/hellotamiltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Plus TV 
+http://rplustv.stream.onecloudlive.in:8080/rplustv/rplustvhd/index.mpd
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",City TV 
+https://stream.onecloudlive.in/citytv/citytv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalwin TV 
+https://live3.onecloudlive.in/shalwintv/shalwintv/index.m3u8
