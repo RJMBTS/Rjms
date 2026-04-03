@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-02 09:02:51 IST
-# Channels : Total - 531 | Updated - 531
+# Last updated on : 2026-04-03 09:04:27 IST
+# Channels : Total - 540 | Updated - 540
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -361,7 +361,7 @@ https://notvstream.in/brightsimrosetv/brightsimrosetv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malathi TV 
 https://ipcloud.live/malathitv/malathitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sangamam TV Erode 
-https://stream.onecloudlive.in/sangamamtv/sangamamtvhd/index.m3u8
+https://stream.onecloudlive.in/sangamamtv/sangamamtvhd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SSCN 
 https://stream.ashokadigital.net/sscn/sscn/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeiyan TV 
@@ -837,7 +837,7 @@ http://arulstream.in:1935/ArulTv/live/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kanchi Media 
 http://198.144.149.206:8080/NOTV/KANCHIMEDIA/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AVS TV 
-http://applelive.net:8091/avstv/avstv/index.m3u8
+https://play.applelive.in/avstv/avstv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bhagavath TV 
 https://web.applelive.in/bhagavathtv/bhagavathtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Global TV 
@@ -922,10 +922,16 @@ http://ptu.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
 http://ptu.ridsys.in/riptv/live/AJK_TV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Movie 
 http://ptu.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Kids 
+http://ajkiptv.ridsys.in/riptv/live/AJK_KIDS_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Media 
 http://ptu.ridsys.in/riptv/live/S_MEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
 http://ptu.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sarah Movie 
+http://ajkiptv.ridsys.in/riptv/live/SARAH_MOVIES/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tianaa Music 
+http://ajkiptv.ridsys.in/riptv/live/TIANAA_MUSIC_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
@@ -1066,3 +1072,15 @@ http://rplustv.stream.onecloudlive.in:8080/rplustv/rplustvhd/index.mpd
 https://stream.onecloudlive.in/citytv/citytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalwin TV 
 https://live3.onecloudlive.in/shalwintv/shalwintv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eagle TV Nagercoil 
+https://play.applelive.in/eagletv/eagletv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TTN TV 
+https://web.applelive.in/stream/ttntv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Omm TV Nagercoil 
+https://web.applelive.in/ommtv/ommtv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amma TV Nagercoil 
+https://web.applelive.in/stream/ammatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SR TV 
+https://web.applelive.in/stream/srtv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kanna TV 
+https://web.applelive.in/stream/kktv/index.m3u8
