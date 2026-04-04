@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-03 09:04:27 IST
+# Last updated on : 2026-04-04 08:52:15 IST
 # Channels : Total - 540 | Updated - 540
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
@@ -668,7 +668,7 @@ https://stream.ashokadigital.net/cititv/cititvhd/index.m3u8
 https://app.ashokadigital.net/app/89c09acf/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Muziq 
 https://app.ashokadigital.net/vmusic/vmusic/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV Karur 
 https://view.rcserver.in/tmp_hls13/udhayamhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Azhagi TV 
 https://view.rcserver.in/tmp_hls17/azhagitv/index.m3u8
@@ -915,19 +915,19 @@ https://view.rcserver.in/tmp_hls23/kaalaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK TV 
 https://view.rcserver.in/tmp_hls24/sktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Auro TV 
-http://ptu.ridsys.in/riptv/live/AURO_HD/index.m3u8
+http://ptuf.ridsys.in/riptv/live/AURO_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ridsys TV 
-http://ptu.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
+http://ptuf.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Tv 
-http://ptu.ridsys.in/riptv/live/AJK_TV/index.m3u8
+http://ptuf.ridsys.in/riptv/live/AJK_TV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Movie 
-http://ptu.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
+http://ptuf.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Kids 
 http://ajkiptv.ridsys.in/riptv/live/AJK_KIDS_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Media 
-http://ptu.ridsys.in/riptv/live/S_MEDIA/index.m3u8
+http://ptuf.ridsys.in/riptv/live/S_MEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
-http://ptu.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
+http://ptuf.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sarah Movie 
 http://ajkiptv.ridsys.in/riptv/live/SARAH_MOVIES/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tianaa Music 
@@ -1044,7 +1044,7 @@ https://rtmp.bmlive.net/bms/bmtv/stream.m3u8
 https://stream.onecloudlive.in/kallaiads/kallaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nakshatra TV 
 https://rtmp.bmlive.net/stream/nakshatra/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tiruvannamalai" group-title="PLC"
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Polur 
 https://live.singamcloud.in/jayamtv/jayamki/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siva TV 
 http://xstream.onecloudlive.in:8080/sivatv/sivatv/index.m3u8
