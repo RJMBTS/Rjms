@@ -30,6 +30,9 @@ https://p4kp.rjmbts.workers.dev/22147.m3u8
 #EXTINF:-1 group-title="RJM | SSP", SS1 Tamil
 https://p4kp.rjmbts.workers.dev/23951.m3u8
 
+#EXTINF:-1 group-title="RJM | SSP", SS3 English
+https://p4kp.rjmbts.workers.dev/23931.m3u8
+
 #EXTINF:-1 group-title="RJM | Cricket", Fox 501 HD
 https://p4kp.rjmbts.workers.dev/24016.m3u8
 
