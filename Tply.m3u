@@ -1,10 +1,16 @@
 #EXTM3U
 
+#EXTINF:-1 group-title="Telugu", ETv HD
+https://p4kp.rjmbts.workers.dev/4588.m3u8
+
 #EXTINF:-1 group-title="Telugu", Gemini HD
 https://p4kp.rjmbts.workers.dev/4595.m3u8
 
-#EXTINF:-1 group-title="Z5", Zee Telugu HD
+#EXTINF:-1 group-title="Telugu", Star Maa HD
+https://p4kp.rjmbts.workers.dev/4593.m3u8
+
+#EXTINF:-1 group-title="Telugu", Zee Telugu HD
 https://p4kp.rjmbts.workers.dev/4600.m3u8
 
-#EXTINF:-1 group-title="Z5", Zee Cinemalu HD
+#EXTINF:-1 group-title="Telugu", Zee Cinemalu HD
 https://p4kp.rjmbts.workers.dev/4598.m3u8
