@@ -1,29 +1,41 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-05 09:13:52 IST
-# Channels : Total - 540 | Updated - 540
+# Last updated on : 2026-04-06 09:17:24 IST
+# Channels : Total - 547 | Updated - 547
 
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (GalaxyOTT) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (Distro) 
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/6af32fbc-ad75-40ca-8d8e-8f26abc1f1d5/0.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (DistroTV) 
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8?ads.vf=VcGQSvUuGWi
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (Tata Play) 
+https://cable75tataplay.akamaized.net/hls/sanatv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana Plus 
-https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8
+https://galaxyott.live/hls/sanaplus.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana Plus (Tata Play) 
+https://cable74tataplay.akamaized.net/hls/sanaplus.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTC TV 
 https://galaxyott.live/hls/ntv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTC TV (Tata Play) 
+https://cable85tataplay.akamaized.net/live/ntvpkt/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ultimate TV 
-https://mumbai-edge.smartplaytv.in/utv/index.m3u8
+https://stream.galaxyott.live/live/utv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ultimate TV (Tata Play) 
+https://cable92tataplay.akamaized.net/live/utv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV 
 https://server.sscloud7.in/live/anandhamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
 https://galaxyott.live/hls/suryatv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (GalaxyOTT) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV 
 https://stream.galaxyott.live/live/subintv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (Tata Play) 
+https://cable88tataplay.akamaized.net/live/subintv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV (Phoenix) 
 http://subintv.phoenixcreations.online/subintv/subintv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharsan TV 
 https://galaxyott.live/hls/dharshantv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharsan TV (Tata Play) 
+https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rock TV 
 https://apis.avmediawork.in/tvhls/rocktv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriyan TV 
@@ -1084,3 +1096,5 @@ https://web.applelive.in/stream/ammatv/index.m3u8
 https://web.applelive.in/stream/srtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kanna TV 
 https://web.applelive.in/stream/kktv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malar TV Alangulam 
+http://malartv.sscloud7.in/malartv/malartv/index.m3u8
