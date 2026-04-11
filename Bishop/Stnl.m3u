@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-10 09:18:27 IST
-# Channels : Total - 549 | Updated - 549
+# Last updated on : 2026-04-11 08:55:23 IST
+# Channels : Total - 550 | Updated - 550
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -930,7 +930,7 @@ https://view.rcserver.in/tmp_hls24/sktv/index.m3u8
 http://ptuf.ridsys.in/riptv/live/AURO_HD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ridsys TV 
 http://ptuf.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Tv 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK TV 
 http://ptuf.ridsys.in/riptv/live/AJK_TV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Movie 
 http://ptuf.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
@@ -944,6 +944,8 @@ http://ptuf.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
 http://ajkiptv.ridsys.in/riptv/live/SARAH_MOVIES/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tianaa Music 
 http://ajkiptv.ridsys.in/riptv/live/TIANAA_MUSIC_HD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MV Digital Network 
+http://ajkiptv.ridsys.in/riptv/live/MV_MOVIES/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
@@ -1077,7 +1079,7 @@ rtmp://103.136.136.77:1935/cs4k/cs4k?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kani TV [RTMP] 
 rtmp://103.136.136.77:1935/kanitv/kanitv?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hello Tamil TV 
-https://view.rcserver.in/tmp_hls26/index.m3u8
+https://view.rcserver.in/tmp_hls26/hellotamiltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Plus TV 
 http://rplustv.stream.onecloudlive.in:8080/rplustv/rplustvhd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",City TV 
