@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-11 08:55:23 IST
-# Channels : Total - 550 | Updated - 550
+# Last updated on : 2026-04-12 09:22:09 IST
+# Channels : Total - 553 | Updated - 553
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -1046,6 +1046,8 @@ rtmp://103.136.136.77:1935/abihd/abihd?psk=123456
 http://ipcloud.live/dsrchannel/dsrhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nila TV Sivaganga 
 https://ipcloud.live/nilatvsvg/nilatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aanmika TV 
+https://stream.onecloudlive.in/nilatvsvg/nilaomtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madura TV 
 https://stream.onecloudlive.in/mm/maduratv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Star Media 
@@ -1099,8 +1101,12 @@ https://web.applelive.in/stream/srtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kanna TV 
 https://web.applelive.in/stream/kktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malar TV Alangulam 
-https://live1.sscloud7.in/malartv/malartv/index.m3u8
+http://malartv.sscloud7.in/malartv/malartv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Right TV 
 https://stream.onecloudlive.in/righttv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Chennai 
 https://stream.ashokadigital.net/thendraltv/thendraltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rathchagar TV 
+http://ratchagartv.phoenixcreations.online/ratchagartv/ratchagar/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",A1 TV Ariyalur 
+https://app.ashokadigital.net/app/0fca457c/index.m3u8
