@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-19 09:26:15 IST
+# Last updated on : 2026-04-20 09:29:02 IST
 # Channels : Total - 553 | Updated - 553
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -225,7 +225,7 @@ https://stream.rojatv.cloud/nammagobi/tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RJ Tamil 
 https://ipcloud.live/rjtamiltv/rjtamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan TV 
-https://ipcloud.live/aadhavantv/aadhavan/index.m3u8
+https://view.apserver.in/tmp_hls3/aadhavantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan TV HD 
 https://ipcloud.live/aadhavantv/aadhavanhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Maruthi TV 
@@ -521,13 +521,13 @@ https://live.sscloud7.in/kmmusic/kmmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velavan TV 
 http://velavantv.sscloud7.in/live/velavantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sky TV Karur 
-https://view.rcserver.in/tmp_hls6/skytv/index.m3u8
+https://view.rcserver.in/tmp_hls11/skytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV Madurai 
 https://view.rcserver.in/tmp_hls8/udhayamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Karur 
 https://view.rcserver.in/tmp_hls10/jayamtvkarur/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV 
-https://view.rcserver.in/tmp_hls11/jeyasubbutv/index.m3u8
+https://view.rcserver.in/tmp_hls6/jeyasubbutv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV HD 
 https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
