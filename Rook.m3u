@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Channels : Total - 2620 | Updated - 2620
-# Last updated: 2026-04-23 09:21:13 IST
+# Channels : Total - 2623 | Updated - 2623
+# Last updated: 2026-04-23 11:30:42 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-22 09:18:36 IST
+# Last updated on : 2026-04-23 09:25:25 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
@@ -5567,18 +5567,24 @@ https://galaxyott.live/hls/dharshantv.m3u8
 https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rock TV 
 https://apis.avmediawork.in/tvhls/rocktv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rock TV (Jio) 
+https://jiotvmblive.cdn.jio.com/bpk-tv/suriyantvtamil/HLSPartner/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriyan TV 
 https://stream.sscloud7.com/live/suriyantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV (Jio) 
-#EXTVLCOPT:http-referrer=https://m3uplay.com
+https://jiotvmblive.cdn.jio.com/bpk-tv/aryatvtamil/HLSPartner/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV (Cloud7) 
-https://live.sscloud7.in/live/aaryaatv/index.m3u8
+https://live.sscloud7.in/live/aaryaatv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
+https://rojatv.cloud/rojatv/rojatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV [Alt] 
 https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja Movies 
+https://live.rojatv.cloud/rojamovies/rojamovies/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja Movies [Alt] 
 https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bhagyam TV 
-#EXTVLCOPT:http-referrer=https://m3uplay.com
+https://jiotvmblive.cdn.jio.com/bpk-tv/aanadhamtvtamil/HLSPartner/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC TV 
 https://rtmp.bmlive.net/bms/kctv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KC Music 
@@ -5740,7 +5746,7 @@ https://stream.onecloudlive.in/sachintv/jpmusichd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaron TV 
 http://stream.onecloudlive.in/sachintv/aarontvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Devasena TV 
-http://stream.onecloudlive.in/sachintv/devasenatvhd/index.m3u8
+http://stream.onecloudlive.in/sachintv/devasenatvhd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Minnal TV 
 https://ipcloud.live/app/minnaltv/minnalhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akilam TV 
@@ -6222,7 +6228,7 @@ https://view.rcserver.in/tmp_hls13/udhayamhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Azhagi TV 
 https://view.rcserver.in/tmp_hls17/azhagitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Polimer Channel 
-http://media.7starcloud.com:1935/polimer/live/playlist.m3u8
+http://polimer.7starcloud.com:1935/polimer/live/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Heartbeat TV 
 https://rtmp.bmlive.net/bms/heartbeattv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hansitha TV 
@@ -7210,7 +7216,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-22 09:16:48 IST
+# Last updated on : 2026-04-23 09:22:46 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
