@@ -1,13 +1,13 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-04-23 09:25:25 IST
-# Channels : Total - 579 | Updated - 579
+# Last updated on : 2026-04-24 09:29:05 IST
+# Channels : Total - 572 | Updated - 572
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://galaxyott.live/hls/sanatv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (DistroTV) 
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8?ads.vf=VcGQSvUuGWi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/145.0.0.0Safari/537.36Edg/145.0.0.0
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV (Tata Play) 
 https://cable75tataplay.akamaized.net/hls/sanatv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana Plus 
@@ -456,8 +456,6 @@ https://app.ashokadigital.net/app/67a779e9/index.m3u8
 https://account26.livebox.co.in/RAGAMMTPhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CSK TV 
 http://csktv.7starcloud.com:1935/csktv/csktvdpi/playlist.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hari TV 
-https://stream.ashokadigital.net/haritv/haritvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV 
 http://krishnatv.7starcloud.com:1935/erodekrishnatv/livestream/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV Tiruchengode 
@@ -624,6 +622,8 @@ http://103.78.164.62:8090/MMCLASSIC/index.m3u8
 http://103.78.164.62:8090/SSSHD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Q TV 
 http://103.78.164.62:8090/QTVHD/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RC Television 
+https://view.rcserver.in/tmp_hls1/stream/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RC Music 
 https://view.rcserver.in/tmp_hls2/stream/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mei Alai TV 
@@ -940,26 +940,6 @@ https://ark.inet.moe/ark/index.m3u8
 https://view.rcserver.in/tmp_hls23/kaalaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK TV 
 https://view.rcserver.in/tmp_hls24/sktv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Auro TV 
-http://ptuf.ridsys.in/riptv/live/AURO_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ridsys TV 
-http://ptuf.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK TV 
-http://ptuf.ridsys.in/riptv/live/AJK_TV/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Movie 
-http://ptuf.ridsys.in/riptv/live/AJK_MOVIE_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AJK Kids 
-http://ajkiptv.ridsys.in/riptv/live/AJK_KIDS_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Media 
-http://ptuf.ridsys.in/riptv/live/S_MEDIA/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Latha Smile TV 
-http://ptuf.ridsys.in/riptv/live/LATHA_SMILE_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sarah Movie 
-http://ajkiptv.ridsys.in/riptv/live/SARAH_MOVIES/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tianaa Music 
-http://ajkiptv.ridsys.in/riptv/live/TIANAA_MUSIC_HD/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MV Digital Network 
-http://ajkiptv.ridsys.in/riptv/live/MV_MOVIES/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
@@ -1162,3 +1142,9 @@ https://stream.onecloudlive.in/sabaritv/sabaritvhd/index.m3u8
 https://ipcloud.live/vip/viptv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirai Tamil TV 
 https://tn.streamezy.in/hls/tthirai/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",City TV Puducherry [RTMP] 
+rtmp://103.136.136.77:1935/citytv/citytv?psk=123456
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KL TV [RTMP] 
+rtmp://103.136.136.77:1935/kl4k/kl4k?psk=123456
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JSP TV 
+rtmp://103.136.136.77:1935/jsp4k/jsp4k?psk=123456
