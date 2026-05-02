@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-05-02 11:36:16 IST
+# Last updated: 2026-05-02 13:28:47 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-05-02 09:28:33 IST
-# Channels : Total - 2751 | Updated - 2751
+# Last updated on : 2026-05-02 11:44:11 IST
+# Channels : Total - 2752 | Updated - 2752
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-01 10:06:23 IST
+# Last updated on : 2026-05-02 09:30:29 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -6014,7 +6014,7 @@ https://stream.ashokadigital.net/csktv/csktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV 
 http://103.110.236.141:8080/hls/erodekrishnatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV Tiruchengode 
-http://krishnatv.7starcloud.com:1935/live/livestream/playlist.m3u8
+http://krishnatk.7starcloud.com:1935/live/livestream/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vaani Visuals 
 http://vaanivisuals.in:1935/vaanitv/vaanitv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KCTN TV 
@@ -6077,6 +6077,8 @@ https://live.singamcloud.in/bsctv/bsctv/index.m3u8
 https://server.sscloud7.in/kingtv/kingtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Devi TV 
 https://server.sscloud7.in/live/devitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vinayaga TV 
+https://server.sscloud7.in/live/vinayagatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Thangamalai Murugan Tv 
 https://live.sscloud7.in/stmtv/srithangamalaimurugantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KM Music 
@@ -6125,8 +6127,6 @@ https://server.sscloud7.in/live/ayyatv/index.mpd
 https://stream.rojatv.cloud/AYYAVAIKUNDARTV/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Theni 
 https://sscloud7.com/live/thendraltv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vinayaga TV 
-https://server.sscloud7.in/live/vinayagatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eason TV 
 https://amigofx.com:1936/easontv/easontv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Senthur TV 
@@ -6811,6 +6811,8 @@ https://cloudstream4k.com/shakthihd/bsk/playlist.m3u8
 http://devatv.sscloud7.in/live/devatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sai TV Tenkasi 
 http://saitv.sscloud7.in/live/livesaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Boobsh TV 
+https://live.applelive.in/boobsh/boobsh/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
