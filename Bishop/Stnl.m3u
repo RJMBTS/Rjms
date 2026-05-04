@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-03 09:58:45 IST
-# Channels : Total - 640 | Updated - 640
+# Last updated on : 2026-05-04 09:58:20 IST
+# Channels : Total - 643 | Updated - 643
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -126,6 +126,8 @@ https://mntv.livebox.co.in/musichls/live.m3u8
 https://gemtv.circle7stream.com/gem/fcce47a8559e30755582c396ce7fce9e.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET TV 
 https://live.yettelevision.com:5443/LiveApp/streams/yettv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET Music 
+https://sstudiostv.stream.onecloudlive.in/sstudiostv/yettv2/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACP TV 
 http://103.87.105.51:8080/acphd/acphd.m3u8?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACP Classic 
@@ -260,8 +262,10 @@ https://stream.onecloudlive.in/maruthitv/maruthitvhd/index.m3u8
 https://stream.rojatv.cloud/jayam4k/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Sivakasi [RTMP] 
 rtmp://in-south-blr.livepush.io/live/rtmp_855a06c27c63420e9eb56e6ff68dd2v7
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Sivakasi [Phoenix] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Sivakasi [TamilStream] 
 https://jayamtv-ott.tamilstream.in/jayamtv/sivakasi/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Sivakasi [Phoenix] 
+http://jayamtv.phoenixcreations.online/jayamtv/sivakasi/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTV Kodaikanal 
 https://ipcloud.live/mtv/menhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MSN TV 
@@ -935,7 +939,7 @@ http://subash.phoenixcreations.online/subash/subash/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subash TV Tenkasi [Cloud7] 
 https://server.sscloud7.in/live/subashhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Surya TV 
-http://suryatv.phoenixcreations.online/suryatv/surya/index.m3u8
+https://surya.suriyantv.in/hls/app/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Annai TV Thoothukudi 
 http://annaitv.phoenixcreations.online/annai/annaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Gold 24 TV 
@@ -954,7 +958,7 @@ http://joshuatv.phoenixcreations.online/joshuatv/joshuatv/index.m3u8
 http://joshuatv-live.phoenixcreations.online/joshuatv/live/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kirubai Goodnews TV 
 http://kirubaitv.phoenixcreations.online/kirubaitv/kirubaitv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Paasamalar TV 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pasamalar TV 
 https://stream.sscloud7.in/live/paasamalartv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Karthick TV 
 https://ipcloud.live/karthick/karthicktvhd/index.m3u8
@@ -1284,3 +1288,5 @@ http://devatv.sscloud7.in/live/devatv/index.m3u8
 http://saitv.sscloud7.in/live/livesaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Boobsh TV 
 https://live.applelive.in/boobsh/boobsh/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anu TV 
+http://anutv.phoenixcreations.online/anutv/anutv/index.m3u8
