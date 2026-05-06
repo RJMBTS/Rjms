@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-05 09:27:16 IST
-# Channels : Total - 643 | Updated - 643
+# Last updated on : 2026-05-06 09:53:10 IST
+# Channels : Total - 646 | Updated - 646
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -982,6 +982,8 @@ https://ark.inet.moe/ark/index.m3u8
 https://view.rcserver.in/tmp_hls23/kaalaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK TV Karur 
 https://view.rcserver.in/tmp_hls24/sktv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK Music 
+https://view.rcserver.in/tmp_hls18/skmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aha TV 
@@ -1290,3 +1292,7 @@ http://saitv.sscloud7.in/live/livesaitv/index.m3u8
 https://live.applelive.in/boobsh/boobsh/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anu TV 
 http://anutv.phoenixcreations.online/anutv/anutv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACF TV 
+https://view.rcserver.in/tmp_hls27/acftv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dolphin TV Sivakasi 
+https://view.rcserver.in/tmp_hls31/dolphintv/index.m3u8
