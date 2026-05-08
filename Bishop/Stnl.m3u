@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-07 09:53:01 IST
-# Channels : Total - 646 | Updated - 646
+# Last updated on : 2026-05-08 09:29:22 IST
+# Channels : Total - 638 | Updated - 638
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -362,6 +362,8 @@ https://ipcloud.live/veeratv/veeratvhd/index.m3u8
 https://ipcloud.live/eaglemedia/eagletv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTV Trichy 
 https://notvstream.in/ntv/ntv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NTV Trichy [Cloud7] 
+https://stream.sscloud7.in/live/ntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arunai TV 
 https://notvstream.in/arunaitv/arunaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RR TV 
@@ -450,32 +452,14 @@ https://app.ashokadigital.net/app/ed8bd4a7/index.m3u8
 http://premium.7starcloud.com:1935/live/7starmusic/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Star TV 
 http://acv.7starcloud.com:1935/tamilstar/tv/playlist.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi TV 
-https://rasinetworks.in/live/rasitvhd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Tamil 
-https://rasinetworks.in/live/rasitamilhd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Movies 
-https://rasinetworks.in/live/rasimovieshd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Music 
-https://rasinetworks.in/live/rasimusichd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Hollywood 
-https://rasinetworks.in/live/rasihollywoodhd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Comedy 
-https://rasinetworks.in/live/rasicomedyhd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Classic 
-https://rasinetworks.in/live/rasiclassichd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Cinema 
-https://rasinetworks.in/live/rasicinemahd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Cinemax 
-https://rasinetworks.in/live/rasicinemaxhd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rasi Lifestyle 
-https://rasinetworks.in/live/rasilifestylehd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Santhiya TV 
 https://stream.onecloudlive.in/santhiyatv/santhiyatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Santhiya TV JKM 
 https://stream.onecloudlive.in/santhiyatv/jkm/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai 
 https://iptvhls.inet.moe/hls/test_src/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai [Ashoka Digital] 
+https://app.ashokadigital.net/app/8fe44fd0/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV 
 https://mumt02.tangotv.in/ABITV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV 
@@ -761,7 +745,7 @@ http://198.144.149.206:8080/NOTV/IWORLDHD/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PCN 
 https://rtmp.bmlive.net/bms/pcn/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bama TV 
-http://indiamatrix.in/bamahd/bamahd.m3u8
+http://bamatv.phoenixcreations.online/bamatv/bama/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Smart Sri 
 https://mumbai-edge.smartplaytv.in/smartsri/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Manju TV 
@@ -1294,5 +1278,5 @@ https://live.applelive.in/boobsh/boobsh/index.m3u8
 http://anutv.phoenixcreations.online/anutv/anutv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACF TV 
 https://view.rcserver.in/tmp_hls27/acftv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dolphin TV Sivakasi 
-https://view.rcserver.in/tmp_hls31/dolphintv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
+https://live.apcloud.in/mrtv/mrtvhd/index.m3u8
