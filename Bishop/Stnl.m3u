@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-15 10:05:34 IST
-# Channels : Total - 638 | Updated - 638
+# Last updated on : 2026-05-16 09:39:58 IST
+# Channels : Total - 642 | Updated - 642
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -592,6 +592,10 @@ https://amigofx.com:1936/easontv/easontv/playlist.m3u8
 http://senthurtv.phoenixcreations.online/senthurtv/senthurtv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CTN Conoor 
 https://rtmp.bmlive.net/ctn/ctntn/stream.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Velavan TV 
+https://rtmp.applelive.in/srivelavantv/srivelavantv4k/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Velavan TV (Alternate Feed) 
+http://rtmp.applelive.in/velavantv/srivelavantvultrahd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Cuddalore Voice TV 
 https://stream.ashokadigital.net/voicetv/voicetvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Irattaipaathai TV 
@@ -684,7 +688,7 @@ https://live1.sscloud7.in/live/jenifertv/index.m3u8
 https://live1.sscloud7.in/live/raghultv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",A1 TV 
 https://app.ashokadigital.net/app/7fff5003/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bharathi TV Madurai 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bharathi TV Usilampatti 
 https://stream.onecloudlive.in/karnan/bharathitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",National TV 
 https://stream.onecloudlive.in/karnan/Nationaltv/index.m3u8
@@ -1071,9 +1075,9 @@ rtmp://103.136.136.77:1935/abihd/abihd?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",DSR Channel 
 https://ipcloud.live/dsrchannel/dsrhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nila TV Sivaganga 
-https://ipcloud.live/nilatvsvg/nilatv/index.m3u8
+#https://ipcloud.live/nilatvsvg/nilatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aanmika TV 
-https://stream.onecloudlive.in/nilatvsvg/nilaomtv/index.m3u8
+#https://stream.onecloudlive.in/nilatvsvg/nilaomtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madura TV 
 https://stream.onecloudlive.in/mm/maduratv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Star Media 
@@ -1280,3 +1284,7 @@ http://anutv.phoenixcreations.online/anutv/anutv/index.m3u8
 https://view.rcserver.in/tmp_hls27/acftv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
 https://live.apcloud.in/mrtv/mrtvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tuneful TV 
+https://mediacp.hiredhosting.com/hls/hwnzhmjhym/hwnzhmjhym.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dolphin TV Sivakasi 
+https://view.rcserver.in/tmp_hls31/dolphintv/index.m3u8
