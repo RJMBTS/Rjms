@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-05-22 11:36:27 IST
+# Last updated: 2026-05-22 15:19:05 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-05-22 10:12:46 IST
-# Channels : Total - 2794 | Updated - 2794
+# Last updated on : 2026-05-22 13:49:47 IST
+# Channels : Total - 2798 | Updated - 2798
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-21 10:24:17 IST
+# Last updated on : 2026-05-22 10:15:32 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -5986,13 +5986,13 @@ https://stream.onecloudlive.in/santhiyatv/santhiyatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Santhiya TV JKM 
 https://stream.onecloudlive.in/santhiyatv/jkm/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai 
-https://iptvhls.inet.moe/hls/test_src/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai [Ashoka Digital] 
 https://app.ashokadigital.net/app/8fe44fd0/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV [RTMP] 
-rtmp://in-2.castr.io/static/live_40fb69e0107211f0adde2f394a2bbc0f
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV [RTMP] 
-rtmp://in-2.castr.io/static/live_b47b59f00ef311f0ad1ef1ea4c2387d9
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai HD 
+https://iptvhls.inet.moe/hls/test_src/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV 
+https://mumt02.tangotv.in/ABITV/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV 
+https://mumt02.tangotv.in/UTVANANDAM/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayaam TV 
 http://hdserver.7starcloud.com:1935/jayaamtv/jayaamtv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ragam TV 
@@ -6069,6 +6069,8 @@ https://server.sscloud7.in/live/devitv/index.m3u8
 https://server.sscloud7.in/live/vinayagatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Thangamalai Murugan Tv 
 https://live.sscloud7.in/stmtv/srithangamalaimurugantv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KM Television 
+https://stream.ashokadigital.net/KMTELEVISION/kmtelevision/index.m3u8?token=dHVsbml0aXNhZHVtZHVt
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KM Music 
 https://stream.ashokadigital.net/kmmusic/kmmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velavan TV 
@@ -6579,6 +6581,8 @@ https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
 https://nijamtv.nijamtv.org/live/nijamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nijam TV [IndiaMatrix] 
 https://nijamtv.indiamatrix.in/nijamtv/nijamtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nijam TV [Tata Play] 
+https://cable90tataplay.akamaized.net/live/nijamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",News 80 Tamil 
 http://198.144.149.206:8080/NOTV/NEWS80/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",C TV 
@@ -6859,10 +6863,16 @@ https://server.streamwell.in/hls/chittoortvhd.m3u8
 https://channel316.livebox.co.in/c316hls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Grace TV 
 https://gracetvcgl.livebox.co.in/Gracetvhls/Gracetv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil View Television 
+https://samson.streamerr.co:8081/tvt/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aathi TV 
+https://5790d294af2dc.streamlock.net/aathitv/aathitv/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TNSE 
+https://5790d294af2dc.streamlock.net/mchanneltv24/mchanneltv24/playlist.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-05-21 10:20:35 IST
+# Last updated on : 2026-05-22 10:11:30 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7384,7 +7394,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-21 10:21:57 IST
+# Last updated on : 2026-05-22 10:13:20 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7425,7 +7435,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-05-21 10:19:51 IST
+# Last updated on : 2026-05-22 10:11:13 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://raw.githubusercontent.com/falconcasthoster/images/refs/heads/main/FalconCast.png" ,FalconCast
 https://raw.githubusercontent.com/falconcasthoster/promo/refs/heads/main/nolink/master.m3u8
@@ -7453,12 +7463,10 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Bengla Beats
 https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Islamic TV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/1724.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,AL SUNNAH AL NABAWIYAH TV
-https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Makka live
-https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/598TYnC/20240827-092020.png" ,Peace TV English
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/598TYnC/20240827-092020.png" ,Peace TV Urdu
+https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/7jrjkW1/20240813-112630.png" ,Madani TV
 https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/TtHtGkW/20240803-172601.png" ,Makkah TV
@@ -7469,6 +7477,12 @@ https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3
 https://hlsb-us.god.tv/GODTV/USA-480.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Arihant TV
 https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Islamic TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/1724.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,AL SUNNAH AL NABAWIYAH TV
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Makka live
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,G-Serise
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/CPmLfGs/Amar-Bangla.png" ,Amar Bangla
@@ -8299,8 +8313,6 @@ https://mumt02.tangotv.in/SIRIKANNADAALLTIME/index.m3u8
 http://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_SET_HD&uid=gana-sunega&pass=krish-ka
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MARATHI/images/LOGO_HD/image.png" ,Sony Marathi (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY%20MARATHI.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" ,Sony SAB HD (1080p)
-http://103.122.249.134:8000/play/a04h
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" ,Sooriyan TV (1080p)
 https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://www.spondontv.com/wp-content/uploads/2025/10/cropped-SPONDON_Blue-Violet_1-copy-300x100.png" ,Spondon (1080p)
@@ -8817,6 +8829,8 @@ http://cdntv.online/low/9mlxywika2/57.m3u8
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,FIFA+
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Arabica TV
+http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,GTV
 https://tvsen1.aynaott.com/Ravc7gPCZpxk/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,BTV 🇧🇩
@@ -8841,8 +8855,6 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-vid
 https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CywdrFaZL.png" ,Peace tv Bangla
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Noor Tv
 https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/cygNtwH/bahrain-quaran.png" ,BAHRAIN QURAN
@@ -8897,8 +8909,6 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/strea
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,T Global News (Canada)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,BBC News
-https://ythls.armelin.one/channel/UCelk6aHijZq-GJBBB9YpReA.m3u8?v=1
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/whc9vkT/download-5.png" ,FOX News (AU) 🛜
@@ -9033,8 +9043,6 @@ https://mumt04.tangotv.in/PARASGOLD/index.m3u8
 https://mumt03.tangotv.in/PEACEOFMIND/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/1ztVXUi.png" ,Peace TV Bangla (1080p)
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/urdu.jpg" ,Peace TV Urdu (1080p)
-https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/PMC_Telugu.png" ,PMC Telugu (1080p)
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NG05K.png?lock=720x540" ,PTC Simran
