@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-21 10:24:17 IST
-# Channels : Total - 663 | Updated - 663
+# Last updated on : 2026-05-22 10:15:32 IST
+# Channels : Total - 668 | Updated - 668
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -457,13 +457,13 @@ https://stream.onecloudlive.in/santhiyatv/santhiyatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Santhiya TV JKM 
 https://stream.onecloudlive.in/santhiyatv/jkm/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai 
-https://iptvhls.inet.moe/hls/test_src/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai [Ashoka Digital] 
 https://app.ashokadigital.net/app/8fe44fd0/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV [RTMP] 
-rtmp://in-2.castr.io/static/live_40fb69e0107211f0adde2f394a2bbc0f
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV [RTMP] 
-rtmp://in-2.castr.io/static/live_b47b59f00ef311f0ad1ef1ea4c2387d9
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai HD 
+https://iptvhls.inet.moe/hls/test_src/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV 
+https://mumt02.tangotv.in/ABITV/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV 
+https://mumt02.tangotv.in/UTVANANDAM/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayaam TV 
 http://hdserver.7starcloud.com:1935/jayaamtv/jayaamtv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ragam TV 
@@ -540,6 +540,8 @@ https://server.sscloud7.in/live/devitv/index.m3u8
 https://server.sscloud7.in/live/vinayagatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Thangamalai Murugan Tv 
 https://live.sscloud7.in/stmtv/srithangamalaimurugantv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KM Television 
+https://stream.ashokadigital.net/KMTELEVISION/kmtelevision/index.m3u8?token=dHVsbml0aXNhZHVtZHVt
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KM Music 
 https://stream.ashokadigital.net/kmmusic/kmmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velavan TV 
@@ -1050,6 +1052,8 @@ https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
 https://nijamtv.nijamtv.org/live/nijamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nijam TV [IndiaMatrix] 
 https://nijamtv.indiamatrix.in/nijamtv/nijamtv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nijam TV [Tata Play] 
+https://cable90tataplay.akamaized.net/live/nijamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",News 80 Tamil 
 http://198.144.149.206:8080/NOTV/NEWS80/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",C TV 
@@ -1330,3 +1334,9 @@ https://server.streamwell.in/hls/chittoortvhd.m3u8
 https://channel316.livebox.co.in/c316hls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Grace TV 
 https://gracetvcgl.livebox.co.in/Gracetvhls/Gracetv.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil View Television 
+https://samson.streamerr.co:8081/tvt/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aathi TV 
+https://5790d294af2dc.streamlock.net/aathitv/aathitv/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TNSE 
+https://5790d294af2dc.streamlock.net/mchanneltv24/mchanneltv24/playlist.m3u8
