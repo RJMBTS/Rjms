@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-22 10:15:32 IST
+# Last updated on : 2026-05-23 09:56:15 IST
 # Channels : Total - 668 | Updated - 668
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -238,7 +238,7 @@ https://live3.onecloudlive.in/sachintv/sarvikhd/index.m3u8
 https://ipcloud.live/app/minnaltv/minnalhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akilam TV 
 https://stream.onecloudlive.in/akilamtv/akilamtvhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akilam TV [RojaTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akilam TV [3409] 
 https://stream.rojatv.cloud/AKILAMTV/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Queens 143 
 https://notvstream.in/queens/queens/index.m3u8
@@ -416,7 +416,7 @@ https://notvstream.in/brightsimrosetv/brightsimrosetv/index.m3u8
 https://ipcloud.live/malathitv/malathitvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sangamam TV Erode 
 https://stream.onecloudlive.in/sangamamtv/sangamamtvhd/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sangamam TV Erode [RojaTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sangamam TV Erode [3409] 
 https://stream.rojatv.cloud/SANGAMAMTV/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SSCN 
 https://stream.ashokadigital.net/sscn/sscn/index.m3u8
@@ -584,7 +584,7 @@ https://server.sscloud7.in/live/bharathitv/index.m3u8
 http://ajaytv.sscloud7.in/live/ajaytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayya Vaikuntar TV 
 https://server.sscloud7.in/live/ayyatv/index.mpd
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayya Vaikuntar TV [RojaTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayya Vaikuntar TV [3409] 
 https://stream.rojatv.cloud/AYYAVAIKUNDARTV/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Theni 
 https://sscloud7.com/live/thendraltv/index.m3u8
@@ -966,7 +966,7 @@ https://live1.sscloud7.in/live/arputhamtv/index.m3u8
 https://stream.sscloud7.in/live/selvatamiltv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV Dindigul 
 http://122.165.249.163:8080/hls/supertv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV Dindigul [RojaTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV Dindigul [3409] 
 https://stream.rojatv.cloud/super/tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ark TV 
 https://ark.inet.moe/ark/index.m3u8
@@ -1164,7 +1164,7 @@ https://stream.iplive.xyz/smmedia/liontv/index.m3u8
 https://rtmp.bmlive.net/bms/visiontv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ATN 
 https://stream.onecloudlive.in/atntv/atnhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ATN [RojaTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ATN [3409] 
 https://stream.rojatv.cloud/ATNHD/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arram TV Komarapalayam 
 https://stream.rojatv.cloud/Arramtv/komarapalayam/index.m3u8
@@ -1226,7 +1226,7 @@ http://btc.inet.moe/live/btctv/index.m3u8
 https://ktismaservers.in:3545/live/jctvlive.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ME24 Tamil 
 https://stream.onecloudlive.in/orange/ME24TAMIL/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ME24 Tamil [RojaTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ME24 Tamil [3409] 
 https://stream.rojatv.cloud/ME24TAMIL/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Meiveli TV 
 https://meiveli.livebox.co.in/MEIVELIMAINhls/meivelimain.m3u8
