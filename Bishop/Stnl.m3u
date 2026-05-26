@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-05-25 10:36:33 IST
-# Channels : Total - 670 | Updated - 670
+# Last updated on : 2026-05-26 10:15:27 IST
+# Channels : Total - 671 | Updated - 671
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -458,12 +458,14 @@ https://stream.onecloudlive.in/santhiyatv/santhiyatvhd/index.m3u8
 https://stream.onecloudlive.in/santhiyatv/jkm/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai 
 https://app.ashokadigital.net/app/8fe44fd0/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai [TangoTV] 
+https://mumt07.tangotv.in/zHjX9OFlANANDAMTV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai HD 
 https://iptvhls.inet.moe/hls/test_src/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV 
-https://mumt02.tangotv.in/ABITV/index.m3u8
+https://mumt07.tangotv.in/zHjX9OFlABITV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV 
-https://mumt02.tangotv.in/UTVANANDAM/index.m3u8
+https://mumt07.tangotv.in/zHjX9OFlUTVANANDAM/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayaam TV 
 http://hdserver.7starcloud.com:1935/jayaamtv/jayaamtv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ragam TV 
@@ -473,17 +475,17 @@ https://stream.ashokadigital.net/csktv/csktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV 
 http://103.110.236.141:8080/hls/erodekrishnatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV Tiruchengode 
-http://krishnatk.7starcloud.com:1935/live/livestream/live.m3u8
+#http://krishnatk.7starcloud.com:1935/live/livestream/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vaani Visuals 
 http://vaanivisuals.in:1935/vaanitv/vaanitv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KCTN TV 
-http://ttv.7starcloud.com:1935/kctn/tv/playlist.m3u8
+#http://ttv.7starcloud.com:1935/kctn/tv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",VCTN TV 
-http://ttv.7starcloud.com:1935/vctn/tv/playlist.m3u8
+#http://ttv.7starcloud.com:1935/vctn/tv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thirumagal TV 
-http://ttv.7starcloud.com:1935/thirumagal/tv/playlist.m3u8
+#http://ttv.7starcloud.com:1935/thirumagal/tv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vanavil TV 
-http://ttv.7starcloud.com:1935/vaanavil/tv/playlist.m3u8
+#http://ttv.7starcloud.com:1935/vaanavil/tv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KCN TV 
 https://view.rcserver.in/tmp_hls12/kcntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Magan TV 
@@ -779,7 +781,7 @@ https://singamcloud.in/arammtv/arammtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Fort Channels 
 https://stream.onecloudlive.in/forttv/fortchannel/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AK TV 
-https://stream.rojatv.cloud/AKTV/onecloud/index.m3u8
+https://stream.onecloudlive.in/aktvhd/aktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MKP TV 
 http://mkpcloud.publicvm.com:1935/mkptv/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",RV Tamil 
@@ -1343,4 +1345,4 @@ https://5790d294af2dc.streamlock.net/mchanneltv24/mchanneltv24/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S Media Puducherry 
 http://ptuf.ridsys.in/riptv/live/S_MEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Chola TV 
-https://hlsstream.olidigital.in/cholatv/cholatv/index.m3u8
+https://hlsstream.olidigital.in/cholatv/cholatv/index.m3u8?token=dHVsbml0X3N0ZWFsc19zaGl0
