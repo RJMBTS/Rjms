@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-03 10:58:06 IST
-# Channels : Total - 673 | Updated - 673
+# Last updated on : 2026-06-04 10:53:22 IST
+# Channels : Total - 676 | Updated - 676
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -566,6 +566,8 @@ https://view.rcserver.in/tmp_hls8/udhayamtv/index.m3u8
 https://view.rcserver.in/tmp_hls10/jayamtvkarur/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV 
 https://view.rcserver.in/tmp_hls6/jeyasubbutv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV HD 
+https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
 https://view.rcserver.in/tmp_hls14/tntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Kumbakonam 
@@ -754,6 +756,10 @@ https://play.applelive.in/atn/atn.m3u8
 https://play.applelive.in/dolphintv/dolphintv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SNR TV 
 http://198.144.149.206:8080/NOTV/ASOSACHENNAI/index.m3u8?token=GTR
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Chither TV 
+http://198.144.149.206:8080/DINESH/PT2/index.m3u8?token=YAAL
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siddhar Isai 
+http://198.144.149.206:8080/DINESH/PT/index.m3u8?token=YAAL
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TSN Music 
 http://198.144.149.206:8080/NOTV/VAAGAI/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Appu TV 
@@ -1108,10 +1114,6 @@ https://rtmp.bmlive.net/stream/nakshatra/index.m3u8
 https://live.singamcloud.in/jayamtv/jayamki/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siva TV 
 https://app.xstream.onecloudlive.in/sivatv/sivatv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siddhar TV 
-http://198.144.149.206:8080/DINESH/PT2/index.m3u8?token=YAAL
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siddhar Isai 
-http://198.144.149.206:8080/DINESH/PT/index.m3u8?token=YAAL
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ithazh TV [RTMP] 
 rtmp://148.113.170.17/static/ithal
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mathan TV 
@@ -1350,3 +1352,7 @@ https://5790d294af2dc.streamlock.net/mchanneltv24/mchanneltv24/playlist.m3u8
 http://ptuf.ridsys.in/riptv/live/S_MEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Chola TV 
 https://hlsstream.olidigital.in/cholatv/cholatv/index.m3u8?token=dHVsbml0X3N0ZWFsc19zaGl0
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thamil TV 
+https://amigofx.com:1936/tv360/tv360/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lime TV 
+https://stream.iplive.xyz/limetv/limetvchannel/index.mpd
