@@ -1,8 +1,8 @@
 #EXTM3U name="Addl" playlist-name="RJM| Addl." billed-msg="RJM Tv - RJMBTS Network"
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-06-05 10:22:07 IST
-# Channels : Total - 1010 | Updated - 1010
+# Last updated on : 2026-06-06 10:02:04 IST
+# Channels : Total - 1004 | Updated - 1004
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://raw.githubusercontent.com/falconcasthoster/images/refs/heads/main/FalconCast.png" ,FalconCast
 https://raw.githubusercontent.com/falconcasthoster/promo/refs/heads/main/nolink/master.m3u8
@@ -32,8 +32,6 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Bengla Beats
 https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Channel-16
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png" ,Peace TV Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/598TYnC/20240827-092020.png" ,Peace TV English
@@ -1336,8 +1334,8 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624
 https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,WAZ TV 🎯 📡
 https://tplay.live/originals/ilm-tv/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,স্পাইস FM Radio 📻 মোবাইল লক করা অবস্থায়ও চলতে থাকবে
-https://stream.spicefmbd.com/stream.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,T Sports HD
+http://27.124.71.27/T-Sports/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Willow HD 🇺🇸
 https://tvsen5.aynaott.com/willowhd/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,A Sports HD 🇵🇰
@@ -1346,16 +1344,6 @@ https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8
 https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,PTV Sports pk HD
 https://crichd.johirxofficial.workers.dev/live/ptvpk.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Sony Sports 1 HD 🇮🇳
-https://ottbanglaplatform.com/tv/toffee/live.php?id=sony_sports_1_hd&e=.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Sony Sports 2 HD 🇮🇳
-https://ottbanglaplatform.com/tv/toffee/live.php?id=sony_sports_2_hd&e=.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Sony Sports 5 HD 🇮🇳
-https://ottbanglaplatform.com/tv/toffee/live.php?id=sony_sports_5_hd&e=.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,EuroSports HD 🇮🇳
-https://ottbanglaplatform.com/tv/toffee/live.php?id=euro_sports_hd&e=.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Sony-Ten-Cricket HD
-https://ottbanglaplatform.com/tv/toffee/live.php?id=ten_cricket&e=.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,DD SPORTS
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Redbull TV
@@ -1398,14 +1386,14 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/1723-audio_113532_eng=113200-vid
 https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=1692000.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CywdrFaZL.png" ,Peace tv Bangla
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Noor Tv
 https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,Sunnah Tv
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/GnfgKbs/alquran.png" ,QURAN
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/cygNtwH/bahrain-quaran.png" ,BAHRAIN QURAN
-https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/2qdGPCh/Sharjahtvquran.png" ,QURAN RADIOTV SMC
 https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/dQtMFVT/qamar.jpg" ,AL QAMAR
