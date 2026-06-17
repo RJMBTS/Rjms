@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-16 11:37:32 IST
-# Channels : Total - 677 | Updated - 677
+# Last updated on : 2026-06-17 10:55:59 IST
+# Channels : Total - 685 | Updated - 685
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -1358,3 +1358,19 @@ https://amigofx.com:1936/tv360/tv360/playlist.m3u8
 https://stream.iplive.xyz/limetv/limetvchannel/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jet TV 
 https://stream.apcloud.in/jettv/jettvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Retro Music 
+https://sanplayout.xyz/live2/retromusichd/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madurai Arasi TV 
+https://app.xstream.onecloudlive.in/maduraiarasi/livestream/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Euro Tamil 
+http://198.144.149.206:8080/DINESH/EURO/index.m3u8?token=YAAL
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",NRJ TV 
+http://198.144.149.206:8080/DINESH/NRJTV/index.m3u8?token=YAAL
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PJ TV 
+http://198.144.149.206:8080/DINESH/PJTV/index.m3u8?token=YAAL
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eye Tamil 
+http://198.144.149.196:8080/EyeMedia/EyeTV/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eye Tamil Music 
+http://198.144.149.196:8080/EyeMedia/music/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eye Tamil Comedy 
+http://198.144.149.196:8080/EyeMedia/comedy/index.m3u8
