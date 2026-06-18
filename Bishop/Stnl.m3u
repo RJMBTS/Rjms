@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-17 10:55:59 IST
-# Channels : Total - 685 | Updated - 685
+# Last updated on : 2026-06-18 10:49:41 IST
+# Channels : Total - 700 | Updated - 700
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -1011,8 +1011,6 @@ https://stream.onecloudlive.in/ezhiltv/ezhilhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Koodal TV 
 https://web.applelive.in/koodaltv/koodaltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Crayonz TV 
-http://v.7starcloud.com:1935/live/crayonztv/playlist.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Crayonz TV [SanPlayout] 
 http://sanplayout.xyz/live2/crayonztv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SK Media 
 https://rtmp.bmlive.net/stream/skmedia/index.m3u8
@@ -1374,3 +1372,35 @@ http://198.144.149.196:8080/EyeMedia/EyeTV/index.m3u8
 http://198.144.149.196:8080/EyeMedia/music/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eye Tamil Comedy 
 http://198.144.149.196:8080/EyeMedia/comedy/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Prince TV 
+http://princetv.phoenixcreations.online/princetv/prince/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Belan TV 
+http://belantv.phoenixcreations.online/belantv/belan/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri TV 
+http://sritv.phoenixcreations.online/sritv/sri/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vel TV 
+https://saran.phoenixcreations.online/veltv/vel/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kings TV 
+http://kingstv.phoenixcreations.online/kingstv/kings/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bigil TV 
+http://bigiltv.phoenixcreations.online/bigiltv/bigiltv/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vetri TV 
+http://vetritv.phoenixcreations.online/vetritv/vetritv/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Tamil TV 
+https://layastream.in/cdn/rtamil/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Cinemax 
+https://layastream.in/cdn/rcinemax/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Cine Prime 
+https://layastream.in/live/plc1/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Hollywood 
+https://layastream.in/cdn/rhollywood/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rithik TV 
+https://layastream.in/cdn/rlifestyle/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Classic 
+https://layastream.in/cdn/rclassic/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Green TV 
+https://layastream.in/cdn/rmovies/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raj Tamil Songs 
+https://layastream.in/cdn/rmusic/index.m3u8?token=OGIdMcr6
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shri Sakthi TV 
+https://view.apserver.in/tmp_hls6/srisakthitv/index.m3u8
