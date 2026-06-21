@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-20 10:23:28 IST
+# Last updated on : 2026-06-21 10:56:18 IST
 # Channels : Total - 700 | Updated - 700
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -1355,7 +1355,7 @@ https://amigofx.com:1936/tv360/tv360/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lime TV 
 https://stream.iplive.xyz/limetv/limetvchannel/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jet TV 
-https://stream.apcloud.in/jettv/jettvhd/index.m3u8
+https://stream.apcloud.in/jettv/jettv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Retro Music 
 https://sanplayout.xyz/live2/retromusichd/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madurai Arasi TV 
@@ -1387,20 +1387,20 @@ http://bigiltv.phoenixcreations.online/bigiltv/bigiltv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vetri TV 
 http://vetritv.phoenixcreations.online/vetritv/vetritv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Tamil TV 
-https://layastream.in/cdn/rtamil/index.m3u8
+https://layastream.in/cdn/rtamil/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Cinemax 
-https://layastream.in/cdn/rcinemax/index.m3u8
+https://layastream.in/cdn/rcinemax/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Cine Prime 
-https://layastream.in/live/plc1/index.m3u8
+https://layastream.in/live/plc1/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Hollywood 
-https://layastream.in/cdn/rhollywood/index.m3u8
+https://layastream.in/cdn/rhollywood/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rithik TV 
-https://layastream.in/cdn/rlifestyle/index.m3u8
+https://layastream.in/cdn/rlifestyle/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Classic 
-https://layastream.in/cdn/rclassic/index.m3u8
+https://layastream.in/cdn/rclassic/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Green TV 
-https://layastream.in/cdn/rmovies/index.m3u8
+https://layastream.in/cdn/rmovies/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raj Tamil Songs 
-https://layastream.in/cdn/rmusic/index.m3u8?token=OGIdMcr6
+https://layastream.in/cdn/rmusic/index.mpd?token=OGIdMcr6
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shri Sakthi TV 
 https://view.apserver.in/tmp_hls6/srisakthitv/index.m3u8
