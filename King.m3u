@@ -1,11 +1,11 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-06-21 17:04:56 IST
+# Last updated: 2026-06-21 18:55:37 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-06-21 14:05:38 IST
+# Last updated on : 2026-06-21 17:13:31 IST
 # Channels : Total - 2574 | Updated - 2574
 # Made with ❤ in India
 
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-20 10:23:28 IST
+# Last updated on : 2026-06-21 10:56:18 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -6884,7 +6884,7 @@ https://amigofx.com:1936/tv360/tv360/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lime TV 
 https://stream.iplive.xyz/limetv/limetvchannel/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jet TV 
-https://stream.apcloud.in/jettv/jettvhd/index.m3u8
+https://stream.apcloud.in/jettv/jettv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Retro Music 
 https://sanplayout.xyz/live2/retromusichd/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madurai Arasi TV 
@@ -6916,21 +6916,21 @@ http://bigiltv.phoenixcreations.online/bigiltv/bigiltv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vetri TV 
 http://vetritv.phoenixcreations.online/vetritv/vetritv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Tamil TV 
-https://layastream.in/cdn/rtamil/index.m3u8
+https://layastream.in/cdn/rtamil/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Cinemax 
-https://layastream.in/cdn/rcinemax/index.m3u8
+https://layastream.in/cdn/rcinemax/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Cine Prime 
-https://layastream.in/live/plc1/index.m3u8
+https://layastream.in/live/plc1/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Hollywood 
-https://layastream.in/cdn/rhollywood/index.m3u8
+https://layastream.in/cdn/rhollywood/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rithik TV 
-https://layastream.in/cdn/rlifestyle/index.m3u8
+https://layastream.in/cdn/rlifestyle/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Classic 
-https://layastream.in/cdn/rclassic/index.m3u8
+https://layastream.in/cdn/rclassic/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Green TV 
-https://layastream.in/cdn/rmovies/index.m3u8
+https://layastream.in/cdn/rmovies/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raj Tamil Songs 
-https://layastream.in/cdn/rmusic/index.m3u8?token=OGIdMcr6
+https://layastream.in/cdn/rmusic/index.mpd?token=OGIdMcr6
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shri Sakthi TV 
 https://view.apserver.in/tmp_hls6/srisakthitv/index.m3u8
 
@@ -7458,7 +7458,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-20 10:19:42 IST
+# Last updated on : 2026-06-21 10:54:33 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
