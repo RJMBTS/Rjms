@@ -2,7 +2,7 @@
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
 # Channels : Total - 2579 | Updated - 2579
-# Last updated: 2026-06-25 10:10:58 IST
+# Last updated: 2026-06-25 13:48:05 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-24 10:17:32 IST
+# Last updated on : 2026-06-25 10:16:52 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -5846,7 +5846,7 @@ https://live.thendralcloud.in/ganeshtvlive/d0dbe915091d400bd8ee7f27f0791303.sdp/
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eagle TV Namakkal 
 https://rtmp.bmlive.net/bms/eagletv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ashoka TV 
-http://stream.ashokadigital.net/ashokaslm/live/index.m3u8
+https://stream.ashokadigital.net/ashokaslm/ashokahd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mathi TV 
 https://notvstream.in/mathitv/mathitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rainbow TV 
@@ -7458,7 +7458,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-06-24 10:16:13 IST
+# Last updated on : 2026-06-25 10:13:17 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
