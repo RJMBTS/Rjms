@@ -2,7 +2,7 @@
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
 # Channels : Total - 2614 | Updated - 2614
-# Last updated: 2026-07-12 06:30:13 IST
+# Last updated: 2026-07-12 10:17:23 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-11 09:22:52 IST
+# Last updated on : 2026-07-12 09:37:23 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -6971,6 +6971,8 @@ https://1.proxy.nellaiiptv.com/srivinayagatv/hd/index.m3u8
 https://1.proxy.nellaiiptv.com/srivinayagatv/movies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Vinayaga Music 
 https://1.proxy.nellaiiptv.com/srivinayagatv/music/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Vinayaga Hollywood 
+http://112.133.198.71:1935/srivinayagatv/hollywood/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PDP TV 
 https://srv3.nellaiiptv.com/live/pdptv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arun TV 
@@ -7012,7 +7014,7 @@ https://stream.onecloudlive.in/skytvhd/skytvhd/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-11 09:19:36 IST
+# Last updated on : 2026-07-12 09:34:46 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7534,7 +7536,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-11 09:20:47 IST
+# Last updated on : 2026-07-12 09:36:13 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7575,7 +7577,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-11 09:18:49 IST
+# Last updated on : 2026-07-12 09:34:11 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
@@ -8727,8 +8729,6 @@ https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u
 https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/9hdNFtt.png" ,Subharti TV (576p)
 https://mumt04.tangotv.in/SUBHARTITV/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/aRNBvTU.png" ,Superhitz (720p)
-https://live-evg5.tv360.bitel.com.pe/bitel/fillka/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Taaza_TV.png" ,Taaza TV (720p)
 https://live.we2live.in/taazatv/live/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tamilan_Television.png" ,Tamilan TV (1080p)
