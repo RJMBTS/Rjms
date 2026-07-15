@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Channels : Total - 2616 | Updated - 2616
-# Last updated: 2026-07-15 07:16:59 IST
+# Channels : Total - 2620 | Updated - 2620
+# Last updated: 2026-07-15 10:14:42 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-14 09:15:00 IST
+# Last updated on : 2026-07-15 09:15:11 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -6099,8 +6099,6 @@ https://view.rcserver.in/tmp_hls6/jeyasubbutv/index.m3u8
 https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
 https://view.rcserver.in/tmp_hls14/tntv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Kumbakonam 
-https://view.rcserver.in/tmp_hls18/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amma Vision 
 https://view.rcserver.in/tmp_hls19/ammavision/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV 
@@ -6192,7 +6190,7 @@ https://view.rcserver.in/tmp_hls21/meialai/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jai TV 
 https://play.applelive.in/jaitv/jaitv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CTN Channel 
-https://stream.ashokadigital.net/ctntv/ctntv/index.m3u8
+http://217.216.79.247/ctn/channel/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",King TV Ranipet 
 https://ipcloud.live/kingtv/kingtv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Yatra TV 
@@ -7013,10 +7011,20 @@ https://play.applelive.in/rktv/rktv.m3u8
 https://rstv.stream.onecloudlive.in/rstv/rstvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sky TV Sathankulam 
 https://stream.onecloudlive.in/skytvhd/skytvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vaagai TV 
+https://stream.ashokadigital.net/VAAGAITV/vaagaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Puducherry 
+https://srv4.nellaiiptv.com/live/pondicherry-appletv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Agaram TV 
+https://app.xstream.onecloudlive.in/akaramtvhd/akaram/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pugal TV 
+http://pugal.phoenixcreations.online/pugaltv/pugal/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mayil TV 
+http://103.186.231.25:8080/hls/mayiltv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-14 09:12:19 IST
+# Last updated on : 2026-07-15 09:12:42 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7538,7 +7546,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-14 09:13:43 IST
+# Last updated on : 2026-07-15 09:13:48 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7579,7 +7587,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-14 09:11:32 IST
+# Last updated on : 2026-07-15 09:11:37 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
