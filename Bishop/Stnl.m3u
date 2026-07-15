@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-14 09:15:00 IST
-# Channels : Total - 740 | Updated - 740
+# Last updated on : 2026-07-15 09:15:11 IST
+# Channels : Total - 744 | Updated - 744
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -570,8 +570,6 @@ https://view.rcserver.in/tmp_hls6/jeyasubbutv/index.m3u8
 https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
 https://view.rcserver.in/tmp_hls14/tntv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Kumbakonam 
-https://view.rcserver.in/tmp_hls18/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amma Vision 
 https://view.rcserver.in/tmp_hls19/ammavision/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV 
@@ -663,7 +661,7 @@ https://view.rcserver.in/tmp_hls21/meialai/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jai TV 
 https://play.applelive.in/jaitv/jaitv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CTN Channel 
-https://stream.ashokadigital.net/ctntv/ctntv/index.m3u8
+http://217.216.79.247/ctn/channel/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",King TV Ranipet 
 https://ipcloud.live/kingtv/kingtv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Yatra TV 
@@ -1484,3 +1482,13 @@ https://play.applelive.in/rktv/rktv.m3u8
 https://rstv.stream.onecloudlive.in/rstv/rstvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sky TV Sathankulam 
 https://stream.onecloudlive.in/skytvhd/skytvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vaagai TV 
+https://stream.ashokadigital.net/VAAGAITV/vaagaitv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Puducherry 
+https://srv4.nellaiiptv.com/live/pondicherry-appletv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Agaram TV 
+https://app.xstream.onecloudlive.in/akaramtvhd/akaram/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pugal TV 
+http://pugal.phoenixcreations.online/pugaltv/pugal/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mayil TV 
+http://103.186.231.25:8080/hls/mayiltv/index.m3u8
