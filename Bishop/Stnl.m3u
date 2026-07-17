@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-16 09:18:12 IST
-# Channels : Total - 744 | Updated - 744
+# Last updated on : 2026-07-17 09:18:07 IST
+# Channels : Total - 746 | Updated - 746
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -487,7 +487,7 @@ http://103.110.236.141:8080/hls/erodekrishnatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Krishna TV Tiruchengode 
 #http://krishnatk.7starcloud.com:1935/live/livestream/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vaani Visuals 
-https://vaanivisualsin.proxy.nellaiiptv.com/vaanitv/vaanitv/playlist.m3u8
+https://vaanivisualsin.proxy.nellaiiptv.com/vaanitv/vaanitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KCTN TV 
 #http://ttv.7starcloud.com:1935/kctn/tv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",VCTN TV 
@@ -1492,3 +1492,7 @@ https://app.xstream.onecloudlive.in/akaramtvhd/akaram/index.m3u8
 http://pugal.phoenixcreations.online/pugaltv/pugal/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mayil TV 
 http://103.186.231.25:8080/hls/mayiltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Royal TV Nellai 
+https://srv4.nellaiiptv.com/live/STRM-BX74/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTN TV 
+https://rtmp.applelive.in/mtntv/mtntv/index.m3u8
