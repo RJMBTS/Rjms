@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Channels : Total - 2554 | Updated - 2554
-# Last updated: 2026-07-18 06:22:03 IST
+# Channels : Total - 2558 | Updated - 2558
+# Last updated: 2026-07-18 09:19:43 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-17 09:18:07 IST
+# Last updated on : 2026-07-18 09:12:02 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -5828,7 +5828,7 @@ https://play.applelive.in/jcvtv/jcvtv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JCV Musix 
 https://play.applelive.in/jcvtv/jcvmusix.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hai TV 
-https://play.applelive.in/haitv/haitv.m3u8
+https://play.applelive.in/stv/stv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JJ News Tamil 
 https://hlsstream.olidigital.in/jjtvnewstamil/jjtvnewstamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Channel Spice 
@@ -6717,7 +6717,7 @@ https://server.sscloud7.in/live/vinothtv/index.m3u8
 http://198.144.149.206:8080/NOTV/VTV1/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamil [OliDigital] 
 https://hlsstream.olidigital.in/vtv/vtv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamil [NellaiIPTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamil [VK Digital] 
 https://real-vk.proxy.nellaiiptv.com/VTV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KSR TV 
 http://ksrtv.stream.onecloudlive.in:8080/ksrtv/ksrtvhd/index.m3u8
@@ -6989,7 +6989,7 @@ https://srv2.nellaiiptv.com/live/stv/index.m3u8
 https://stream.onecloudlive.in/pntv/pntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV 
 https://live3.onecloudlive.in/sunsmart/sunsmarttvhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV [NellaiIPTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV [VK Digital] 
 https://real-vk.proxy.nellaiiptv.com/SUNSMARTTV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SD Media (No Signal) 
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
@@ -7028,7 +7028,7 @@ https://rtmp.applelive.in/mtntv/mtntv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-17 09:14:45 IST
+# Last updated on : 2026-07-18 09:09:42 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7550,7 +7550,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-17 09:16:13 IST
+# Last updated on : 2026-07-18 09:11:05 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7591,7 +7591,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-17 09:14:21 IST
+# Last updated on : 2026-07-18 09:09:10 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
@@ -7831,8 +7831,8 @@ https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/outpu
 https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/lT8rihP.png" ,News Daily 24 (576p)
 https://cdn-6.pishow.tv/live/10009/master.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002N1TXH.png?lock=720x540" ,News India 24x7
-https://cdn-3.pishow.tv/live/273/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002N1TXH.png?lock=720x540" ,News India 24x7 (576p)
+http://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_J/images/LOGO_HD/image.png" ,News J (720p) [Not 24/7]
 https://cdn-3.pishow.tv/live/1279/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_LIVE/images/LOGO_HD/image.png" ,News Live (576p)
@@ -7923,6 +7923,8 @@ https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8
 https://cdn-1.pishow.tv/live/385/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s144000_ld_h15_aa.png?lock=720x540" ,Thanthi TV (576p)
 https://cdn-3.pishow.tv/live/1612/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/yxpeWnY.png" ,Time TV (576p)
+http://tvsen5.aynascope.net/timetv/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/qvuOBP7.png" ,Time Vision News (720p)
 http://rtmp.logichost.in:1935/timevision/timevision/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW/images/LOGO_HD/image.png" ,Times Now (720p) [Geo-blocked]
@@ -8523,6 +8525,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+MARATHI.m3u8
 https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://www.spondontv.com/wp-content/uploads/2025/10/cropped-SPONDON_Blue-Violet_1-copy-300x100.png" ,Spondon (1080p)
 https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/IlufzR5.png" ,Star Jalsha HD (720p)
+http://tvsen7.aynascope.net/sjhdbd/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/8v4JXYu.png" ,Star Maa Gold (576p)
 http://103.121.6.5:8000/play/a063/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/5c9PVS0.png" ,Star Maa HD (720p)
@@ -8805,6 +8809,10 @@ http://103.253.18.58:8000/play/a00t
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/kHerF19.png" ,Star Sports 2 Hindi HD (1080p)
 http://103.157.248.140:8000/play/a01m/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/Mh9tKPx.png" ,Star Sports Select 1 HD (720p)
+http://tvsen7.aynascope.net/sspts1/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/FtRT73R.png" ,Star Sports Select 2 HD (720p)
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Digishala.png" ,Digi Shala (576p)
 http://103.72.101.252:8080/live/1227.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/0sz6t9F.png" ,E-Vidya 1 (576p)
