@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-17 09:18:07 IST
+# Last updated on : 2026-07-18 09:12:02 IST
 # Channels : Total - 746 | Updated - 746
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -299,7 +299,7 @@ https://play.applelive.in/jcvtv/jcvtv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JCV Musix 
 https://play.applelive.in/jcvtv/jcvmusix.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hai TV 
-https://play.applelive.in/haitv/haitv.m3u8
+https://play.applelive.in/stv/stv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JJ News Tamil 
 https://hlsstream.olidigital.in/jjtvnewstamil/jjtvnewstamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Channel Spice 
@@ -1188,7 +1188,7 @@ https://server.sscloud7.in/live/vinothtv/index.m3u8
 http://198.144.149.206:8080/NOTV/VTV1/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamil [OliDigital] 
 https://hlsstream.olidigital.in/vtv/vtv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamil [NellaiIPTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamil [VK Digital] 
 https://real-vk.proxy.nellaiiptv.com/VTV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KSR TV 
 http://ksrtv.stream.onecloudlive.in:8080/ksrtv/ksrtvhd/index.m3u8
@@ -1460,7 +1460,7 @@ https://srv2.nellaiiptv.com/live/stv/index.m3u8
 https://stream.onecloudlive.in/pntv/pntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV 
 https://live3.onecloudlive.in/sunsmart/sunsmarttvhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV [NellaiIPTV] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV [VK Digital] 
 https://real-vk.proxy.nellaiiptv.com/SUNSMARTTV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SD Media (No Signal) 
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
