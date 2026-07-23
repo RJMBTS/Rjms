@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Channels : Total - 2560 | Updated - 2560
-# Last updated: 2026-07-23 06:28:01 IST
+# Channels : Total - 2561 | Updated - 2561
+# Last updated: 2026-07-23 09:44:58 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-22 09:28:04 IST
+# Last updated on : 2026-07-23 09:25:17 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -6800,7 +6800,7 @@ http://indiamatrix.in/penieltv/penieltv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Silver Sat Media 
 http://sanplayout.xyz/live2/silversatmedia/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Delta TV 
-https://live.onecloudlive.in/delta/namtv/index.m3u8
+https://srv5.nellaiiptv.com/deltatv/deltatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thangam TV 
 https://stream.onecloudlive.in/thangamtv/thangamtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Good News Time 
@@ -6979,7 +6979,7 @@ http://112.133.198.71:1935/srivinayagatv/hollywood/playlist.m3u8
 https://srv3.nellaiiptv.com/live/pdptv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arun TV 
 https://srv4.nellaiiptv.com/live/aruntv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S TV Nellai 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",I TV 
 https://deva.nellaiiptv.com/live/devatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lourdes TV 
 https://srv2.nellaiiptv.com/live/pondicherry-lourdestv/index.m3u8
@@ -7032,7 +7032,7 @@ https://rtmp.applelive.in/swastiktv/swastiktv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-22 09:24:23 IST
+# Last updated on : 2026-07-23 09:21:03 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7554,7 +7554,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-22 09:26:28 IST
+# Last updated on : 2026-07-23 09:23:15 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7595,7 +7595,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-22 09:22:56 IST
+# Last updated on : 2026-07-23 09:20:54 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
@@ -8191,6 +8191,8 @@ http://103.157.248.140:8000/play/a015/index.m3u8
 http://103.213.31.109:90/ChumbakTv/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/RQhorAG.png" ,Shubh Cinema TV (720p)
 https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/general_content/PGT_1822_2.png" ,Sony Max 1 (720p)
+http://103.159.180.34:5001/live/3418.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/gqUYk6C.png" ,Sony Max 2 (576p)
 http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" ,Sony Pix HD (1080p) [Geo-blocked]
