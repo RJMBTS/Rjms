@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-22 09:28:04 IST
+# Last updated on : 2026-07-23 09:25:17 IST
 # Channels : Total - 748 | Updated - 748
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -1271,7 +1271,7 @@ http://indiamatrix.in/penieltv/penieltv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Silver Sat Media 
 http://sanplayout.xyz/live2/silversatmedia/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Delta TV 
-https://live.onecloudlive.in/delta/namtv/index.m3u8
+https://srv5.nellaiiptv.com/deltatv/deltatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thangam TV 
 https://stream.onecloudlive.in/thangamtv/thangamtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Good News Time 
@@ -1450,7 +1450,7 @@ http://112.133.198.71:1935/srivinayagatv/hollywood/playlist.m3u8
 https://srv3.nellaiiptv.com/live/pdptv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arun TV 
 https://srv4.nellaiiptv.com/live/aruntv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S TV Nellai 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",I TV 
 https://deva.nellaiiptv.com/live/devatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lourdes TV 
 https://srv2.nellaiiptv.com/live/pondicherry-lourdestv/index.m3u8
