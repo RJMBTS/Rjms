@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-27 09:53:26 IST
-# Channels : Total - 748 | Updated - 748
+# Last updated on : 2026-07-28 09:17:31 IST
+# Channels : Total - 750 | Updated - 750
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -57,7 +57,7 @@ https://stream.sscloud7.com/live/suriyantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV 
 https://stream.ottlive.co.in/aryatvtamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV [Cloud7] 
-https://live.sscloud7.in/live/aaryaatv/index.mpd
+https://live.sscloud7.in/live/aaryaatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
 https://rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
@@ -884,7 +884,7 @@ https://pcntv.wmsdigital.in/hls/gtv/stream.m3u8
 http://almthendraltv.phoenixcreations.online/almthendraltv/almthendraltv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Top TV Thuraiyur 
 https://stream.onecloudlive.in/toptv/toptvhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Top TV Thuraiyur (2.5 min catchup) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Top TV Thuraiyur [RojaTV] 
 https://stream.rojatv.cloud/TOPTV/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jay TV 
 https://stream.onecloudlive.in/jaytv/jaytvhd/index.m3u8
@@ -1500,3 +1500,7 @@ https://srv4.nellaiiptv.com/live/STRM-BX74/index.m3u8
 https://rtmp.applelive.in/mtntv/mtntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Swastik TV 
 https://rtmp.applelive.in/swastiktv/swastiktv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Gurudevan TV 
+https://deva.nellaiiptv.com/Gurudevan/tv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bala TV 
+http://balatv.phoenixcreations.online/balatv/bala/playlist.m3u8
