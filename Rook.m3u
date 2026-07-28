@@ -2,7 +2,7 @@
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
 # Channels : Total - 2563 | Updated - 2563
-# Last updated: 2026-07-28 07:51:52 IST
+# Last updated: 2026-07-28 10:57:46 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-27 09:53:26 IST
+# Last updated on : 2026-07-28 09:17:31 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -5586,7 +5586,7 @@ https://stream.sscloud7.com/live/suriyantv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV 
 https://stream.ottlive.co.in/aryatvtamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaryaa TV [Cloud7] 
-https://live.sscloud7.in/live/aaryaatv/index.mpd
+https://live.sscloud7.in/live/aaryaatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
 https://rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV 
@@ -6413,7 +6413,7 @@ https://pcntv.wmsdigital.in/hls/gtv/stream.m3u8
 http://almthendraltv.phoenixcreations.online/almthendraltv/almthendraltv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Top TV Thuraiyur 
 https://stream.onecloudlive.in/toptv/toptvhd/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Top TV Thuraiyur (2.5 min catchup) 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Top TV Thuraiyur [RojaTV] 
 https://stream.rojatv.cloud/TOPTV/onecloud/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jay TV 
 https://stream.onecloudlive.in/jaytv/jaytvhd/index.m3u8
@@ -7029,10 +7029,14 @@ https://srv4.nellaiiptv.com/live/STRM-BX74/index.m3u8
 https://rtmp.applelive.in/mtntv/mtntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Swastik TV 
 https://rtmp.applelive.in/swastiktv/swastiktv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Gurudevan TV 
+https://deva.nellaiiptv.com/Gurudevan/tv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bala TV 
+http://balatv.phoenixcreations.online/balatv/bala/playlist.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-27 09:40:44 IST
+# Last updated on : 2026-07-28 09:13:43 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7554,7 +7558,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-07-27 09:42:08 IST
+# Last updated on : 2026-07-28 09:14:55 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7595,7 +7599,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-07-27 09:42:26 IST
+# Last updated on : 2026-07-28 09:13:07 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
@@ -8183,8 +8187,6 @@ https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8
 https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS/images/LOGO_HD/image.png" ,Raj Digital Plus (1080p)
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/rojamovies.png" ,Roja Movies (1080p)
-https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ROMEDY_NOW/images/LOGO_HD/image.png" ,Romedy Now (576p)
 http://103.157.248.140:8000/play/a015/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00297P3E.png?lock=720x540" ,Shemaroo Josh (720p)
@@ -8513,8 +8515,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/in
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png" ,Raj TV (576p)
 http://103.72.101.252:8080/live/707.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/rojatv.png" ,Roja TV (1080p)
-https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143733_ld_h15_aa.png?lock=720x540" ,Rupasi Bangla (720p)
 https://cdn-4.pishow.tv/live/1039/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/cXPzpGp/SADA-CHANNEL-HBN-global-Punjabi-Satellite-TV.png" ,Sada TV (1080p) [Not 24/7]
