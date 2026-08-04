@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-03 09:37:14 IST
-# Channels : Total - 747 | Updated - 747
+# Last updated on : 2026-08-04 09:19:22 IST
+# Channels : Total - 748 | Updated - 748
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -729,7 +729,7 @@ https://app.ashokadigital.net/app/68b001a0/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Citi Channel 
 https://stream.ashokadigital.net/cititv/cititvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamizh 
-http://stream.dureshtech.com/vtv/vtv/index.m3u8
+https://stream.dureshtech.com/vtv/vtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Muziq 
 https://vmusictv.stream.nellaiiptv.com/live/vmusictv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV Karur 
@@ -762,7 +762,7 @@ https://play.applelive.in/atn/atn.m3u8
 https://play.applelive.in/dolphintv/dolphintv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SNR TV 
 https://3.proxy.nellaiiptv.com/NOTV/ASOSACHENNAI/index.m3u8?token=GTR
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Chither TV 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siddhar TV 
 https://3.proxy.nellaiiptv.com/DINESH/PT2/index.m3u8?token=YAAL
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Siddhar Isai 
 https://3.proxy.nellaiiptv.com/DINESH/PT/index.m3u8?token=YAAL
@@ -1052,6 +1052,8 @@ https://app.xstream.onecloudlive.in/bass/basstv/index.m3u8
 https://stream.onecloudlive.in/bass/velurtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om TV 
 http://omtv.7starcloud.com:1935/omtv/live/live.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CTN TV 
+https://ipcloud.live/ctn/ctntvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arasu TV 
 https://ipcloud.live/ctn/arasu/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Magalir TV 
@@ -1405,7 +1407,7 @@ https://stream.ashokadigital.net/RubyDigitalTv/RubyDigitalTv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",City TV Kanchipuram 
 https://hd.singamcloud.in/citytv/citytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Duresh TV 
-https://real-vk.proxy.nellaiiptv.com/PDPTV/index.m3u8
+https://dureshtv.stream.nellaiiptv.com/live/dureshtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SMS TV 
 https://smstv.stream.nellaiiptv.com/live/smstv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Nellai 
@@ -1437,7 +1439,7 @@ https://1.proxy.nellaiiptv.com/srivinayagatv/hollywood/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PDP TV 
 https://pdptv.stream.nellaiiptv.com/live/pdptv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arun TV 
-http://stream.dureshtech.com/live/aruntv/index.m3u8
+https://stream.dureshtech.com/live/aruntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",I TV 
 https://deva.nellaiiptv.com/live/devatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lourdes TV 
