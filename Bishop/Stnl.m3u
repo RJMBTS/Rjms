@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-06 09:20:50 IST
-# Channels : Total - 760 | Updated - 760
+# Last updated on : 2026-08-07 09:00:38 IST
+# Channels : Total - 761 | Updated - 761
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -1242,6 +1242,8 @@ https://ca.streamjo.com/live/samugam.m3u8
 https://eu.streamjo.com/eetlive/eettv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Britain Tamil Bhakthi 
 http://btc.inet.moe/live/btctv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Britain Tamil Bhakthi [IPTelevision] 
+https://tcclbtc.iptelevision.live/btc/video.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JC TV Madurai 
 https://ktismaservers.in:3545/live/jctvlive.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ME24 Tamil 
@@ -1493,7 +1495,7 @@ https://stream.onecloudlive.in/skytvhd/skytvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vaagai TV 
 https://stream.ashokadigital.net/VAAGAITV/vaagaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Puducherry 
-https://pondicherry-appletv.stream.nellaiiptv.com/live/pondicherry-appletv/index.m3u8
+http://srvx.nellaiiptv.com:8033/restream/1785852500/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Agaram TV 
 https://app.xstream.onecloudlive.in/akaramtvhd/akaram/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pugal TV 
