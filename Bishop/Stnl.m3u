@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-11 08:05:57 IST
+# Last updated on : 2026-08-12 08:35:10 IST
 # Channels : Total - 766 | Updated - 766
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -459,7 +459,7 @@ https://ipcloud.live/jrptv/bala/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Adhiyamaan TV 
 https://hd.singamcloud.in/adhiyamamtv/adhiyamamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ezhil TV 
-https://3.proxy.nellaiiptv.com/NOTV/EZHILTV/index.m3u8?token=GTR
+https://rtmp.notvstream.in/ezhiltv/ezhiltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kavin TV 
 https://3.proxy.nellaiiptv.com/NOTV/KAVINTV/index.m3u8?token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jawahar Channel 
