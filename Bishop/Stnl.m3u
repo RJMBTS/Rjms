@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-23 07:40:04 IST
+# Last updated on : 2026-08-24 07:38:10 IST
 # Channels : Total - 793 | Updated - 793
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -124,7 +124,7 @@ https://stream.d6-pro.com/Dbhakhi/live/index.m3u8
 #https://live.maxtn.in/maxmusic/maxmusic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TDN 
 #https://live.maxtn.in/tdn/tdn/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",7 Green 4K 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",7 Green 
 https://account33.livebox.co.in/7GREEN4Khls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tharun Movies 
 https://streaming.livebox.co.in/tharunmovieshls/live.m3u8
