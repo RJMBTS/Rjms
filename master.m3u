@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-08-25 06:34:53 IST
-# Channels : Total - 2638 | Updated - 2638
+# Last updated on : 2026-08-25 08:07:00 IST
+# Channels : Total - 2639 | Updated - 2639
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5527,7 +5527,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-24 07:38:10 IST
+# Last updated on : 2026-08-25 07:33:53 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -6055,10 +6055,12 @@ http://yours.7starcloud.com:1935/live/yourstv/playlist.m3u8
 http://visaka.7starcloud.com:1935/live/visakatv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Channel 
 https://live.brightmeltech.in/kchannel/kchannel.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",IWorld TV [Not 24/7] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",IWorld TV 
 http://hlsstream.apcloud.in/iworld/iworldhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan Tamil TV 
 http://aadhavantamiltv.phoenixcreations.online/aadhavantamiltv/aadhavantamiltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan Tamil TV [TamilStream] 
+https://aadhavantamiltv.tamilstream.in/aadhavantamiltv/aadhavantamiltv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jothi Bala TV 
 http://jothibalatv.phoenixcreations.online/jothibalatv/jothibalatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lotus TV 
@@ -6114,7 +6116,7 @@ https://view.rcserver.in/tmp_hls8/udhayamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Karur 
 https://view.rcserver.in/tmp_hls10/jayamtvkarur/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV 
-https://view.rcserver.in/tmp_hls11/jeyasubbutv/index.m3u8
+https://view.apserver.in/tmp_hls6/jeyasubbutv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV HD 
 https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
@@ -6294,7 +6296,7 @@ https://rtmp.bmlive.net/bms/heartbeattv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hansitha TV 
 https://air.rojatv.cloud/hanshitha/tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rowthiram TV 
-#https://live3.onecloudlive.in/eleventv/eleventv/index.m3u8
+https://live.applelive.in/rowthiramtv/rowthiramtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTV Trichy 
 https://stream.iplive.xyz/mtv/mtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV 
@@ -7118,7 +7120,7 @@ https://gun.phoenixcreations.online/khilatv/khilatv/playlist.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-08-24 07:34:20 IST
+# Last updated on : 2026-08-25 07:27:12 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7640,7 +7642,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-24 07:36:28 IST
+# Last updated on : 2026-08-25 07:28:48 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7681,7 +7683,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-08-24 07:32:47 IST
+# Last updated on : 2026-08-25 07:26:44 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
