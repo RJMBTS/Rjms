@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-24 07:38:10 IST
-# Channels : Total - 793 | Updated - 793
+# Last updated on : 2026-08-25 07:33:53 IST
+# Channels : Total - 794 | Updated - 794
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -530,10 +530,12 @@ http://yours.7starcloud.com:1935/live/yourstv/playlist.m3u8
 http://visaka.7starcloud.com:1935/live/visakatv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",K Channel 
 https://live.brightmeltech.in/kchannel/kchannel.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",IWorld TV [Not 24/7] 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",IWorld TV 
 http://hlsstream.apcloud.in/iworld/iworldhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan Tamil TV 
 http://aadhavantamiltv.phoenixcreations.online/aadhavantamiltv/aadhavantamiltv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aadhavan Tamil TV [TamilStream] 
+https://aadhavantamiltv.tamilstream.in/aadhavantamiltv/aadhavantamiltv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jothi Bala TV 
 http://jothibalatv.phoenixcreations.online/jothibalatv/jothibalatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lotus TV 
@@ -589,7 +591,7 @@ https://view.rcserver.in/tmp_hls8/udhayamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayam TV Karur 
 https://view.rcserver.in/tmp_hls10/jayamtvkarur/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV 
-https://view.rcserver.in/tmp_hls11/jeyasubbutv/index.m3u8
+https://view.apserver.in/tmp_hls6/jeyasubbutv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeyasubbu TV HD 
 https://view.rcserver.in/tmp_hls15/jeyasubbumovies/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamilnesan TV 
@@ -769,7 +771,7 @@ https://rtmp.bmlive.net/bms/heartbeattv/stream.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hansitha TV 
 https://air.rojatv.cloud/hanshitha/tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rowthiram TV 
-#https://live3.onecloudlive.in/eleventv/eleventv/index.m3u8
+https://live.applelive.in/rowthiramtv/rowthiramtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTV Trichy 
 https://stream.iplive.xyz/mtv/mtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV 
