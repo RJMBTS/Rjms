@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-28 17:11:26 IST
-# Channels : Total - 797 | Updated - 797
+# Last updated on : 2026-08-29 12:47:32 IST
+# Channels : Total - 800 | Updated - 800
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -312,6 +312,8 @@ https://ipcloud.live/shalinitv/shalinitv/index.m3u8
 https://play.applelive.in/jcvtv/jcvtv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JCV Musix 
 https://play.applelive.in/jcvtv/jcvmusix.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hai TV 
+https://play.applelive.in/haitv/haitv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hai TV 
 https://play.applelive.in/stv/stv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JJ News Tamil 
@@ -1598,3 +1600,7 @@ https://app.ashokadigital.net/app/5926fcd7/index.m3u8
 https://gun.phoenixcreations.online/khilatv/khilatv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eye TV Madurai 
 https://srv-i.maduraiiptv.in/eyetv/live/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Palaar TV 
+https://live.onecloudlive.in/palaartv/palaartv/index.m3u8?token=github.com/amazeyourself
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nila TV Ranipet 
+https://live.onecloudlive.in/palaartv/nilatv/index.m3u8?token=github.com/amazeyourself
