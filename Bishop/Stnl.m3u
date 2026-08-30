@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-29 12:47:32 IST
-# Channels : Total - 800 | Updated - 800
+# Last updated on : 2026-08-30 11:11:40 IST
+# Channels : Total - 801 | Updated - 801
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -1002,6 +1002,8 @@ http://jostv.phoenixcreations.online/jostv/jostv/index.m3u8
 http://kannatv.phoenixcreations.online/kannatv/kanna/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Joshua TV 
 http://joshuatv.phoenixcreations.online/joshuatv/joshuatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Joshua TV [TamilStream] 
+https://joshuatv-hs1.tamilstream.in/joshuatv/joshuatv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Joshua Praise TV 
 http://joshuatv-live.phoenixcreations.online/joshuatv/live/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kirubai Goodnews TV 
@@ -1467,7 +1469,7 @@ https://srvx.nellaiiptv.com/restream/vf2ynq/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Nellai 
 https://srvx.nellaiiptv.com/restream/j0ttwz/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shark TV 
-https://srvx.nellaiiptv.com/restream/av4hud/index.m3u8
+https://srvx.nellaiiptv.com/restream/av4hu/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GJV TV 
 https://srvx.nellaiiptv.com/restream/dbjdmm/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Naveen TV 
