@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-08-30 11:11:40 IST
+# Last updated on : 2026-08-31 11:27:59 IST
 # Channels : Total - 801 | Updated - 801
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -425,7 +425,7 @@ https://notvstream.in/aasaitv/aasaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rainbow TV Gandarvakottai 
 https://notvstream.in/rainbowtv/rainbowtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalini TV 
-https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8
+#https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aalaya Magimai TV 
 https://stream.ashokadigital.net/aalayamagimaitv/aalayamagimaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dheiveegam TV 
@@ -677,13 +677,13 @@ https://server.sscloud7.in/live/malligai/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",BSC Old 
 https://stream.onecloudlive.in/bschd/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalini TV Kanchipuram 
-http://103.78.164.62:8090/SHALINITVHD/index.m3u8
+https://app.ashokadigital.net/app/55c65ef4/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV 
 #http://103.78.164.62:8090/MMTVHD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM Classic 
 http://103.78.164.62:8090/MMCLASSIC/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SSS TV 
-http://103.78.164.62:8090/SSSHD/index.m3u8
+https://app.ashokadigital.net/app/74f6070c/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Q TV 
 http://103.78.164.62:8090/QTVHD/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Q TV [Ashoka Digital] 
