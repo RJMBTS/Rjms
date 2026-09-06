@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-05 10:21:37 IST
-# Channels : Total - 805 | Updated - 805
+# Last updated on : 2026-09-06 10:29:16 IST
+# Channels : Total - 806 | Updated - 806
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -369,6 +369,8 @@ https://stream.onecloudlive.in/duraitv/classic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akash TV 
 https://account2.livebox.co.in/AkashTvhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Nagercoil 
+https://live.applelive.in/appletv/appletv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Nagercoil 
 https://play.applelive.in/appletv/appletv.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Kerala 
 https://play.applelive.in/appletv/appletvklm.m3u8
@@ -419,7 +421,7 @@ https://ipcloud.live/leotv/leotvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Leo TV [IPLive] 
 https://stream.iplive.xyz/hls/leotv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Boss Television 
-https://play.applelive.in/vasantv/vasantv.m3u8
+https://web.applelive.in/bosstv/bosstv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aasai TV 
 https://notvstream.in/aasaitv/aasaitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rainbow TV Gandarvakottai 
