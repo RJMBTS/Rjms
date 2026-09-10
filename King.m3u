@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-09-10 11:52:25 IST
+# Last updated: 2026-09-10 17:10:16 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-09-10 08:30:37 IST
-# Channels : Total - 2670 | Updated - 2670
+# Last updated on : 2026-09-10 13:47:54 IST
+# Channels : Total - 2668 | Updated - 2668
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-09 10:32:32 IST
+# Last updated on : 2026-09-10 10:35:47 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -5660,7 +5660,7 @@ https://streaming.livebox.co.in/tharunmovieshls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MN TV 
 https://mntv.livebox.co.in/mntvhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MN Music 
-#https://mntv.livebox.co.in/musichls/live.m3u8
+https://mntv.livebox.co.in/musichls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GEM TV 
 https://gemtv.circle7stream.com/gem/fcce47a8559e30755582c396ce7fce9e.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET TV 
@@ -5886,9 +5886,9 @@ https://notvstream.in/kingtv/kingtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Smiley TV 
 https://live1.sscloud7.com/live/smileytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",VIP TV Virudhunagar 
-https://srvx.nellaiiptv.com/restream/q8cb9q/index.m3u8
+https://sx.nellaiiptv.com/app-restream/q8cb9q-vishiltv1/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vishil TV 
-https://srvx.nellaiiptv.com/restream/5j7ifx/index.m3u8
+https://sx.nellaiiptv.com/app-restream/5j7iw8-vishilmaxtv2/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai TV 
 https://ipcloud.live/duraitv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai TV [IPLive] 
@@ -5896,7 +5896,7 @@ https://stream.iplive.xyz/hls/duraitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai Melodies 
 https://stream.onecloudlive.in/duraitv/classic/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Akash TV 
-https://account2.livebox.co.in/AkashTvhls/live.m3u8
+#https://account2.livebox.co.in/AkashTvhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Nagercoil 
 https://live.applelive.in/appletv/appletv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Nagercoil 
@@ -5990,7 +5990,7 @@ https://account11.livebox.co.in/vidyaltvhls/live.m3u8?psk=stream
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R TV Tirupattur 
 http://217.216.79.247/rtv/rtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pothigai Thendral 
-https://ipcloud.live/pothigai/thendral/index.m3u8
+https://pothigai.stream.ipcloud.live/pothigai/thendral/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Tirunelveli 
 https://stream.iplive.xyz/mayatv/mayatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velan TV 
@@ -6292,9 +6292,9 @@ https://mmtv.stream.onecloudlive.in/mmtv/vajratv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Citi Channel 
 https://stream.ashokadigital.net/cititv/cititvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Tamizh 
-https://srvx.nellaiiptv.com/restream/88k94t/index.m3u8
+https://sx.nellaiiptv.com/app-restream/88kp4t-vtamizhtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",V Muziq 
-https://srvx.nellaiiptv.com/restream/5acaf8/index.m3u8
+https://sx.nellaiiptv.com/app-restream/5akaf8-vmusictv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Udhayam TV Karur 
 https://view.rcserver.in/tmp_hls13/udhayamhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Azhagi TV 
@@ -6382,7 +6382,7 @@ https://ipcloud.live/mmtv/mmtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Salaam TV 
 https://stream.onecloudlive.in/salamtv/salamtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Athithoothar TV 
-https://srvx.nellaiiptv.com/restream/ae5djq/index.m3u8
+https://sx.nellaiiptv.com/app-restream/ae5dja-athithoothartv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mahimai TV 
 https://ktismaservers.in:3161/live/mahimaitvlive.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mahimai TV [IPTelevision] 
@@ -6722,8 +6722,6 @@ https://web.applelive.in/stream/kktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malar TV Surandai 
 http://malartv.sscloud7.in/malartv/malartv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Right TV 
-https://srvx.nellaiiptv.com/restream/z48m6f/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Right TV HD 
 https://srv-i.maduraiiptv.in/live/righttv-hd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Chennai 
 https://stream.ashokadigital.net/thendraltv/thendraltv/index.m3u8
@@ -6995,16 +6993,18 @@ https://view.apserver.in/tmp_hls6/srisakthitv/index.m3u8
 #https://hd.singamcloud.in/citytv/citytv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Duresh TV 
 http://real-vk.proxy.nellaiiptv.com/PDPTV/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Duresh TV [NellaiIPTV] 
+https://sx.nellaiiptv.com/app-restream/e434f1-dureshtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SMS TV 
-https://srvx.nellaiiptv.com/restream/vf2ynq/index.m3u8
+https://sx.nellaiiptv.com/live/smstv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Nellai 
-https://srvx.nellaiiptv.com/restream/j0ttwz/index.m3u8
+https://sx.nellaiiptv.com/app-restream/j0tt23-thendraltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shark TV 
-https://srvx.nellaiiptv.com/restream/av4hu/index.m3u8
+https://sx.nellaiiptv.com/app-restream/av4i2-sharktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GJV TV 
-https://srvx.nellaiiptv.com/restream/dbjdmm/index.m3u8
+https://sx.nellaiiptv.com/app-restream/dbjd1j-gjvtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Naveen TV 
-https://srvx.nellaiiptv.com/restream/b3ndcv/index.m3u8
+https://sx.nellaiiptv.com/app-restream/b3nd9s-naveentv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Varahi TV 
 https://real-vk.proxy.nellaiiptv.com/SRIVARAHITV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Telemax Tamil 
@@ -7024,15 +7024,15 @@ https://1.proxy.nellaiiptv.com/srivinayagatv/music/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sri Vinayaga Hollywood 
 https://1.proxy.nellaiiptv.com/srivinayagatv/hollywood/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PDP TV 
-https://srvx.nellaiiptv.com/restream/hwuihz/index.m3u8
+https://sx.nellaiiptv.com/app-restream/00e073-pdptv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arun TV 
-https://srvx.nellaiiptv.com/restream/jiv9fw/index.m3u8
+https://sx.nellaiiptv.com/app-restream/113d709-aruntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",I TV 
 https://deva1.nellaiiptv.com/live/itv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lourdes TV 
-https://srvx.nellaiiptv.com/restream/uwm02i/index.m3u8
+https://sx.nellaiiptv.com/app-restream/u2m3so-lourdestv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Selfie TV Nellai 
-https://srvx.nellaiiptv.com/restream/150cbg/index.m3u8
+https://sx.nellaiiptv.com/app-restream/150cqo-selfietv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",S TV Madurai 
 https://srvx.nellaiiptv.com/restream/rwtcwi/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PN TV 
@@ -7042,7 +7042,7 @@ https://live3.onecloudlive.in/sunsmart/sunsmarttvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV [VK Digital] 
 https://real-vk.proxy.nellaiiptv.com/SUNSMARTTV/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SD Media (No Signal) 
-https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
+#https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Krish TV 
 https://stream.onecloudlive.in/krishnatv/krishnatvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thoma TV 
@@ -7072,11 +7072,11 @@ http://pugal.phoenixcreations.online/pugaltv/pugal/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mayil TV 
 http://103.186.231.25:8080/hls/mayiltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Royal TV Nellai 
-https://srvx.nellaiiptv.com/restream/2fx6hb/index.m3u8
+http://sx.nellaiiptv.com:8033/app-restream/2fx62e-royaltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTN TV 
 https://rtmp.applelive.in/mtntv/mtntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Swastik TV 
-https://srvx.nellaiiptv.com/restream/rhk9cx/index.m3u8
+https://sx.nellaiiptv.com/app-restream/rhk94a-swasthiktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Gurudevan TV 
 https://deva.nellaiiptv.com/Gurudevan/tv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bala TV 
@@ -7099,7 +7099,7 @@ https://app.ashokadigital.net/app/eb990565/index.m3u8
 https://lanka.vaanam24.com:3712/hybrid/play.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Abnaz TV 
 https://live.toponlinetv.com/abnaztv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",KNR Max 
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kandan TV 
 https://stream.onecloudlive.in/knrtv/knrtvhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CTN Salem 
 http://ctntv.7starcloud.com:1935/live/ctn/live.m3u8
@@ -7132,7 +7132,7 @@ https://app.ashokadigital.net/app/5926fcd7/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Khila TV 
 https://gun.phoenixcreations.online/khilatv/khilatv/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Eye TV Madurai 
-https://srv-i.maduraiiptv.in/eyetv/live/index.m3u8
+https://oqgdrwzzy4rm-hls-live.5centscdn.com/eye/dd6f0d500e182201ad9681c7cc7d4f9e.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Palaar TV 
 https://live.onecloudlive.in/palaartv/palaartv/index.m3u8?token=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nila TV Ranipet 
@@ -7150,7 +7150,7 @@ https://rtmp.applelive.in/aalayatv/aalayatv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-09-09 10:25:56 IST
+# Last updated on : 2026-09-10 10:28:27 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7672,7 +7672,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-09 10:28:57 IST
+# Last updated on : 2026-09-10 10:31:27 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7713,7 +7713,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-09-09 10:24:59 IST
+# Last updated on : 2026-09-10 10:26:41 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
@@ -7973,8 +7973,6 @@ https://cdn-3.pishow.tv/live/1279/master.m3u8
 https://cdn-6.pishow.tv/live/10011/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/News_Live_Bangla.png" ,News Live Bangla (576p)
 https://mumt06.tangotv.in/qYyB8fXVINDRADHANU/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_MALAYALAM_24X7/images/LOGO_HD/image.png" ,News Malayalam 24x7 (576p)
-https://cdn-3.pishow.tv/live/1629/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" ,News Nation (1080p)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_TAMIL_24X7/images/LOGO_HD/image.png" ,News Tamil 24x7 (576p)
@@ -8349,10 +8347,6 @@ http://149.71.34.166:8000/play/a01d/index.m3u8
 http://103.253.18.58:8000/play/a00o
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540" ,Star Maa Movies HD (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" ,Star Movies HD (1080p)
-http://66.102.126.10:8000/play/a021/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT_HD/images/LOGO_HD/image.png" ,Star Movies Select HD (1080p)
-http://66.102.126.10:8000/play/a020/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/k5QHfH2.png" ,Star Utsav Movies (576p)
 http://149.71.34.166:8000/play/a059/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/yOPB7JB.png" ,Studio One + (720p)
@@ -8561,6 +8555,8 @@ http://66.102.126.10:8000/play/a00a/index.m3u8
 http://66.102.126.10:8000/play/a014/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_HD/images/LOGO_HD/image.png" ,Colors Kannada HD (1080i)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png" ,Colors Marathi HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" ,Colors Tamil HD (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/BEr1r7L.png" ,Dangal 2 (720p)
@@ -8627,8 +8623,8 @@ https://mumt06.tangotv.in/qYyB8fXVMANORANJANPRIME/index.m3u8
 http://103.213.31.109:90/ManoranjanTv/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/fjgzW20.png" ,Mazhavil Manorama (576p)
 https://mumt03.tangotv.in/Dsly5z3HMAZHAVILMANORAMAINT/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/fjgzW20.png" ,Mazhavil Manorama HD (1080p)
-https://cdn-7.pishow.tv/live/1129/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/fjgzW20.png" ,like Gecko) Chrome/147.0.0.0 Safari/537.36" ,Mazhavil Manorama HD (576p)
+http://103.175.73.12:8080/live/245/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/MK_Six.png" ,MK Six (576p)
 https://mumt06.tangotv.in/qYyB8fXVMKSIX/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/cFNw4Af.png" ,MNTV (1080p)
@@ -9043,8 +9039,8 @@ https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg008
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:28:41&stream=373017&extension=ts&play_token=zCaGy5dtla
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" ,National Geographic HD (576p)
 http://103.165.93.31:8095/nationalGeographic/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAFARI_TV/images/LOGO_HD/image.png" ,Safari TV
-https://cdn-6.pishow.tv/live/1513/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAFARI_TV/images/LOGO_HD/image.png" ,Safari TV (480p) [Not 24/7]
+https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" ,Sony BBC Earth HD (1080p)
 https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/0sz6t9F.png" ,E-Vidya 4 (576p)
