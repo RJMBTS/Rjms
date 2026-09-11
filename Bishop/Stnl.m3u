@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-10 10:35:47 IST
-# Channels : Total - 807 | Updated - 807
+# Last updated on : 2026-09-11 10:32:28 IST
+# Channels : Total - 808 | Updated - 808
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.galaxyott.live/live/sanatv/index.m3u8
@@ -1193,7 +1193,7 @@ https://web.applelive.in/stream/kktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malar TV Surandai 
 http://malartv.sscloud7.in/malartv/malartv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Right TV 
-https://srv-i.maduraiiptv.in/live/righttv-hd/index.m3u8
+https://stream.onecloudlive.in/righttv/live/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Chennai 
 https://stream.ashokadigital.net/thendraltv/thendraltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ratchagar TV 
@@ -1618,3 +1618,5 @@ https://bk7l2z5nlx53-hls-live.5centscdn.com/alpha/55f071ebe5152828fdcc330c765659
 https://gopuram.stream.onecloudlive.in/gopuram/gopuramhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aalaya TV 
 https://rtmp.applelive.in/aalayatv/aalayatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Adhiralai TV 
+https://hlsstream.olidigital.in/adhiralaitv/adhiralaitv/index.m3u8
