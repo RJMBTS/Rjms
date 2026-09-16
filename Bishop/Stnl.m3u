@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-15 10:41:15 IST
-# Channels : Total - 795 | Updated - 795
+# Last updated on : 2026-09-16 10:36:32 IST
+# Channels : Total - 796 | Updated - 796
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -18,6 +18,8 @@ https://stream.ottlive.co.in/utvtamil/index.m3u8
 https://cable92tataplay.akamaized.net/live/utv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV 
 https://server.sscloud7.in/live/anandhamtv/index.mpd
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV [IPCloud] 
+https://anandhamtv.stream.ipcloud.live/anandhamtv/anandhamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
 https://stream.ottlive.co.in/suryatvtamil/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Subin TV 
