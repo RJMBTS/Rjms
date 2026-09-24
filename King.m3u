@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-09-24 11:59:45 IST
+# Last updated: 2026-09-24 17:37:45 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-09-24 08:34:55 IST
-# Channels : Total - 2651 | Updated - 2651
+# Last updated on : 2026-09-24 14:08:24 IST
+# Channels : Total - 2650 | Updated - 2650
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-23 10:31:58 IST
+# Last updated on : 2026-09-24 10:43:28 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -7128,7 +7128,7 @@ http://srvvii.nellaiiptv.com:8033/app-restream/nilatv-sas/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-09-23 10:26:22 IST
+# Last updated on : 2026-09-24 10:36:37 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7650,7 +7650,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-09-23 10:28:27 IST
+# Last updated on : 2026-09-24 10:39:07 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7691,7 +7691,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-09-23 10:25:19 IST
+# Last updated on : 2026-09-24 10:35:12 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" ,4 SiDES TV (1080p)
 https://stream.ottlive.co.in/4sidestv/index.m3u8
@@ -8901,32 +8901,6 @@ https://mumt05.tangotv.in/87NeALx2GYANDARSHAN/index.m3u8
 https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://www.yupptv.com/seo_img/UGC_GEC_big.jpg" ,Vyas Channel (576p)
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" ,CBeebies Asia India (576p)
-http://202.70.146.135:8000/play/a0a2/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/xv9cWSh.png" ,Chithiram (576p)
-https://cdn.pishow.tv/ott/live/1243/master.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" ,Disney Channel (India) (576p)
-http://202.70.146.135:8000/play/a01q/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png" ,Disney Channel (India) HD (1080p)
-http://66.102.126.10:8000/play/a013/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" ,Disney International HD (1080p)
-http://202.70.146.135:8000/play/a04p/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GUBBARE/images/LOGO_HD/image.png" ,Epic Kids Digital (1080p)
-https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/zsTxPV9.png" ,ETV Bal Bharat (576p)
-http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png" ,Hungama TV (576p)
-http://103.185.24.134:3001/HUNGAMA/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png" ,Nick Jr. (India) (576p)
-http://103.185.24.134:3001/NICK-JR/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" ,Nickelodeon (India) (576p)
-http://103.185.24.134:3001/NICK/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" ,Sonic (576p)
-http://103.185.24.134:3001/SONIC/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://pash.ink/storage/uploads/JungleBook_Logo.png" ,The Jungle Book (1080p)
-https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" ,ZB Cartoon (1080p)
-https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/4ss0KfA.png" ,CCV (480p)
 https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/xkOunuW.png" ,Colors Rishtey Americas (396p)
@@ -9035,6 +9009,30 @@ https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c2
 https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/YozqNL3.jpg" ,Vision (India) (576p)
 http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/xv9cWSh.png" ,Chithiram (576p)
+https://cdn.pishow.tv/ott/live/1243/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" ,Disney Channel (India) (576p)
+http://202.70.146.135:8000/play/a01q/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png" ,Disney Channel (India) HD (1080p)
+http://66.102.126.10:8000/play/a013/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" ,Disney International HD (1080p)
+http://202.70.146.135:8000/play/a04p/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GUBBARE/images/LOGO_HD/image.png" ,Epic Kids Digital (1080p)
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/zsTxPV9.png" ,ETV Bal Bharat (576p)
+http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png" ,Hungama TV (576p)
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png" ,Nick Jr. (India) (576p)
+http://103.185.24.134:3001/NICK-JR/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" ,Nickelodeon (India) (576p)
+http://103.185.24.134:3001/NICK/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" ,Sonic (576p)
+http://103.185.24.134:3001/SONIC/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://pash.ink/storage/uploads/JungleBook_Logo.png" ,The Jungle Book (1080p)
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" ,ZB Cartoon (1080p)
+https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBCAwaaz.png" ,CNBC Awaaz (1080p)
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBCBajar.png" ,CNBC Bajar (1080p)
