@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-06 12:14:47 IST
-# Channels : Total - 797 | Updated - 796
+# Last updated on : 2026-10-07 11:50:22 IST
+# Channels : Total - 791 | Updated - 790
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -110,18 +110,6 @@ https://mntv.livebox.co.in/musichls/live.m3u8
 https://gemtv.circle7stream.com/gem/fcce47a8559e30755582c396ce7fce9e.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GEM TV 
 http://gem.inet.moe/live/gemtv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET TV 
-https://live.yettelevision.com:5443/LiveApp/streams/yettv.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET TV [1Cloud] 
-https://sstudiostv.stream.onecloudlive.in/sstudiostv/yettv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET Max 
-https://live.yettelevision.com:5443/LiveApp/streams/yettv2.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",YET Max [1Cloud] 
-https://sstudiostv.stream.onecloudlive.in/sstudiostv/yettv2/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Loop Tamil 
-https://stream.yettelevision.com:5443/WebRTCApp/streams/LOOPTAMIL4Vx8Qp2NmK7RdPLAY.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Movies HD 
-https://live.yettelevision.com:5443/LiveApp/streams/MoviesHDBdXb7gtHJIkT7mQx9LpV2Nc8Hd.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACP TV 
 http://103.87.105.51:8080/acphd/acphd.m3u8?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACP Classic 
