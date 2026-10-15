@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-14 10:44:43 IST
-# Channels : Total - 801 | Updated - 801
+# Last updated on : 2026-10-15 10:31:38 IST
+# Channels : Total - 802 | Updated - 802
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -434,6 +434,8 @@ https://pothigai.stream.ipcloud.live/pothigai/thendral/index.m3u8
 https://stream.iplive.xyz/mayatv/mayatv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velan TV 
 https://cloudstream4k.com/velantvhdkanchi/bsk/playlist.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velan TV [LiveBox] 
+http://account9.livebox.co.in/velantvhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JRP TV 
 https://ipcloud.live/jrptv/jrphd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bala TV 
@@ -1107,7 +1109,7 @@ https://stream6.livebox.co.in/manasutvhls/live.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",DSR Channel 
 #https://ipcloud.live/dsrchannel/dsrhd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nila TV Sivaganga 
-#rtmp://nilatvsg.stream.nellaiiptv.com/nilatvsg/nilatvsg
+http://nilatvsg.stream.mystreams.in/live/nilatvsg/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aanmika TV 
 #https://stream.onecloudlive.in/nilatvsvg/nilaomtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Madura TV 
