@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-15 10:31:38 IST
-# Channels : Total - 802 | Updated - 802
+# Last updated on : 2026-10-16 10:21:43 IST
+# Channels : Total - 805 | Updated - 805
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -1513,7 +1513,7 @@ http://103.186.231.25:8080/hls/mayiltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Royal TV Nellai 
 http://http://srvvii.nellaiiptv.com:8033/iptv.com:8033/app-restream/2fx62e-royaltv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MTN TV 
-https://rtmp.applelive.in/mtntv/mtntv/index.m3u8
+https://applelive.in/mtntv/mtntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Swastik TV 
 http://srvvii.nellaiiptv.com:8033/app-restream/rhk94a-swasthiktv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Gurudevan TV 
@@ -1608,3 +1608,9 @@ https://live.sscloud7.in/live/kirubaitv/index.m3u8
 https://rtmp.applelive.in/kingdomtv/kingdomtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Kali TV 
 https://stream.apcloud.in/SriVELAVANTVULTRAHD/srivelavantv/video.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayyapa TV 
+https://srv-i.maduraiiptv.in/live/ayyappatv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Deiveegam TV 
+https://live3.onecloudlive.in/deiveegam/deiveegamtv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AMN TV Karur 
+https://live.onecloudlive.in/amn/amntv/index.m3u8
