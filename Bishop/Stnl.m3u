@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-22 10:44:23 IST
-# Channels : Total - 805 | Updated - 805
+# Last updated on : 2026-10-23 10:43:02 IST
+# Channels : Total - 806 | Updated - 806
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -1327,7 +1327,7 @@ https://live.apcloud.in/mrtv/mrtvhd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dolphin TV Sivakasi 
 https://view.rcserver.in/tmp_hls31/dolphintv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aruljothi TV 
-https://jothi.inet.moe/jothitv/index.m3u8
+http://jothi.inet.moe/jothitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Thanjavur 
 https://stream.ipcloud.live/appletv/appletv/index.m3u8?token=dHVsbml0aXNhZHVtZHVt
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Banyan TV 
@@ -1614,3 +1614,5 @@ https://srv-i.maduraiiptv.in/live/ayyappatv/index.m3u8
 https://live3.onecloudlive.in/deiveegam/deiveegamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AMN TV Karur 
 https://live.onecloudlive.in/amn/amntv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",UCN TV 
+https://edge-tpr-01.tamilstreams.com/app/ucntv/index.m3u8
