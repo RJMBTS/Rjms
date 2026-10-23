@@ -1,12 +1,12 @@
 #EXTM3U playlist-name="RJM OTT - An RJMBTS Network" billed-msg="RJM OTT - An RJMBTS Network"
 # Coded & Maintained @RJMBTS
-# Last updated: 2026-10-23 11:47:29 IST
+# Last updated: 2026-10-23 17:25:19 IST
 
 # ===== LIVE TV =====
 # Pushed & Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Last updated on : 2026-10-23 10:39:35 IST
-# Channels : Total - 2719 | Updated - 2719
+# Last updated on : 2026-10-23 15:51:42 IST
+# Channels : Total - 2720 | Updated - 2720
 # Made with ❤ in India
 
 #EXTINF:-1 tvg-id="1373" group-title="RJM | Star" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-22 10:44:23 IST
+# Last updated on : 2026-10-23 10:43:02 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8
@@ -6856,7 +6856,7 @@ https://live.apcloud.in/mrtv/mrtvhd/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dolphin TV Sivakasi 
 https://view.rcserver.in/tmp_hls31/dolphintv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aruljothi TV 
-https://jothi.inet.moe/jothitv/index.m3u8
+http://jothi.inet.moe/jothitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Thanjavur 
 https://stream.ipcloud.live/appletv/appletv/index.m3u8?token=dHVsbml0aXNhZHVtZHVt
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Banyan TV 
@@ -7143,6 +7143,8 @@ https://srv-i.maduraiiptv.in/live/ayyappatv/index.m3u8
 https://live3.onecloudlive.in/deiveegam/deiveegamtv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AMN TV Karur 
 https://live.onecloudlive.in/amn/amntv/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",UCN TV 
+https://edge-tpr-01.tamilstreams.com/app/ucntv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
@@ -7668,7 +7670,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-22 10:40:08 IST
+# Last updated on : 2026-10-23 10:39:49 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
