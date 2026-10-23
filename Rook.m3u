@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Channels : Total - 2703 | Updated - 2703
-# Last updated: 2026-10-23 05:48:10 IST
+# Channels : Total - 2719 | Updated - 2719
+# Last updated: 2026-10-23 10:37:49 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -7146,7 +7146,7 @@ https://live.onecloudlive.in/amn/amntv/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-10-22 10:36:56 IST
+# Last updated on : 2026-10-23 10:36:44 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7709,7 +7709,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-10-22 10:35:18 IST
+# Last updated on : 2026-10-23 10:34:56 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" ,4 SiDES TV (1080p)
 https://stream.ottlive.co.in/4sidestv/index.m3u8
@@ -7727,6 +7727,8 @@ https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
 https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/dZA4gel.png" ,99TV (720p)
 https://cdn.pishow.tv/ott/live/1211/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/aagaaztimes.png" ,Aagaaz Times (1080p)
+https://live1.ottlive.co.in/aagaaztimes/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://m.media-amazon.com/images/I/71q8sOMPwHL.png" ,Aaj Ki Khabar (1080p)
 https://stream.ottlive.co.in/aajkikhabar/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" ,Aaj Tak (1080p)
@@ -7759,6 +7761,8 @@ https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3APN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARGUS/images/LOGO_HD/image.png" ,Argus News (576p)
 https://mumt05.tangotv.in/87NeALx2ARGUSNEWS/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ashwaveega_News_24x7.png" ,Ashwaveega News 24x7 (720p)
+https://mars.streambridge.cloud/sls/ashwaveega/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png" ,Asian News (1080p)
 https://stream.ottlive.co.in/asiannews/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png" ,Asianet News (1080p)
@@ -8211,6 +8215,8 @@ https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOi
 https://duw35ict5q7th.cloudfront.net/index_3.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/zDiIhdN.png" ,7S Music (576p)
 https://cdn.pishow.tv/ott/live/1257/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/7X_Music.png" ,7X Music (360p)
+https://cdn2.in/7xPunjabihls/live.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png" ,9X Jalwa (1080p)
 https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540" ,9X Jhakaas (1080p)
@@ -8231,8 +8237,8 @@ https://mcncdndigital.com/balleballetv/index.m3u8
 https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/xIYITQ9.png" ,Deewana HD (540p)
 https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Dhamaal_TV.png" ,Dhamaal (576p)
-http://107.167.16.138/dhamaal/index.m3u8?token=test
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Dhamaal_TV.png" ,Dhamaal (576p) [Geo-blocked]
+https://tvsen6.aynaott.com/F4Z6es8E/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DhoolTV.png" ,Dhool TV (576p)
 https://d1msejlow1t3l4.cloudfront.net/fta/subhartitv/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DHOOM_MUSIC/images/LOGO_HD/image.png" ,Dhoom Music (720p)
@@ -8261,6 +8267,8 @@ https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8
 https://jmp2.uk/stvp-IN460001373
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/wjSaHj5.png" ,Orange Bangla TV (720p)
 https://cdn.pishow.tv/ott/live/1499/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/pankh.png" ,Pankh (360p)
+https://samitaorigin.tangotv.in/PANKH/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Peppers_TV.png" ,Peppers TV (751p)
 https://cdn.pishow.tv/ott/live/1383/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_CHAKDE/images/LOGO_HD/image.png" ,PTC Chakde (720p)
@@ -8271,6 +8279,8 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/in
 https://mumt04.tangotv.in/m18aqlK4PUBLICMUSIC/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143691_ld_h15_aa.png?lock=720x540" ,Punjabi Hits (1080p)
 https://stream.ottlive.co.in/punjabihits/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Punjabi_Music_HD.png" ,Punjabi Music HD (720p)
+https://samitaorigin.tangotv.in/PUNJABIMUSICHD/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/IRyFTWq.png" ,Qello Concerts by Stingray (1080p)
 https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/z7fhhyX.png" ,Raj Musix Kannada (576p)
@@ -8323,8 +8333,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/pl
 https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png" ,ZB Music (720p)
 https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" ,Zing! (576p)
-http://107.167.16.138/zing/index.m3u8?token=test
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZOOM/images/LOGO_HD/image.png" ,Zoom (India) (720p)
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZOOM/images/LOGO_HD/image.png" ,Zoom (India) Nepal (720p)
@@ -8339,16 +8347,14 @@ http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=t
 https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj" ,All Time Movies (576p)
 https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/cps67hs.png" ,Asianet Movies HD (720p)
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/cps67hs.png" ,Asianet Movies (396p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/NwOQUDp.png" ,B4U Bhojpuri (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" ,B4U Kadak (576p)
 https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/M9kMFJl.png" ,B4U Movies (576p)
 https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/5CtiQ45.png" ,Bflix Movies (576p)
-http://103.151.60.162:2122/play/a01e/index.m3u8?hls
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHOJPURI_CINEMA/images/LOGO_HD/image.png" ,Bhojpuri Cinema (720p)
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20260805T003941SQUARE.png" ,Bollygold (1080p)
@@ -8377,6 +8383,8 @@ https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" ,like Gecko) Chrome/147.0.0.0 Safari/537.36" ,Goldmines Movies (576p)
 http://103.175.73.12:8080/live/51/51_0.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/FreeTV_India_Talkies.png" ,India Talkies (360p)
+https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/25eWjX2.png" ,Jalsha Movies HD (1080p)
 http://103.185.24.134:3001/JALSHA-MOVIES-HD/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KAIRALI_WE/images/LOGO_HD/image.png" ,Kairali We (576p)
@@ -8389,6 +8397,8 @@ https://cdn.pishow.tv/ott/live/1011/master.m3u8
 https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" ,MH One Movies (576p)
 https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/900_FreeTV_Movie_punjab.png" ,Movie Punjab (720p)
+https://samitaorigin.tangotv.in/MOVIEPUNJAB/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MOVIES_NOW/images/LOGO_HD/image.png" ,Movies Now HD (1080p)
 http://103.151.60.162:2122/play/a02w/index.m3u8?hls
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.ibb.co/yF9MPTDK/blyflx.png" ,NH BollyFlix (1080p)
@@ -8413,10 +8423,10 @@ https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/mas
 https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/RQhorAG.png" ,Shubh Cinema TV (720p)
 https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/1056_FreeTV_Soneri_Cinema.png" ,Soneri Cinema (360p)
+https://samitaorigin.tangotv.in/SONERICINEMA/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s179440_ld_h15_aa.png?lock=720x540" ,Sony Max 1
 http://27.116.22.53:5001/live/3418.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/gqUYk6C.png" ,Sony Max 2 (576p)
-http://107.167.16.138/sonymax2/index.m3u8?token=test
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" ,Sony Max (576p) [Geo-blocked]
 http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" ,Sony Max HD (1080p)
@@ -8447,16 +8457,12 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
 https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aumnrs.png" ,Tolly TV (1080p)
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540" ,Zee Action (576p)
-http://107.167.16.138/zeeaction/index.m3u8?token=test
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" ,Zee Cinema (576p)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" ,Zee Cinema HD (1080p)
 http://103.151.60.162:2122/play/a024/index.m3u8?hls
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png" ,Zee South Flix (1080p)
 https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png" ,Zee Talkies HD (1080p)
-http://107.167.16.138/zeetalkies/index.m3u8?token=test
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AADINATH_TV/images/LOGO_HD/image.png" ,Aadinath TV (576p)
 https://mumt01.tangotv.in/O5aw8Zn3AADINATHTV/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/GlfrYs7.png" ,Aaseervatham TV (576p)
@@ -8481,10 +8487,14 @@ https://mumbai-edge.smartplaytv.in/AasthaTelugu/index.m3u8
 https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Adhyatam_TV.png" ,Adhyatm TV (720p)
 https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Amritgurbani.png" ,Amrit Gurbani (720p)
+https://samitaorigin.tangotv.in/AMRITGURBANI/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Anand_TV.png" ,Anand TV (India) (1080p)
 https://live.legitpro.co.in/anandtv/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/channels/anandvari.png" ,Anand Wari TV (576p)
 https://mumt03.tangotv.in/Dsly5z3HANANDWARITV/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Anandpur_Live.png" ,Anandpur Live (720p)
+https://mumt05.tangotv.in/87NeALx2ANANDPURLIVE/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/qKLEGU7.png" ,Angel TV (720p)
 https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s142649_ld_h9_aa.png?lock=720x540" ,Aradana TV (576p)
@@ -8499,12 +8509,18 @@ https://ott.bhagyam.net/hls/bhagyamweb/index-1409148900-now.m3u8
 https://mumbai-edge.smartplaytv.in/Bhakthisiri/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/61/Bhakthi_TV_logo.jpg" ,Bhakthi TV (720p)
 https://cdn.pishow.tv/ott/live/397/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/channels/Bhakti_dhara1.png" ,Bhakti Dhara (720p)
+https://newsliveindia.com:4433/bhaktidhara/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bhaktisagar.png" ,Bhakti Sagar (576p)
 https://mumt05.tangotv.in/87NeALx2BHAKTISAGAR/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540" ,Channel Divya (1080p)
 https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHANNEL_WIN/images/LOGO_HD/image.png" ,Channel WIN (720p)
 https://cdn.pishow.tv/ott/live/229/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/channels/Chhaya_Chitram_Telugu.png" ,Chhaya Chitram Telugu (360p)
+https://samitaorigin.tangotv.in/CHHAYACHITRAMTELUGU/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Chintpurni_Live.png" ,Chintpurni Live (720p)
+https://samitaorigin.tangotv.in/CHINTPURNILIVE/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CVR_OM_Spiritual.png" ,CVR OM Spiritual (576p)
 https://yuppnimrestreammum.akamaized.net/181224/smil:cvrom1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Darshan_24.png" ,Darshan 24 (576p)
@@ -8515,6 +8531,8 @@ https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Divya_Vani.png" ,Divyavani TV (576p)
 https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/dukhniwaran.png" ,Dukhnivaran Patiala Live (720p)
+https://samitaorigin.tangotv.in/DUKHNIWARAN/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/c4ItNkB.png" ,Fateh TV (576p)
 https://cdn.pishow.tv/ott/live/349/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143091_ld_h15_aa.png?lock=720x540" ,Goodness TV (576p)
@@ -8569,10 +8587,14 @@ https://mumt01.tangotv.in/O5aw8Zn3MHONESHRADDHA/index.m3u8
 https://cdn.pishow.tv/ott/live/1389/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/NalsXTo.png" ,Namdhari TV (404p) [Not 24/7]
 https://namdhari.tv/live/sbs1.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Nanasar_live.png" ,Nanaksar Live (720p)
+https://samitaorigin.tangotv.in/NANAKSARLIVE/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/nGJv6QR.png" ,Nireekshana TV (576p)
 https://cdn.pishow.tv/ott/live/965/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png" ,OM TV (576p)
 https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/padharosa.png" ,Padharo SA (720p)
+https://samitaorigin.tangotv.in/PADHAROSA/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PARAS_GOLD_ONE/images/LOGO_HD/image.png" ,Paras Gold (576p)
 https://mumt04.tangotv.in/m18aqlK4PARASGOLD/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PEACE_OF_MIND/images/LOGO_HD/image.png" ,Peace of Mind TV (576p)
@@ -8587,6 +8609,10 @@ https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
 https://mumbai-edge.smartplaytv.in/PowerVision/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NG05K.png?lock=720x540" ,PTC Simran (576p)
 https://streams.tangotv.in/PTCSIMRAN/ORIGIN/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Ragni.png" ,Ragni (360p)
+https://samitaorigin.tangotv.in/RAGNITV/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Saang_TV.png" ,Saang (720p)
+https://samitaorigin.tangotv.in/SAANGTV/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SADHNA/images/LOGO_HD/image.png" ,Sadhna (720p)
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143736_ld_h15_aa.png?lock=720x540" ,Sadhna TV (576p)
@@ -8605,8 +8631,12 @@ https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/in
 https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143774_ld_h15_aa.png?lock=720x540" ,Shalom (1080p)
 https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Shree_Hazursahibji.png" ,Shree Hazur Sahibji (720p)
+https://samitaorigin.tangotv.in/SHREEHAZURSAHIBJI/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBHSANDESH_TV/images/LOGO_HD/image.png" ,Shubhsandesh TV (576p)
 https://mumt03.tangotv.in/Dsly5z3HSHUBHSANDESH/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/Sindth_TV.png" ,Sindh TV (India) (720p)
+https://samitaorigin.tangotv.in/SINDHTV/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/cpedJ0L.png" ,Soham TV (576p)
 https://mumt03.tangotv.in/Dsly5z3HSOHAMTV/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUBHAVAARTHA/images/LOGO_HD/image.png" ,Subhavaartha TV (720p)
@@ -8641,6 +8671,8 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://ddash74r36xqp.cloudfront.net/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/sh0yFSf.png" ,Anjan TV (720p)
 https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00260HWS.png?lock=720x540" ,Anmol TV (720p)
+https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/IM4D8Wz.png" ,Apna Punjab TV (720p)
 https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/Wv7MOzg.png" ,Asianet HD (1080p)
@@ -8672,7 +8704,7 @@ https://mumt04.tangotv.in/m18aqlK4DARSHANATV/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.postimg.cc/BZjmjJJs/DD-Malayalam.png" ,DD Malayalam (504p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/c313674ffced4c9a90f1bba436df2b9b/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png" ,DD National (576p)
-http://107.167.16.138/ddnational/index.m3u8?token=test
+https://cdn.pishow.tv/ott/live/11/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png" ,DD National HD (1080p)
 https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://desichannel.in/wp-content/uploads/2025/01/desi-channel.png" ,Desi Channel (720p)
@@ -8769,6 +8801,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/in
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/v5urG30.png" ,Pulari TV (576p)
 https://mumbai-edge.smartplaytv.in/PulariTV/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/PunjabiTV.png" ,Punjabi TV (720p)
+https://samitaorigin.tangotv.in/PUNJABITV/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://www.theq.tv/wp-content/uploads/2023/10/The-Q-new-Logo.png" ,Q TV (576p)
 https://mumt05.tangotv.in/87NeALx2THEQ/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png" ,Raj TV (1080p)
@@ -8793,8 +8827,6 @@ http://103.165.93.31:8095/sonyAath/index.m3u8
 http://103.151.60.162:2122/play/a015/index.m3u8?hls
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" ,Sony Entertainment Television HD (1080p)
 http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157970_ld_h15_aa.png?lock=720x540" ,Sony Marathi (576p)
-http://107.167.16.138/sonymarathi/index.m3u8?token=test
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157973_ld_h15_aa.png?lock=720x540" ,Sony Pal (576p)
 http://59.103.38.46:8000/play/a0ac/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540" ,Sony SAB (720p)
@@ -9017,6 +9049,8 @@ https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" ,Mr Bean Animated (1080p)
 https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_POGO/images/LOGO_HD/image.png" ,Pogo (576p)
+http://103.151.60.162:2122/play/a01e/index.m3u8?hls
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s159100_ld_h15_aa.png?lock=720x540" ,Sony Yay! (576p)
 http://103.165.93.31:8095/sonyYay/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" ,Super Hungama (576p)
@@ -9195,8 +9229,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/in
 https://cdn.pishow.tv/ott/live/1161/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540" ,Eurosport (720p)
 https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png" ,Kabaddi 24x7 (576p)
-http://180.188.254.253/live/KABADDI24X7.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png" ,Kabaddi 24x7 (720p)
+https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" ,Sony Sports Ten 1 (576p)
 http://103.151.60.162:2122/play/a01c/index.m3u8?hls
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" ,Sony Sports Ten 1 HD (1080p)
@@ -9275,7 +9309,5 @@ https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8
 https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/QCRhS1n.png" ,Zee Cine Classic (1080p)
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CLASSIC/images/LOGO_HD/LOGO_HD_image.png" ,Zee Classic (576p)
-http://107.167.16.138/zeeclassic/index.m3u8?token=test
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png" ,ZillarBarta News
 https://server.zillarbarta.com/zillarbarta/index.m3u8
