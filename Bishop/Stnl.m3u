@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-24 10:25:50 IST
+# Last updated on : 2026-10-25 10:38:19 IST
 # Channels : Total - 807 | Updated - 807
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -166,8 +166,6 @@ https://apsgold-a1.tamilstream.in/apsgold/apsgold/index.m3u8
 http://sasitv.phoenixcreations.online/sasitv/sasitv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SAR TV 
 http://sartv.phoenixcreations.online/sartv/sartv/index.m3u8
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SAR TV [Alt] 
-http://sartv2.phoenixcreations.online/sartv2/sartv2/playlist.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jose TV 
 http://josetv.phoenixcreations.online/josetv/josetv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Phoenix TV 
@@ -1618,3 +1616,5 @@ https://live.onecloudlive.in/amn/amntv/index.m3u8
 https://edge-tpr-01.tamilstreams.com/app/ucntv/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Neka TV 
 https://stream.apcloud.in/nekatv/nekatvhd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sar TV Nagercoil 
+http://sarplus.phoenixcreations.online/sarplus/sarplus/playlist.m3u8
