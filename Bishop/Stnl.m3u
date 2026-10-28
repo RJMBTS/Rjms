@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-27 10:56:18 IST
-# Channels : Total - 809 | Updated - 809
+# Last updated on : 2026-10-28 11:36:40 IST
+# Channels : Total - 811 | Updated - 811
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8?origin=github.com/amazeyourself
@@ -1591,7 +1591,7 @@ http://srvvii.nellaiiptv.com:8033/app-restream/nilatv-sas/index.m3u8?origin=gith
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Archana TV 
 https://live-stream.in/archanatv/archanatv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",T Tamil TV 
-https://app.ashokadigital.net/app/66a49d84/index.m3u8?origin=github.com/amazeyourself
+https://live4.onecloudlive.in/tamil/live/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharsan TV 
 https://cloudstream4k.com/dharshanhd/live/playlist.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amma Channel 
@@ -1622,3 +1622,7 @@ https://stream.apcloud.in/nekatv/nekatvhd/index.m3u8?origin=github.com/amazeyour
 http://sarplus.phoenixcreations.online/sarplus/sarplus/playlist.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Yaal TV 
 http://198.144.149.206:8080/DINESH/YAALTV/index.m3u8?origin=github.com/amazeyourself&token=YAAL
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shine TV 
+https://shinetv.ipcloud.live/shinetv/shinetv/index.m3u8?origin=github.com/amazeyourself
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SV Channel 
+http://svchannel.live.mystreams.in/live/svchannel/index.m3u8?origin=github.com/amazeyourself
