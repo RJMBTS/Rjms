@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-28 11:36:40 IST
-# Channels : Total - 811 | Updated - 811
+# Last updated on : 2026-10-29 11:46:40 IST
+# Channels : Total - 812 | Updated - 812
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8?origin=github.com/amazeyourself
@@ -429,7 +429,7 @@ http://217.216.79.247/rtv/rtv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Pothigai Thendral 
 https://pothigai.stream.ipcloud.live/pothigai/thendral/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Apple TV Tirunelveli 
-https://stream.iplive.xyz/mayatv/mayatv/index.m3u8?origin=github.com/amazeyourself
+http://appletv.live.mystreams.in/live/appletv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velan TV 
 https://cloudstream4k.com/velantvhdkanchi/bsk/playlist.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Velan TV [LiveBox] 
@@ -1626,3 +1626,5 @@ http://198.144.149.206:8080/DINESH/YAALTV/index.m3u8?origin=github.com/amazeyour
 https://shinetv.ipcloud.live/shinetv/shinetv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SV Channel 
 http://svchannel.live.mystreams.in/live/svchannel/index.m3u8?origin=github.com/amazeyourself
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aathvik TV 
+https://stream.apcloud.in/manishatv/manishatvstream/index.m3u8?origin=github.com/amazeyourself
