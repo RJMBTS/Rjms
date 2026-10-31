@@ -1,8 +1,8 @@
 #EXTM3U name="Addl" playlist-name="RJM| Addl." billed-msg="RJM Tv - RJMBTS Network"
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-10-30 11:34:59 IST
-# Channels : Total - 847 | Updated - 847
+# Last updated on : 2026-10-31 11:29:16 IST
+# Channels : Total - 848 | Updated - 848
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" ,4 SiDES TV (1080p)
 https://stream.ottlive.co.in/4sidestv/index.m3u8
@@ -122,8 +122,8 @@ https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8
 https://fta.ektv.in/live/117/117_0.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/H5Kd0k6.png" ,DNN (576p)
 https://samitaorigin.tangotv.in/DNN/SAMITAORIGIN/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540" ,DY 365 (576p)
-https://cdn.pishow.tv/ott/live/1624/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540" ,DY 365 (360p)
+https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Bharat_Odia.png" ,Ekamra Bharat Odia (400p)
 https://live.ekamraott.com/bharat/bharat/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/pFNCRnf.png" ,ETV Andhra Pradesh (1080p)
@@ -876,6 +876,8 @@ https://samitaorigin.tangotv.in/CHINTPURNILIVE/SAMITAORIGIN/index.m3u8
 https://yuppnimrestreammum.akamaized.net/181224/smil:cvrom1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Darshan_24.png" ,Darshan 24 (576p)
 https://mumt05.tangotv.in/87NeALx2DARSHAN24/index.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Arihant_TV.png" ,like Gecko) Chrome/147.0.0.0 Safari/537.36" ,Dharm Sandesh (576p)
+https://fta.ektv.in/live/625/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://play-lh.googleusercontent.com/brn76ZzRlqS8ylZVVcc5ZFWcqUp36iJ82WyzwiQ8-Nqi_8pIZZ_gsMCXNn6YiLhOEQ" ,Dharsan TV (720p)
 https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/jSedjXf.png" ,Dheeran TV (576p)
