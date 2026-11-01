@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-10-31 11:38:47 IST
-# Channels : Total - 812 | Updated - 812
+# Last updated on : 2026-11-01 12:09:21 IST
+# Channels : Total - 815 | Updated - 815
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8?origin=github.com/amazeyourself
@@ -17,7 +17,7 @@ https://stream.ottlive.co.in/utvtamil/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ultimate TV 
 https://cable92tataplay.akamaized.net/live/utv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV 
-https://server.sscloud7.in/live/anandhamtv/index.mpd
+https://server.sscloud7.in/live/anandhamtv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandham TV [IPCloud] 
 https://anandhamtv.stream.ipcloud.live/anandhamtv/anandhamtv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Suriya TV 
@@ -61,7 +61,7 @@ https://rtmp.bmlive.net/bms/kcmusic/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raga TV 
 https://live.onecloudlive.in/ragatv/ragatvhd/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om Sakthi TV 
-https://live1.sscloud7.com/live/omsakthitv/index.mpd
+https://live1.sscloud7.com/live/omsakthitv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Om Sakthi TV [1Cloud] 
 https://stream.onecloudlive.in/omsakthitv/omsakthitv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Oli TV 
@@ -81,7 +81,7 @@ https://live.applelive.in/primetv/primetv/index.m3u8?origin=github.com/amazeyour
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vedha TV 
 #https://skystream.in/live/vedha6528/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Deiva Oli 
-https://stream.sscloud7.in/live/deivaoli/index.mpd
+https://stream.sscloud7.in/live/deivaoli/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",G Music 
 https://stream.ipcloud.live/velavantv/velavantvhd/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dtv 
@@ -141,13 +141,13 @@ https://ipcloud.live/skytv/skytv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Paavai TV 
 #https://ipcloud.live/paavai/live/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Advika TV [RTMP] 
-#https://stream.advikadigital.in/advika/advika/index.mpd
+#https://stream.advikadigital.in/advika/advika/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SS Music [RTMP] 
-#https://stream.advikadigital.in/advika/ssmusic/index.mpd
+#https://stream.advikadigital.in/advika/ssmusic/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sree Saravanaa TV [RTMP] 
-#https://stream.advikadigital.in/advika/saravana/index.mpd
+#https://stream.advikadigital.in/advika/saravana/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Veerbox [RTMP] 
-#https://stream.advikadigital.in/advika/veerbox/index.mpd
+#https://stream.advikadigital.in/advika/veerbox/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Deavathai TV 
 https://ipcloud.live/devadhaitv/devadhaitv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SMCV TV 
@@ -155,9 +155,9 @@ https://singamcloud.in/smcvtv/smcvtv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Yogaa TV 
 #https://ipcloud.live/yogaatv/yogaatv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV (Nellai IPTV) 
-#rtmp://rojatv.stream.nellaiiptv.com/rojatv/rojatv
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja TV Entertainment [RTMP] 
-#rtmp://rojatventer.nellaiiptv.com/rojatventer/rojatventer
+http://rojatv.stream.nellaiiptv.com/rojatv/rojatv/index.m3u8?origin=github.com/amazeyourself
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Roja Lifestyle 
+http://rojatventer.stream.nellaiiptv.com/rojatventer/rojatventer/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",APS TV 
 https://apstv-a1.tamilstream.in/apstv/apstv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",APS TV Gold 
@@ -177,7 +177,7 @@ https://stream.galaxyott.live/live/sktv/index.m3u8?origin=github.com/amazeyourse
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Maran TV 
 https://server.sscloud7.in/marantv/marantv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Surya TV Digital 
-https://live.sscloud7.in/live/suryatv/index.mpd
+https://live.sscloud7.in/live/suryatv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Isai TV 
 https://server.sscloud7.in/isaihd/isaihd/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tamil Oli TV 
@@ -213,7 +213,7 @@ http://jptv.sscloud7.in/live/jptv/video.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aaron TV 
 http://stream.onecloudlive.in/sachintv/aarontvhd/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Devasena TV 
-http://stream.onecloudlive.in/sachintv/devasenatvhd/index.mpd
+http://stream.onecloudlive.in/sachintv/devasenatvhd/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sakthi TV Nellai 
 https://stream.onecloudlive.in/sachintv/sakthitv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sarvik TV 
@@ -271,7 +271,7 @@ https://ipcloud.live/veerali/veeralitv/index.m3u8?origin=github.com/amazeyoursel
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",King TV 
 https://rtmp.bmlive.net/kingtv/kingtv/stream.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",3 Star TV 
-https://stream.onecloudlive.in/threestartv/threestarhd/index.mpd
+https://stream.onecloudlive.in/threestartv/threestarhd/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalini TV Tiruvannamalai 
 https://ipcloud.live/shalinitv/shalinitv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",JCV 
@@ -287,7 +287,7 @@ https://hlsstream.olidigital.in/jjtvnewstamil/jjtvnewstamil/index.m3u8?origin=gi
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Channel Spice 
 https://stream.onecloudlive.in/spicetv/spicetv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Channel Spice [MPD] 
-https://stream.onecloudlive.in/spicetv/spicetv/index.mpd
+https://stream.onecloudlive.in/spicetv/spicetv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Urchagam TV 
 https://rtmp.bmlive.net/bms/urchagamtv/stream.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jeeva TV 
@@ -307,7 +307,7 @@ https://live.cloudvu.in/rainbowtv/ssdslive/playlist.m3u8?origin=github.com/amaze
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Rainbow TV [CloudStream4K] 
 https://cloudstream4k.com/rainbowtv/ssdslive/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sai TV Madurai 
-https://stream.onecloudlive.in/saitvmdu/saitvmdu/index.mpd
+https://stream.onecloudlive.in/saitvmdu/saitvmdu/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sai TV Madurai [NOTV] 
 https://3.proxy.nellaiiptv.com/NOTV/SAITVMD/index.m3u8?origin=github.com/amazeyourself&token=GTR
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anbu TV 
@@ -323,9 +323,9 @@ https://notvstream.in/kingtv/kingtv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Smiley TV 
 https://live1.sscloud7.com/live/smileytv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",VIP TV Virudhunagar 
-http://srvvii.nellaiiptv.com:8033/app-restream/q8cb9q-vishiltv1/index.m3u8?origin=github.com/amazeyourself
+http://whistletv1.stream.nellaiiptv.com:80/live/whistletv1/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Vishil TV 
-http://srvvii.nellaiiptv.com:8033/app-restream/5j7iw8-vishilmaxtv2/index.m3u8?origin=github.com/amazeyourself
+http://whistletv2.stream.nellaiiptv.com/live/whistletv2/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai TV 
 https://ipcloud.live/duraitv/live/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Durai TV [IPLive] 
@@ -415,7 +415,7 @@ https://notvstream.in/brightsimrosetv/brightsimrosetv/index.m3u8?origin=github.c
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malathi TV 
 https://ipcloud.live/malathitv/malathitvhd/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sangamam TV Erode 
-https://stream.onecloudlive.in/sangamamtv/sangamamtvhd/index.mpd
+https://stream.onecloudlive.in/sangamamtv/sangamamtvhd/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sangamam TV Erode [RojaTV] 
 https://stream.rojatv.cloud/SANGAMAMTV/onecloud/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SSCN 
@@ -459,17 +459,17 @@ https://stream.onecloudlive.in/santhiyatv/santhiyatvhd/index.m3u8?origin=github.
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Santhiya TV JKM 
 #https://stream.onecloudlive.in/santhiyatv/jkm/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai 
-https://in-2.castr.io/live_537b9540239611f08690576446b3c082/index.mpd
+https://in-2.castr.io/live_537b9540239611f08690576446b3c082/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai [TangoTV] 
 https://mumt07.tangotv.in/zHjX9OFlANANDAMTV/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam TV Madurai HD 
 #https://iptvhls.inet.moe/hls/test_src/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV 
-https://in-2.castr.io/live_40fb69e0107211f0adde2f394a2bbc0f/index.mpd
+https://in-2.castr.io/live_40fb69e0107211f0adde2f394a2bbc0f/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam Abi TV [TangoTV] 
 https://mumt07.tangotv.in/zHjX9OFlABITV/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV 
-https://in-2.castr.io/live_b47b59f00ef311f0ad1ef1ea4c2387d9/index.mpd
+https://in-2.castr.io/live_b47b59f00ef311f0ad1ef1ea4c2387d9/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Anandam UTV [TangoTV] 
 https://mumt07.tangotv.in/zHjX9OFlUTVANANDAM/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jayaam TV 
@@ -595,15 +595,15 @@ https://stream.onecloudlive.in/taitaltv/live/index.m3u8?origin=github.com/amazey
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharumai Adeenam TV 
 https://stream.onecloudlive.in/taitaltv/livetv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bharathi TV 
-https://server.sscloud7.in/live/bharathitv/index.mpd
+https://server.sscloud7.in/live/bharathitv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Bharathi Thirai Ulagam 
 https://live1.sscloud7.com/live/bharathithiraiulagam/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ajay TV 
 http://ajaytv.sscloud7.in/live/ajaytv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayya Vaikuntar TV 
-https://server.sscloud7.in/live/ayyatv/index.mpd
+https://server.sscloud7.in/live/ayyatv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayya Vaikuntar TV [1Cloud] 
-https://stream.onecloudlive.in/samuthirapandi/ayyavaikundartv/index.mpd
+https://stream.onecloudlive.in/samuthirapandi/ayyavaikundartv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ayya Vaikuntar TV [RojaTV] 
 https://stream.rojatv.cloud/AYYAVAIKUNDARTV/onecloud/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Theni 
@@ -641,7 +641,7 @@ https://live.applelive.in/enthirantv/enthirantv/index.m3u8?origin=github.com/ama
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Robo TV 
 https://applelive.in/robotv/robotv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Malligai TV 
-https://server.sscloud7.in/live/malligai/index.mpd
+https://server.sscloud7.in/live/malligai/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",BSC Old 
 https://app.ashokadigital.net/app/dd82e91b/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalini TV Kanchipuram 
@@ -991,7 +991,7 @@ https://live1.sscloud7.in/live/mariyevazhgatv/index.m3u8?origin=github.com/amaze
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arputham TV 
 https://live1.sscloud7.in/live/arputhamtv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Selva Tamil TV 
-https://stream.sscloud7.in/live/selvatamiltv/index.mpd
+https://stream.sscloud7.in/live/selvatamiltv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV Dindigul 
 http://122.165.249.163:8080/hls/supertv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Super TV Dindigul [RojaTV] 
@@ -1097,7 +1097,7 @@ https://sstv-ott.tamilstream.in/sstv/sstv/playlist.m3u8?origin=github.com/amazey
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Raja TV Valliyur 
 http://rajatv.phoenixcreations.online/rajatv/raja/playlist.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MM TV Valliyur 
-http://mmtv.phoenixcreations.online/mmtv/mm/index.mpd
+http://mmtv.phoenixcreations.online/mmtv/mm/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",We Baduga TV 
 https://rtmp.bmlive.net/webaduga/webaduga/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Manasu TV 
@@ -1129,7 +1129,7 @@ https://live.singamcloud.in/jayamtv/jayamki/index.m3u8?origin=github.com/amazeyo
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ithazh TV 
 http://148.113.170.17:8091/ithal/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Mathan TV 
-https://ipcloud.live/mathantv/mathantv/index.mpd
+https://ipcloud.live/mathantv/mathantv/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Muruga TV [RTMP] 
 #rtmp://103.136.136.77:1935/muruga4k/muruga4k?psk=123456
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Boova TV [RTMP] 
@@ -1141,7 +1141,7 @@ https://ipcloud.live/mathantv/mathantv/index.mpd
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Hello Tamil TV 
 #https://view.rcserver.in/tmp_hls26/hellotamiltv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",R Plus TV 
-https://rtmp.applelive.in/rplus/rplus/index.m3u8?origin=github.com/amazeyourself
+https://live2.onecloudlive.in/rplustv/rplus/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",City TV 
 https://stream.onecloudlive.in/citytv/citytv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shalwin TV 
@@ -1321,7 +1321,7 @@ https://live.applelive.in/boobsh/boobsh/index.m3u8?origin=github.com/amazeyourse
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",ACF TV 
 #https://view.rcserver.in/tmp_hls27/acftv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",MR TV 
-https://live.apcloud.in/mrtv/mrtvhd/index.mpd
+https://live.apcloud.in/mrtv/mrtvhd/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Tuneful TV 
 #https://mediacp.hiredhosting.com/hls/hwnzhmjhym/hwnzhmjhym.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dolphin TV Sivakasi 
@@ -1375,7 +1375,7 @@ https://hlsstream.olidigital.in/cholatv/cholatv/index.m3u8?origin=github.com/ama
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thamil TV 
 https://amigofx.com:1936/tv360/tv360/playlist.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Lime TV 
-https://stream.iplive.xyz/limetv/limetvchannel/index.mpd
+https://stream.iplive.xyz/limetv/limetvchannel/index.mpd?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Jet TV 
 https://stream.apcloud.in/jettvhd/jettv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Retro Music 
@@ -1439,7 +1439,7 @@ http://srvvii.nellaiiptv.com:8033/iptv.com/live/smstv/index.m3u8?origin=github.c
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Thendral TV Nellai 
 http://srvvii.nellaiiptv.com:8033/app-restream/j0tt23-thendraltv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Shark TV 
-http://srvvii.nellaiiptv.com:8033/app-restream/av4i2-sharktv/index.m3u8?origin=github.com/amazeyourself
+http://sharktv.stream.mystreams.in/sharktv/sharktv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",GJV TV 
 http://srvvii.nellaiiptv.com:8033/https://http://-restream/dbjd1j-gjvtv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Naveen TV 
@@ -1477,7 +1477,7 @@ http://srvvii.nellaiiptv.com:8033/app-restream/rwtcaa-stv/index.m3u8?origin=gith
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",PN TV 
 https://stream.onecloudlive.in/pntv/pntv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV 
-https://live3.onecloudlive.in/sunsmart/sunsmarttvhd/index.m3u8?origin=github.com/amazeyourself
+https://sunsmart.ipcloud.live/sunsmarttv/sunsmarttv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sun Smart TV [VK Digital] 
 https://real-vk.proxy.nellaiiptv.com/SUNSMARTTV/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",SD Media (No Signal) 
@@ -1548,6 +1548,8 @@ https://3.proxy.nellaiiptv.com/DINESH/YUGAM/index.m3u8?origin=github.com/amazeyo
 https://tvstream.cloudlive24.com/live/8527530ab689bf8a710430c189aa2906.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TBC TV 
 https://stream.iplive.xyz/smmedia/tbctv/index.m3u8?origin=github.com/amazeyourself
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TBC TV 
+https://rtmphub.in/hls/tbctv/live/xprdxTPK2QYuR75DHVNuoK9GbQqFuGTr/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",AP TV Tamil 
 http://hlsstream.apcloud.in/aptv/aptv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",CC TV 
@@ -1628,3 +1630,7 @@ https://shinetv.ipcloud.live/shinetv/shinetv/index.m3u8?origin=github.com/amazey
 http://svchannel.live.mystreams.in/live/svchannel/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Aathvik TV 
 https://stream.apcloud.in/manishatv/manishatvstream/index.m3u8?origin=github.com/amazeyourself
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Nachiyaa TV 
+http://stream.onecloudlive.in/nachiyaatv/nachiyaahd/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ilan TV 
+https://rtmphub.in/hls/ilantv/live/YesMTyuJdQmyMeWf4ktWAQ3ELJSBSDTR/index.m3u8
