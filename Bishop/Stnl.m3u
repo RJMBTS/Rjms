@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-11-05 12:42:31 IST
+# Last updated on : 2026-11-06 12:42:30 IST
 # Channels : Total - 815 | Updated - 815
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -1594,8 +1594,6 @@ http://srvvii.nellaiiptv.com:8033/app-restream/nilatv-sas/index.m3u8?origin=gith
 https://live-stream.in/archanatv/archanatv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",T Tamil TV 
 https://live4.onecloudlive.in/tamil/live/index.m3u8?origin=github.com/amazeyourself
-#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Dharsan TV 
-https://cloudstream4k.com/dharshanhd/live/playlist.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Amma Channel 
 https://app.ashokadigital.net/app/341dfe1b/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arasan TV 
@@ -1634,3 +1632,5 @@ https://stream.apcloud.in/manishatv/manishatvstream/index.m3u8?origin=github.com
 http://stream.onecloudlive.in/nachiyaatv/nachiyaahd/index.m3u8
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Ilan TV 
 https://rtmphub.in/hls/ilantv/live/YesMTyuJdQmyMeWf4ktWAQ3ELJSBSDTR/index.m3u8
+#EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Arun TV Theni 
+http://147.93.29.33:8888/theni/channel1/index.m3u8
