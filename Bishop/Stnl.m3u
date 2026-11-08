@@ -1,7 +1,7 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-11-07 11:57:33 IST
+# Last updated on : 2026-11-08 12:03:08 IST
 # Channels : Total - 815 | Updated - 815
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
@@ -1545,7 +1545,7 @@ http://ctntv.7starcloud.com:1935/live/ctn/live.m3u8?origin=github.com/amazeyours
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Yugam TV 
 https://3.proxy.nellaiiptv.com/DINESH/YUGAM/index.m3u8?origin=github.com/amazeyourself&token=YAAL
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Idhayam TV 
-https://tvstream.cloudlive24.com/live/8527530ab689bf8a710430c189aa2906.m3u8?origin=github.com/amazeyourself
+https://tvstream.cloudlive24.com/live/c882af65-7145-4e9b-9fc0-bffede00e640.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TBC TV 
 https://stream.iplive.xyz/smmedia/tbctv/index.m3u8?origin=github.com/amazeyourself
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",TBC TV 
