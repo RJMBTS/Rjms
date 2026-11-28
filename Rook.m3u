@@ -1,8 +1,8 @@
 #EXTM3U billed-msg="RJM Tv - RJMBTS Network"
 # Pushed and Updated by Kittujk
 # Scripted & Maintained by @RJMBTS
-# Channels : Total - 2784 | Updated - 2784
-# Last updated: 2026-11-28 09:09:49 IST
+# Channels : Total - 2785 | Updated - 2785
+# Last updated: 2026-11-28 18:06:29 IST
 
 # Coded & Maintained @RJMBTS
 # Last updated on : 2026-04-15 02:35:22 IST
@@ -5531,7 +5531,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1776258377~acl=%2f*~id=9bd8acab-47c0-4e79-a8b2-54d46c5266c3~data=hdntl~hmac=03babf7f7833659f332151a8474343e103ab166d82636f80920de0181769d503
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-11-27 14:27:38 IST
+# Last updated on : 2026-11-28 13:48:17 IST
 
 #EXTINF:-1 group-title="Local | Tamil" tvg-category="Local",Sana TV 
 https://stream.ottlive.co.in/sanatv/index.m3u8?origin=github.com/amazeyourself
@@ -7166,7 +7166,7 @@ http://147.93.29.33:8888/theni/channel1/index.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-11-27 14:22:24 IST
+# Last updated on : 2026-11-28 13:41:50 IST
 
 #EXTINF:-1 group-title="Local | Telugu" tvg-category="Local | Telugu" tvg-logo="https://yt3.googleusercontent.com/s63B4x77_Sx45yLIrARVYjRLjP-Q6OWWlL_3ms9H02X3y8tLuyLZPJVy9DxalSmDUgzsUwYdag=s900-c-k-c0x00ffffff-no-rj", MTv Local 
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
@@ -7688,7 +7688,7 @@ http://103.161.31.77:1935/tr9tv/myStream/playlist.m3u8
 http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
 
 # Coded & Maintained @RJMBTS
-# Last updated on : 2026-11-27 14:24:42 IST
+# Last updated on : 2026-11-28 13:44:18 IST
 
 #EXTINF:-1 tvg-name="Namma Bengaluru" group-title="Local | Kannada" tvg-logo="https://i.ibb.co/HTkHV9Rz/1000139866.jpg",Namma Bengaluru
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8
@@ -7729,7 +7729,7 @@ https://powertvkannada.com/hls/stream.m3u8
 
 # Pushed & Updated by — Kittujk
 # Coded & Maintained by @RJMBTS
-# Last updated on : 2026-11-27 14:20:53 IST
+# Last updated on : 2026-11-28 13:39:39 IST
 
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" ,like Gecko) Chrome/147.0.0.0 Safari/537.36" ,4TV News (576p)
 https://fta.ektv.in/live/647/master.m3u8
@@ -8593,6 +8593,8 @@ https://mumt01.tangotv.in/O5aw8Zn3NANAKSARLIVE/index.m3u8
 https://nijamtv.indiamatrix.in/nijamtv/nijamtv.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://i.imgur.com/nGJv6QR.png" ,like Gecko) Chrome/147.0.0.0 Safari/537.36" ,Nireekshana TV (576p)
 https://fta.ektv.in/live/706/master.m3u8
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Om_Shanti.png" ,Om Shanti
+https://webcastcdnbkwsu.b-cdn.net/live/godlywood_1/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png" ,OM TV (576p)
 https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://papaji.freetvindia.com/media/padharosa.png" ,Padharo SA (720p)
@@ -8819,9 +8821,9 @@ https://live.skystream.in/live/mediatday/index.m3u8
 https://fta.ektv.in/live/351/master.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/MK_Six.png" ,MK Six (576p)
 https://mumt06.tangotv.in/qYyB8fXVMKSIX/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143558_ld_h15_aa.png?lock=720x540" ,like Gecko) Chrome/130.0.0.0 Safari/537.36" ,MTV (India) (396p)
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/MTV_2021_%283D%29_%28Print%29.svg/revision/latest?cb=20220218200449" ,like Gecko) Chrome/130.0.0.0 Safari/537.36" ,MTV (India) (396p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s143558_ld_h15_aa.png?lock=720x540" ,like Gecko) Chrome/130.0.0.0 Safari/537.36" ,MTV (India) HD (396p)
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/MTV_India_HD_2022_II.svg/revision/latest?cb=20220404071038" ,like Gecko) Chrome/130.0.0.0 Safari/537.36" ,MTV (India) HD (396p)
 https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://livetv.ashokadigital.net/upload/logo/1739890627_WhatsApp_Image_2025-02-18_at_8.25.19_PM__1_-removebg-preview.png" ,N Vision (1080p)
 https://ipcloud.live/nvision/nvisionhd/index.m3u8
@@ -9053,8 +9055,6 @@ https://samitaorigin.tangotv.in/SONARBANGLA/SAMITAORIGIN/index.m3u8
 https://samitaorigin.tangotv.in/SONERICINEMA/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" ,Sony Max (720p)
 https://drk6xq0vhn.gpcdn.net/hls/set_max_m4fb8dz2wp6kr9s_720/index.m3u8
-#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" ,Sony Max HD (1080p)
-https://rangdhonulive.samiulislamabhi.workers.dev/sonyMAXhd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/s157974_ld_h15_aa.png?lock=720x540" ,Sony Wah (576p)
 http://163.61.226.31:9981/stream/channelid/1743466790?profile=pass
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20260325T012316SQUARE.png" ,South Station (1080p)
@@ -9335,6 +9335,8 @@ https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etswadesh/etswadesh_master.
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapitalMarket.png" ,News Capital Market (1080p)
 https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987
+#EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://yt3.googleusercontent.com/Q1oCTccWVtIPxZA79uKM6Qnm4h3s0Jo1Ipx2FHldTh-u1RNGIMfQD6_VIfM8BYcAvP2We6ydRVE=s900-c-k-c0x00ffffff-no-rj" ,Republic Business (576p) [Geo-blocked]
+https://rbusiness.cdn.runn.tv/amg01218c8/hls.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://cdn.neotvapp.com/file/quickfox/top-tv/channels/bonus-1792417058870.jpg" ,The Bonus (1080p)
 https://stream.ottlive.co.in/thebonus/index.m3u8
 #EXTINF:-1 group-title="RJM | Addl." tvg-category="RJM | Addl." tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png?lock=720x540" ,Zee Business (1080p)
